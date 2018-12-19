@@ -1,4 +1,4 @@
-# 删除点label<a name="ZH-CN_TOPIC_0139582746"></a>
+# 删除点label<a name="ges_03_0100"></a>
 
 ## 功能介绍<a name="section47729112194146"></a>
 

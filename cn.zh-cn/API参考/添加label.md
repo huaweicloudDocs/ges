@@ -149,41 +149,41 @@
     **表 3**  要素说明
 
     <a name="table415208195710"></a>
-    <table><thead align="left"><tr id="row62827717195710"><th class="cellrowborder" valign="top" width="25%" id="mcps1.2.5.1.1"><p id="p5798135195724"><a name="p5798135195724"></a><a name="p5798135195724"></a>参数</p>
+    <table><thead align="left"><tr id="row62827717195710"><th class="cellrowborder" valign="top" width="13.66%" id="mcps1.2.5.1.1"><p id="p5798135195724"><a name="p5798135195724"></a><a name="p5798135195724"></a>参数</p>
     </th>
-    <th class="cellrowborder" valign="top" width="25%" id="mcps1.2.5.1.2"><p id="p66995796195724"><a name="p66995796195724"></a><a name="p66995796195724"></a>是否必选</p>
+    <th class="cellrowborder" valign="top" width="9.969999999999999%" id="mcps1.2.5.1.2"><p id="p66995796195724"><a name="p66995796195724"></a><a name="p66995796195724"></a>是否必选</p>
     </th>
-    <th class="cellrowborder" valign="top" width="25%" id="mcps1.2.5.1.3"><p id="p57950414195724"><a name="p57950414195724"></a><a name="p57950414195724"></a>类型</p>
+    <th class="cellrowborder" valign="top" width="8.63%" id="mcps1.2.5.1.3"><p id="p57950414195724"><a name="p57950414195724"></a><a name="p57950414195724"></a>类型</p>
     </th>
-    <th class="cellrowborder" valign="top" width="25%" id="mcps1.2.5.1.4"><p id="p63471948195724"><a name="p63471948195724"></a><a name="p63471948195724"></a>说明</p>
+    <th class="cellrowborder" valign="top" width="67.74%" id="mcps1.2.5.1.4"><p id="p63471948195724"><a name="p63471948195724"></a><a name="p63471948195724"></a>说明</p>
     </th>
     </tr>
     </thead>
-    <tbody><tr id="row66822716195710"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.1 "><p id="p28953206195724"><a name="p28953206195724"></a><a name="p28953206195724"></a>errorMessage</p>
+    <tbody><tr id="row66822716195710"><td class="cellrowborder" valign="top" width="13.66%" headers="mcps1.2.5.1.1 "><p id="p28953206195724"><a name="p28953206195724"></a><a name="p28953206195724"></a>errorMessage</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.2 "><p id="p63508338195724"><a name="p63508338195724"></a><a name="p63508338195724"></a>否</p>
+    <td class="cellrowborder" valign="top" width="9.969999999999999%" headers="mcps1.2.5.1.2 "><p id="p63508338195724"><a name="p63508338195724"></a><a name="p63508338195724"></a>否</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.3 "><p id="p43901714195724"><a name="p43901714195724"></a><a name="p43901714195724"></a>String</p>
+    <td class="cellrowborder" valign="top" width="8.63%" headers="mcps1.2.5.1.3 "><p id="p43901714195724"><a name="p43901714195724"></a><a name="p43901714195724"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.4 "><p id="p66377918195724"><a name="p66377918195724"></a><a name="p66377918195724"></a>系统提示信息，执行成功时，字段可能为空。执行失败时，用于显示错误信息。</p>
-    </td>
-    </tr>
-    <tr id="row41832689195710"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.1 "><p id="p4011871195724"><a name="p4011871195724"></a><a name="p4011871195724"></a>errorCode</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.2 "><p id="p56526154195724"><a name="p56526154195724"></a><a name="p56526154195724"></a>否</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.3 "><p id="p15215774195724"><a name="p15215774195724"></a><a name="p15215774195724"></a>String</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.4 "><p id="p24518145195724"><a name="p24518145195724"></a><a name="p24518145195724"></a>系统提示信息，执行成功时，字段可能为空。执行失败时，用于显示错误码。</p>
+    <td class="cellrowborder" valign="top" width="67.74%" headers="mcps1.2.5.1.4 "><p id="p66377918195724"><a name="p66377918195724"></a><a name="p66377918195724"></a>系统提示信息，执行成功时，字段可能为空。执行失败时，用于显示错误信息。</p>
     </td>
     </tr>
-    <tr id="row65130104195710"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.1 "><p id="p22770577195724"><a name="p22770577195724"></a><a name="p22770577195724"></a>result</p>
+    <tr id="row41832689195710"><td class="cellrowborder" valign="top" width="13.66%" headers="mcps1.2.5.1.1 "><p id="p4011871195724"><a name="p4011871195724"></a><a name="p4011871195724"></a>errorCode</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.2 "><p id="p32477429195724"><a name="p32477429195724"></a><a name="p32477429195724"></a>否</p>
+    <td class="cellrowborder" valign="top" width="9.969999999999999%" headers="mcps1.2.5.1.2 "><p id="p56526154195724"><a name="p56526154195724"></a><a name="p56526154195724"></a>否</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.3 "><p id="p13426086195724"><a name="p13426086195724"></a><a name="p13426086195724"></a>String</p>
+    <td class="cellrowborder" valign="top" width="8.63%" headers="mcps1.2.5.1.3 "><p id="p15215774195724"><a name="p15215774195724"></a><a name="p15215774195724"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.4 "><p id="p13771147195724"><a name="p13771147195724"></a><a name="p13771147195724"></a>成功时result值为success。</p>
+    <td class="cellrowborder" valign="top" width="67.74%" headers="mcps1.2.5.1.4 "><p id="p24518145195724"><a name="p24518145195724"></a><a name="p24518145195724"></a>系统提示信息，执行成功时，字段可能为空。执行失败时，用于显示错误码。</p>
+    </td>
+    </tr>
+    <tr id="row65130104195710"><td class="cellrowborder" valign="top" width="13.66%" headers="mcps1.2.5.1.1 "><p id="p22770577195724"><a name="p22770577195724"></a><a name="p22770577195724"></a>result</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="9.969999999999999%" headers="mcps1.2.5.1.2 "><p id="p32477429195724"><a name="p32477429195724"></a><a name="p32477429195724"></a>否</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="8.63%" headers="mcps1.2.5.1.3 "><p id="p13426086195724"><a name="p13426086195724"></a><a name="p13426086195724"></a>String</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="67.74%" headers="mcps1.2.5.1.4 "><p id="p13771147195724"><a name="p13771147195724"></a><a name="p13771147195724"></a>成功时result值为success。</p>
     </td>
     </tr>
     </tbody>
@@ -203,8 +203,8 @@
     ```
     Http Status Code: 400
     {
-    "errorMessage": "label [book] already exists",
-    "errorCode": "GES.8009"
+    "errorMessage": "label already exists",
+    "errorCode": "GES.8801"
     }
     ```
 

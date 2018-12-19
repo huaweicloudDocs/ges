@@ -59,6 +59,8 @@
     -   [执行算法](执行算法.md)
     -   [添加点](添加点.md)
     -   [删除点](删除点.md)
+    -   [更新点属性](更新点属性.md)
+    -   [更新边属性](更新边属性.md)
     -   [添加点label](添加点label.md)
     -   [删除点label](删除点label.md)
     -   [添加边](添加边.md)
@@ -95,4 +97,6 @@
     -   [度数关联度（Degree Correlation）](度数关联度（Degree-Correlation）.md)
     -   [三角计数（Triangle Count）](三角计数（Triangle-Count）.md)
     -   [聚类系数（Cluster Coefficient）](聚类系数（Cluster-Coefficient）.md)
+
+-   [修订记录](修订记录.md)
 

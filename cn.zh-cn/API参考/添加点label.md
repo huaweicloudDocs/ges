@@ -1,4 +1,4 @@
-# 添加点label<a name="ZH-CN_TOPIC_0139582745"></a>
+# 添加点label<a name="ges_03_0099"></a>
 
 ## 功能介绍<a name="section47729112194146"></a>
 

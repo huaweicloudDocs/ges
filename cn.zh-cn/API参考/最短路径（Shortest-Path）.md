@@ -52,7 +52,7 @@
 <td class="cellrowborder" valign="top" width="10.702970297029703%" headers="mcps1.2.7.1.4 "><p id="p1496924971820"><a name="p1496924971820"></a><a name="p1496924971820"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="33.85148514851485%" headers="mcps1.2.7.1.5 "><p id="p1666044011283"><a name="p1666044011283"></a><a name="p1666044011283"></a>空或字符串。</p>
-<a name="ul27814585182326"></a><a name="ul27814585182326"></a><ul id="ul27814585182326"><li>空：边上的权重、距离默认为<span class="parmname" id="parmname64281841182434"><a name="parmname64281841182434"></a><a name="parmname64281841182434"></a><b>1</b></span>。</li><li>字符串：对应的边上的属性将作为权重，当某边没有对应属性时，权重将默认为1。<div class="note" id="note1763697295448"><a name="note1763697295448"></a><a name="note1763697295448"></a><span class="notetitle"> NOTE: </span><div class="notebody"><p id="p6598326895457"><a name="p6598326895457"></a><a name="p6598326895457"></a>边上权重应大于0。</p>
+<a name="ul27814585182326"></a><a name="ul27814585182326"></a><ul id="ul27814585182326"><li>空：边上的权重、距离默认为<span class="parmname" id="parmname64281841182434"><a name="parmname64281841182434"></a><a name="parmname64281841182434"></a>“1”</span>。</li><li>字符串：对应的边上的属性将作为权重，当某边没有对应属性时，权重将默认为1。<div class="note" id="note1763697295448"><a name="note1763697295448"></a><a name="note1763697295448"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p6598326895457"><a name="p6598326895457"></a><a name="p6598326895457"></a>边上权重应大于0。</p>
 </div></div>
 </li></ul>
 </td>

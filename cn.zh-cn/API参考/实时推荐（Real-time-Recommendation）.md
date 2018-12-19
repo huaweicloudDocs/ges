@@ -61,7 +61,7 @@
 <td class="cellrowborder" valign="top" width="7.142857142857144%" headers="mcps1.2.7.1.2 "><p id="p137543409209"><a name="p137543409209"></a><a name="p137543409209"></a>否</p>
 </td>
 <td class="cellrowborder" valign="top" width="42.857142857142854%" headers="mcps1.2.7.1.3 "><p id="p5451359192727"><a name="p5451359192727"></a><a name="p5451359192727"></a>游走过程提前结束参数：候选推荐节点访问次数的最小值。</p>
-<div class="note" id="note476272392727"><a name="note476272392727"></a><a name="note476272392727"></a><span class="notetitle"> NOTE: </span><div class="notebody"><p id="p4523345092742"><a name="p4523345092742"></a><a name="p4523345092742"></a>对于一个节点，如果其在随机游走过程被访问到，且被访问到的次数达到<span class="parmname" id="parmname4979810192743"><a name="parmname4979810192743"></a><a name="parmname4979810192743"></a><b>nv</b></span>，则该节点将记入候选推荐的节点。</p>
+<div class="note" id="note476272392727"><a name="note476272392727"></a><a name="note476272392727"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p4523345092742"><a name="p4523345092742"></a><a name="p4523345092742"></a>对于一个节点，如果其在随机游走过程被访问到，且被访问到的次数达到<span class="parmname" id="parmname4979810192743"><a name="parmname4979810192743"></a><a name="parmname4979810192743"></a>“nv”</span>，则该节点将记入候选推荐的节点。</p>
 </div></div>
 </td>
 <td class="cellrowborder" valign="top" width="7.142857142857144%" headers="mcps1.2.7.1.4 "><p id="p132805062513"><a name="p132805062513"></a><a name="p132805062513"></a>Int</p>
@@ -76,7 +76,7 @@
 <td class="cellrowborder" valign="top" width="7.142857142857144%" headers="mcps1.2.7.1.2 "><p id="p475454010208"><a name="p475454010208"></a><a name="p475454010208"></a>否</p>
 </td>
 <td class="cellrowborder" valign="top" width="42.857142857142854%" headers="mcps1.2.7.1.3 "><p id="p3663800292927"><a name="p3663800292927"></a><a name="p3663800292927"></a>游走过程提前结束参数：候选推荐节点个数。</p>
-<div class="note" id="note3023786192927"><a name="note3023786192927"></a><a name="note3023786192927"></a><span class="notetitle"> NOTE: </span><div class="notebody"><p id="p370529392927"><a name="p370529392927"></a><a name="p370529392927"></a>若某个source节点的候选推荐节点达到<span class="parmname" id="parmname141088329305"><a name="parmname141088329305"></a><a name="parmname141088329305"></a><b>np</b></span>，对于该source节点的随机游走将提前结束。</p>
+<div class="note" id="note3023786192927"><a name="note3023786192927"></a><a name="note3023786192927"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p370529392927"><a name="p370529392927"></a><a name="p370529392927"></a>若某个source节点的候选推荐节点达到<span class="parmname" id="parmname141088329305"><a name="parmname141088329305"></a><a name="parmname141088329305"></a>“np”</span>，对于该source节点的随机游走将提前结束。</p>
 </div></div>
 </td>
 <td class="cellrowborder" valign="top" width="7.142857142857144%" headers="mcps1.2.7.1.4 "><p id="p102865072517"><a name="p102865072517"></a><a name="p102865072517"></a>Int</p>
@@ -91,7 +91,7 @@
 <td class="cellrowborder" valign="top" width="7.142857142857144%" headers="mcps1.2.7.1.2 "><p id="p8754144092019"><a name="p8754144092019"></a><a name="p8754144092019"></a>否</p>
 </td>
 <td class="cellrowborder" valign="top" width="42.857142857142854%" headers="mcps1.2.7.1.3 "><p id="p516332493115"><a name="p516332493115"></a><a name="p516332493115"></a>希望输出的点的类型。</p>
-<div class="note" id="note2265199293115"><a name="note2265199293115"></a><a name="note2265199293115"></a><span class="notetitle"> NOTE: </span><div class="notebody"><a name="ul937663693135"></a><a name="ul937663693135"></a><ul id="ul937663693135"><li>其值为空时，将不考虑点的类型，输出算法原始计算结果。</li><li>对其赋值时，将从计算结果中过滤出具有该<span class="parmname" id="parmname619317093342"><a name="parmname619317093342"></a><a name="parmname619317093342"></a><b>label</b></span>的点的返回。</li></ul>
+<div class="note" id="note2265199293115"><a name="note2265199293115"></a><a name="note2265199293115"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="ul937663693135"></a><a name="ul937663693135"></a><ul id="ul937663693135"><li>其值为空时，将不考虑点的类型，输出算法原始计算结果。</li><li>对其赋值时，将从计算结果中过滤出具有该<span class="parmname" id="parmname619317093342"><a name="parmname619317093342"></a><a name="parmname619317093342"></a>“label”</span>的点的返回。</li></ul>
 </div></div>
 </td>
 <td class="cellrowborder" valign="top" width="7.142857142857144%" headers="mcps1.2.7.1.4 "><p id="p128250162514"><a name="p128250162514"></a><a name="p128250162514"></a>String</p>
