@@ -111,7 +111,7 @@ GES业务面API包括点操作相关接口、边操作相关接口、元数据�
 </td>
 <td class="cellrowborder" valign="top" width="48.38516148385161%" headers="mcps1.2.6.1.4 "><p id="p3490035152112"><a name="p3490035152112"></a><a name="p3490035152112"></a>POST /ges/v1.0/{projectId}/graphs/{graphName}/edges/action?action_id=query</p>
 </td>
-<td class="cellrowborder" valign="top" width="30.886911308869113%" headers="mcps1.2.6.1.5 "><p id="p8496239102318"><a name="p8496239102318"></a><a name="p8496239102318"></a>根据边的属性上额过滤条件进行过滤，查询符合过滤条件的边。</p>
+<td class="cellrowborder" valign="top" width="30.886911308869113%" headers="mcps1.2.6.1.5 "><p id="p8496239102318"><a name="p8496239102318"></a><a name="p8496239102318"></a>根据边的属性上的过滤条件进行过滤，查询符合过滤条件的边。</p>
 </td>
 </tr>
 <tr id="row1049683919234"><td class="cellrowborder" valign="top" width="5.579442055794421%" headers="mcps1.2.6.1.1 "><p id="p361154213298"><a name="p361154213298"></a><a name="p361154213298"></a>2</p>

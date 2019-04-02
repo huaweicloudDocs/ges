@@ -131,7 +131,7 @@ GES管理面API包括系统管理，图管理，备份管理，元数据管理�
 </td>
 <td class="cellrowborder" valign="top" width="31.22971166698491%" headers="mcps1.2.6.1.4 "><p id="p75231857191313"><a name="p75231857191313"></a><a name="p75231857191313"></a>POST  /v1.0/{projectId}/graphs/{graphId}/action?action_id=import-graph</p>
 </td>
-<td class="cellrowborder" valign="top" width="43.82279931258354%" headers="mcps1.2.6.1.5 "><p id="p466221311375"><a name="p466221311375"></a><a name="p466221311375"></a>用户需要批量导入数据。</p>
+<td class="cellrowborder" valign="top" width="43.82279931258354%" headers="mcps1.2.6.1.5 "><p id="p466221311375"><a name="p466221311375"></a><a name="p466221311375"></a>用户需要增量导入图数据。</p>
 </td>
 </tr>
 <tr id="row63281716123519"><td class="cellrowborder" valign="top" width="6.683215581439756%" headers="mcps1.2.6.1.1 "><p id="p8329616123512"><a name="p8329616123512"></a><a name="p8329616123512"></a>8</p>
