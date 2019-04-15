@@ -18,32 +18,32 @@
     **表 1**  URI参数说明
 
     <a name="table13592207195454"></a>
-    <table><thead align="left"><tr id="row11434212195454"><th class="cellrowborder" valign="top" width="25%" id="mcps1.2.5.1.1"><p id="p59741794195512"><a name="p59741794195512"></a><a name="p59741794195512"></a>参数</p>
+    <table><thead align="left"><tr id="row11434212195454"><th class="cellrowborder" valign="top" width="15.36%" id="mcps1.2.5.1.1"><p id="p59741794195512"><a name="p59741794195512"></a><a name="p59741794195512"></a>参数</p>
     </th>
-    <th class="cellrowborder" valign="top" width="25%" id="mcps1.2.5.1.2"><p id="p7247108195512"><a name="p7247108195512"></a><a name="p7247108195512"></a>是否为必选</p>
+    <th class="cellrowborder" valign="top" width="14.469999999999999%" id="mcps1.2.5.1.2"><p id="p7247108195512"><a name="p7247108195512"></a><a name="p7247108195512"></a>是否为必选</p>
     </th>
-    <th class="cellrowborder" valign="top" width="25%" id="mcps1.2.5.1.3"><p id="p50144891195512"><a name="p50144891195512"></a><a name="p50144891195512"></a>类型</p>
+    <th class="cellrowborder" valign="top" width="17.07%" id="mcps1.2.5.1.3"><p id="p50144891195512"><a name="p50144891195512"></a><a name="p50144891195512"></a>类型</p>
     </th>
-    <th class="cellrowborder" valign="top" width="25%" id="mcps1.2.5.1.4"><p id="p35204399195512"><a name="p35204399195512"></a><a name="p35204399195512"></a>说明</p>
+    <th class="cellrowborder" valign="top" width="53.1%" id="mcps1.2.5.1.4"><p id="p35204399195512"><a name="p35204399195512"></a><a name="p35204399195512"></a>说明</p>
     </th>
     </tr>
     </thead>
-    <tbody><tr id="row49352481195454"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.1 "><p id="p54464108195512"><a name="p54464108195512"></a><a name="p54464108195512"></a>projectId</p>
+    <tbody><tr id="row49352481195454"><td class="cellrowborder" valign="top" width="15.36%" headers="mcps1.2.5.1.1 "><p id="p54464108195512"><a name="p54464108195512"></a><a name="p54464108195512"></a>projectId</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.2 "><p id="p49516613195512"><a name="p49516613195512"></a><a name="p49516613195512"></a>是</p>
+    <td class="cellrowborder" valign="top" width="14.469999999999999%" headers="mcps1.2.5.1.2 "><p id="p49516613195512"><a name="p49516613195512"></a><a name="p49516613195512"></a>是</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.3 "><p id="p51422715195512"><a name="p51422715195512"></a><a name="p51422715195512"></a>String</p>
+    <td class="cellrowborder" valign="top" width="17.07%" headers="mcps1.2.5.1.3 "><p id="p51422715195512"><a name="p51422715195512"></a><a name="p51422715195512"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.4 "><p id="p4490357195512"><a name="p4490357195512"></a><a name="p4490357195512"></a>项目编号，用于资源隔离。</p>
+    <td class="cellrowborder" valign="top" width="53.1%" headers="mcps1.2.5.1.4 "><p id="p4490357195512"><a name="p4490357195512"></a><a name="p4490357195512"></a>项目编号，用于资源隔离。请参考<a href="获取项目编码-2.md">获取项目编码</a>。</p>
     </td>
     </tr>
-    <tr id="row23325114195454"><td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.1 "><p id="p52244987195512"><a name="p52244987195512"></a><a name="p52244987195512"></a>graphName</p>
+    <tr id="row23325114195454"><td class="cellrowborder" valign="top" width="15.36%" headers="mcps1.2.5.1.1 "><p id="p52244987195512"><a name="p52244987195512"></a><a name="p52244987195512"></a>graphName</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.2 "><p id="p3985551195512"><a name="p3985551195512"></a><a name="p3985551195512"></a>是</p>
+    <td class="cellrowborder" valign="top" width="14.469999999999999%" headers="mcps1.2.5.1.2 "><p id="p3985551195512"><a name="p3985551195512"></a><a name="p3985551195512"></a>是</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.3 "><p id="p54394244195512"><a name="p54394244195512"></a><a name="p54394244195512"></a>String</p>
+    <td class="cellrowborder" valign="top" width="17.07%" headers="mcps1.2.5.1.3 "><p id="p54394244195512"><a name="p54394244195512"></a><a name="p54394244195512"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.4 "><p id="p43857666195512"><a name="p43857666195512"></a><a name="p43857666195512"></a>图名称。</p>
+    <td class="cellrowborder" valign="top" width="53.1%" headers="mcps1.2.5.1.4 "><p id="p43857666195512"><a name="p43857666195512"></a><a name="p43857666195512"></a>图名称。</p>
     </td>
     </tr>
     </tbody>
