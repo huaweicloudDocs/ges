@@ -190,8 +190,9 @@ GES管理面API提供图的创建、查询、更新、删除等操作方法。
     </td>
     <td class="cellrowborder" valign="top" width="31.869999999999997%" headers="mcps1.2.5.1.2 "><p id="p5554106"><a name="p5554106"></a><a name="p5554106"></a>请求语言，支持配置如下值：</p>
     <a name="ul49986954"></a><a name="ul49986954"></a><ul id="ul49986954"><li>zh-cn：中文</li><li>en-us：英文</li></ul>
+    <p id="p9289254171117"><a name="p9289254171117"></a><a name="p9289254171117"></a>默认值为en-us。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="23.31%" headers="mcps1.2.5.1.3 "><p id="p3392477"><a name="p3392477"></a><a name="p3392477"></a>是。</p>
+    <td class="cellrowborder" valign="top" width="23.31%" headers="mcps1.2.5.1.3 "><p id="p3392477"><a name="p3392477"></a><a name="p3392477"></a>否。</p>
     </td>
     <td class="cellrowborder" valign="top" width="28.21%" headers="mcps1.2.5.1.4 "><p id="p6355195"><a name="p6355195"></a><a name="p6355195"></a>en-us</p>
     </td>

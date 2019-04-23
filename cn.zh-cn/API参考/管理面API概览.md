@@ -11,9 +11,9 @@ GES管理面API包括系统管理，图管理，备份管理，元数据管理�
 </th>
 <th class="cellrowborder" valign="top" width="5.717275494672754%" id="mcps1.2.6.1.3"><p id="p16968121125"><a name="p16968121125"></a><a name="p16968121125"></a>版本</p>
 </th>
-<th class="cellrowborder" valign="top" width="33.63774733637747%" id="mcps1.2.6.1.4"><p id="p173057463116"><a name="p173057463116"></a><a name="p173057463116"></a>URL</p>
+<th class="cellrowborder" valign="top" width="28.120243531202426%" id="mcps1.2.6.1.4"><p id="p173057463116"><a name="p173057463116"></a><a name="p173057463116"></a>URL</p>
 </th>
-<th class="cellrowborder" valign="top" width="43.47412480974124%" id="mcps1.2.6.1.5"><p id="p18782114810321"><a name="p18782114810321"></a><a name="p18782114810321"></a>功能描述</p>
+<th class="cellrowborder" valign="top" width="48.99162861491628%" id="mcps1.2.6.1.5"><p id="p18782114810321"><a name="p18782114810321"></a><a name="p18782114810321"></a>功能描述</p>
 </th>
 </tr>
 </thead>
@@ -23,9 +23,9 @@ GES管理面API包括系统管理，图管理，备份管理，元数据管理�
 </td>
 <td class="cellrowborder" valign="top" width="5.717275494672754%" headers="mcps1.2.6.1.3 "><p id="p49687211420"><a name="p49687211420"></a><a name="p49687211420"></a><a href="查询配额(1-0-0).md">1.0.0</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="33.63774733637747%" headers="mcps1.2.6.1.4 "><p id="p79219119479"><a name="p79219119479"></a><a name="p79219119479"></a>GET /v1.0/{projectId}/graphs/quotas</p>
+<td class="cellrowborder" valign="top" width="28.120243531202426%" headers="mcps1.2.6.1.4 "><p id="p79219119479"><a name="p79219119479"></a><a name="p79219119479"></a>GET /v1.0/{projectId}/graphs/quotas</p>
 </td>
-<td class="cellrowborder" valign="top" width="43.47412480974124%" headers="mcps1.2.6.1.5 "><p id="p144781316552"><a name="p144781316552"></a><a name="p144781316552"></a>查询图个数、边数以及备份个数配额。创建图或者图备份操作时，可以调用该API查看配额，避免报错配额不足。</p>
+<td class="cellrowborder" valign="top" width="48.99162861491628%" headers="mcps1.2.6.1.5 "><p id="p144781316552"><a name="p144781316552"></a><a name="p144781316552"></a>查询图个数、边数以及备份个数配额。创建图或者图备份操作时，可以调用该API查看配额，避免报错配额不足。</p>
 </td>
 </tr>
 <tr id="row23061417313"><td class="cellrowborder" valign="top" width="6.050228310502283%" headers="mcps1.2.6.1.1 "><p id="p430619413315"><a name="p430619413315"></a><a name="p430619413315"></a>2</p>
@@ -34,9 +34,9 @@ GES管理面API包括系统管理，图管理，备份管理，元数据管理�
 </td>
 <td class="cellrowborder" valign="top" width="5.717275494672754%" headers="mcps1.2.6.1.3 "><p id="p79691521928"><a name="p79691521928"></a><a name="p79691521928"></a><a href="校验元数据文件(1-0-0).md">1.0.0</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="33.63774733637747%" headers="mcps1.2.6.1.4 "><p id="p16419151612479"><a name="p16419151612479"></a><a name="p16419151612479"></a>POST /v1.0/{projectId}/graphs/action?action_id=check-schema</p>
+<td class="cellrowborder" valign="top" width="28.120243531202426%" headers="mcps1.2.6.1.4 "><p id="p16419151612479"><a name="p16419151612479"></a><a name="p16419151612479"></a>POST /v1.0/{projectId}/graphs/action?action_id=check-schema</p>
 </td>
-<td class="cellrowborder" valign="top" width="43.47412480974124%" headers="mcps1.2.6.1.5 "><p id="p68713276247"><a name="p68713276247"></a><a name="p68713276247"></a>校验元数据文件和点、边数据集是否匹配。创建有初始数据的图或者增量导入图时，可以调用该API校验点、边数据集和元数据是否匹配。</p>
+<td class="cellrowborder" valign="top" width="48.99162861491628%" headers="mcps1.2.6.1.5 "><p id="p68713276247"><a name="p68713276247"></a><a name="p68713276247"></a>校验元数据文件和点、边数据集是否匹配。创建有初始数据的图或者增量导入图时，可以调用该API校验点、边数据集和元数据是否匹配。</p>
 </td>
 </tr>
 </tbody>

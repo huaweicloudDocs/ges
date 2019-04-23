@@ -234,7 +234,7 @@ GES业务面API包括点操作相关接口、边操作相关接口、元数据�
 </tbody>
 </table>
 
-**表 4**  Gremlin查询相关接口
+**表 4**  Gremlin操作API
 
 <a name="table11921448105220"></a>
 <table><thead align="left"><tr id="row59229488522"><th class="cellrowborder" valign="top" width="6.2%" id="mcps1.2.6.1.1"><p id="p3957101414532"><a name="p3957101414532"></a><a name="p3957101414532"></a>序号</p>
@@ -263,7 +263,7 @@ GES业务面API包括点操作相关接口、边操作相关接口、元数据�
 </tbody>
 </table>
 
-**表 5**  算法相关接口
+**表 5**  算法API
 
 <a name="table155439525540"></a>
 <table><thead align="left"><tr id="row165438525544"><th class="cellrowborder" valign="top" width="6.01939806019398%" id="mcps1.2.6.1.1"><p id="p025017515511"><a name="p025017515511"></a><a name="p025017515511"></a>序号</p>
@@ -292,7 +292,7 @@ GES业务面API包括点操作相关接口、边操作相关接口、元数据�
 </tbody>
 </table>
 
-**表 6**  算法相关接口
+**表 6**  路径API
 
 <a name="table735132320325"></a>
 <table><thead align="left"><tr id="row1736132323219"><th class="cellrowborder" valign="top" width="6.01939806019398%" id="mcps1.2.6.1.1"><p id="p10368239328"><a name="p10368239328"></a><a name="p10368239328"></a>序号</p>
@@ -321,7 +321,7 @@ GES业务面API包括点操作相关接口、边操作相关接口、元数据�
 </tbody>
 </table>
 
-**表 7**  图统计相关接口
+**表 7**  图统计API
 
 <a name="table1178265135611"></a>
 <table><thead align="left"><tr id="row6783105135614"><th class="cellrowborder" valign="top" width="5.79%" id="mcps1.2.6.1.1"><p id="p33061439205719"><a name="p33061439205719"></a><a name="p33061439205719"></a>序号</p>

@@ -24,30 +24,30 @@ GES业务面API提供点、边、元数据的创建、查询、更新、删除�
 **表 1**  URI中的参数说明
 
 <a name="t1797260c744a4e1a85d354f259cae55a"></a>
-<table><thead align="left"><tr id="r6dceed05bcc649d2b032accbb2980a31"><th class="cellrowborder" valign="top" width="18.04%" id="mcps1.2.3.1.1"><p id="a3446b6b785cb432bae9f45aef9177041"><a name="a3446b6b785cb432bae9f45aef9177041"></a><a name="a3446b6b785cb432bae9f45aef9177041"></a>参数</p>
+<table><thead align="left"><tr id="r6dceed05bcc649d2b032accbb2980a31"><th class="cellrowborder" valign="top" width="19.62%" id="mcps1.2.3.1.1"><p id="a3446b6b785cb432bae9f45aef9177041"><a name="a3446b6b785cb432bae9f45aef9177041"></a><a name="a3446b6b785cb432bae9f45aef9177041"></a>参数</p>
 </th>
-<th class="cellrowborder" valign="top" width="81.96%" id="mcps1.2.3.1.2"><p id="abe71244a12ac45308e99d4bbf975a9f8"><a name="abe71244a12ac45308e99d4bbf975a9f8"></a><a name="abe71244a12ac45308e99d4bbf975a9f8"></a>描述</p>
+<th class="cellrowborder" valign="top" width="80.38%" id="mcps1.2.3.1.2"><p id="abe71244a12ac45308e99d4bbf975a9f8"><a name="abe71244a12ac45308e99d4bbf975a9f8"></a><a name="abe71244a12ac45308e99d4bbf975a9f8"></a>描述</p>
 </th>
 </tr>
 </thead>
-<tbody><tr id="row106982018513"><td class="cellrowborder" valign="top" width="18.04%" headers="mcps1.2.3.1.1 "><p id="p136991001517"><a name="p136991001517"></a><a name="p136991001517"></a>URI-scheme</p>
+<tbody><tr id="row106982018513"><td class="cellrowborder" valign="top" width="19.62%" headers="mcps1.2.3.1.1 "><p id="p136991001517"><a name="p136991001517"></a><a name="p136991001517"></a>URI-scheme</p>
 </td>
-<td class="cellrowborder" valign="top" width="81.96%" headers="mcps1.2.3.1.2 "><p id="p56992017520"><a name="p56992017520"></a><a name="p56992017520"></a>表示用于传输请求的协议。GES的API都必须采用https。</p>
-</td>
-</tr>
-<tr id="rb217758afff146a1b40b0dcbb28a4ae1"><td class="cellrowborder" valign="top" width="18.04%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0035614179_p480227019422"><a name="zh-cn_topic_0035614179_p480227019422"></a><a name="zh-cn_topic_0035614179_p480227019422"></a>SERVER_URL</p>
-</td>
-<td class="cellrowborder" valign="top" width="81.96%" headers="mcps1.2.3.1.2 "><p id="ad82b3484a1be43ddadf436efbe15285e"><a name="ad82b3484a1be43ddadf436efbe15285e"></a><a name="ad82b3484a1be43ddadf436efbe15285e"></a>图的访问地址，取值参考<a href="#section124171305112">业务面API使用限制</a>。</p>
+<td class="cellrowborder" valign="top" width="80.38%" headers="mcps1.2.3.1.2 "><p id="p56992017520"><a name="p56992017520"></a><a name="p56992017520"></a>表示用于传输请求的协议。GES的API都必须采用https。</p>
 </td>
 </tr>
-<tr id="refeed61892004ea682639be281a1a707"><td class="cellrowborder" valign="top" width="18.04%" headers="mcps1.2.3.1.1 "><p id="p1797614317513"><a name="p1797614317513"></a><a name="p1797614317513"></a>resource-path</p>
+<tr id="rb217758afff146a1b40b0dcbb28a4ae1"><td class="cellrowborder" valign="top" width="19.62%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0035614179_p480227019422"><a name="zh-cn_topic_0035614179_p480227019422"></a><a name="zh-cn_topic_0035614179_p480227019422"></a>SERVER_URL</p>
 </td>
-<td class="cellrowborder" valign="top" width="81.96%" headers="mcps1.2.3.1.2 "><p id="a90409cbb8b1c49c4ad4d3cfee16f475e"><a name="a90409cbb8b1c49c4ad4d3cfee16f475e"></a><a name="a90409cbb8b1c49c4ad4d3cfee16f475e"></a>资源路径，即API访问路径。从具体接口的URI模块获取，例如“ges/v1.0/{projectId}/graphs/{graphName}/vertices/action?action_id=query”。</p>
+<td class="cellrowborder" valign="top" width="80.38%" headers="mcps1.2.3.1.2 "><p id="ad82b3484a1be43ddadf436efbe15285e"><a name="ad82b3484a1be43ddadf436efbe15285e"></a><a name="ad82b3484a1be43ddadf436efbe15285e"></a>图的访问地址，取值参考<a href="#section124171305112">业务面API使用限制</a>。</p>
 </td>
 </tr>
-<tr id="row19939365518"><td class="cellrowborder" valign="top" width="18.04%" headers="mcps1.2.3.1.1 "><p id="p393966455"><a name="p393966455"></a><a name="p393966455"></a>Query string</p>
+<tr id="refeed61892004ea682639be281a1a707"><td class="cellrowborder" valign="top" width="19.62%" headers="mcps1.2.3.1.1 "><p id="p1797614317513"><a name="p1797614317513"></a><a name="p1797614317513"></a>resource-path</p>
 </td>
-<td class="cellrowborder" valign="top" width="81.96%" headers="mcps1.2.3.1.2 "><p id="p159401867517"><a name="p159401867517"></a><a name="p159401867517"></a>可选参数，例如API版本或资源选择标准。</p>
+<td class="cellrowborder" valign="top" width="80.38%" headers="mcps1.2.3.1.2 "><p id="a90409cbb8b1c49c4ad4d3cfee16f475e"><a name="a90409cbb8b1c49c4ad4d3cfee16f475e"></a><a name="a90409cbb8b1c49c4ad4d3cfee16f475e"></a>资源路径，即API访问路径。从具体接口的URI模块获取，例如“ges/v1.0/{projectId}/graphs/{graphName}/vertices/action?action_id=query”。</p>
+</td>
+</tr>
+<tr id="row19939365518"><td class="cellrowborder" valign="top" width="19.62%" headers="mcps1.2.3.1.1 "><p id="p393966455"><a name="p393966455"></a><a name="p393966455"></a>query-string</p>
+</td>
+<td class="cellrowborder" valign="top" width="80.38%" headers="mcps1.2.3.1.2 "><p id="p159401867517"><a name="p159401867517"></a><a name="p159401867517"></a>可选参数，例如API版本或资源选择标准。</p>
 </td>
 </tr>
 </tbody>
@@ -115,42 +115,42 @@ GES业务面API提供点、边、元数据的创建、查询、更新、删除�
     **表 3**  公共请求消息头
 
     <a name="d0e691"></a>
-    <table><thead align="left"><tr id="row43435224"><th class="cellrowborder" valign="top" width="16.61%" id="mcps1.2.5.1.1"><p id="p28592218"><a name="p28592218"></a><a name="p28592218"></a>参数名</p>
+    <table><thead align="left"><tr id="row43435224"><th class="cellrowborder" valign="top" width="16.610000000000003%" id="mcps1.2.5.1.1"><p id="p28592218"><a name="p28592218"></a><a name="p28592218"></a>参数名</p>
     </th>
-    <th class="cellrowborder" valign="top" width="31.869999999999997%" id="mcps1.2.5.1.2"><p id="p34268337"><a name="p34268337"></a><a name="p34268337"></a>说明</p>
+    <th class="cellrowborder" valign="top" width="28.300000000000004%" id="mcps1.2.5.1.2"><p id="p34268337"><a name="p34268337"></a><a name="p34268337"></a>说明</p>
     </th>
-    <th class="cellrowborder" valign="top" width="23.31%" id="mcps1.2.5.1.3"><p id="p24271941"><a name="p24271941"></a><a name="p24271941"></a>是否必选</p>
+    <th class="cellrowborder" valign="top" width="17.700000000000003%" id="mcps1.2.5.1.3"><p id="p24271941"><a name="p24271941"></a><a name="p24271941"></a>是否必选</p>
     </th>
-    <th class="cellrowborder" valign="top" width="28.21%" id="mcps1.2.5.1.4"><p id="p19870205"><a name="p19870205"></a><a name="p19870205"></a>示例</p>
+    <th class="cellrowborder" valign="top" width="37.39000000000001%" id="mcps1.2.5.1.4"><p id="p19870205"><a name="p19870205"></a><a name="p19870205"></a>示例</p>
     </th>
     </tr>
     </thead>
-    <tbody><tr id="row33821495"><td class="cellrowborder" valign="top" width="16.61%" headers="mcps1.2.5.1.1 "><p id="p55186561"><a name="p55186561"></a><a name="p55186561"></a>Content-type</p>
+    <tbody><tr id="row33821495"><td class="cellrowborder" valign="top" width="16.610000000000003%" headers="mcps1.2.5.1.1 "><p id="p55186561"><a name="p55186561"></a><a name="p55186561"></a>Content-type</p>
     </td>
-    <td class="cellrowborder" valign="top" width="31.869999999999997%" headers="mcps1.2.5.1.2 "><p id="p40926476"><a name="p40926476"></a><a name="p40926476"></a>发送的实体的MIME类型。</p>
+    <td class="cellrowborder" valign="top" width="28.300000000000004%" headers="mcps1.2.5.1.2 "><p id="p40926476"><a name="p40926476"></a><a name="p40926476"></a>发送的实体的MIME类型。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="23.31%" headers="mcps1.2.5.1.3 "><p id="p26710272"><a name="p26710272"></a><a name="p26710272"></a>是。</p>
+    <td class="cellrowborder" valign="top" width="17.700000000000003%" headers="mcps1.2.5.1.3 "><p id="p26710272"><a name="p26710272"></a><a name="p26710272"></a>是。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="28.21%" headers="mcps1.2.5.1.4 "><p id="p16048387"><a name="p16048387"></a><a name="p16048387"></a>application/json</p>
-    </td>
-    </tr>
-    <tr id="row26328706"><td class="cellrowborder" valign="top" width="16.61%" headers="mcps1.2.5.1.1 "><p id="p52250442"><a name="p52250442"></a><a name="p52250442"></a>X-Auth-Token</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="31.869999999999997%" headers="mcps1.2.5.1.2 "><p id="p4427423"><a name="p4427423"></a><a name="p4427423"></a>用户Token。</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="23.31%" headers="mcps1.2.5.1.3 "><p id="p6366124"><a name="p6366124"></a><a name="p6366124"></a>是</p>
-    </td>
-    <td class="cellrowborder" valign="top" width="28.21%" headers="mcps1.2.5.1.4 "><p id="p45894015"><a name="p45894015"></a><a name="p45894015"></a>-</p>
+    <td class="cellrowborder" valign="top" width="37.39000000000001%" headers="mcps1.2.5.1.4 "><p id="p16048387"><a name="p16048387"></a><a name="p16048387"></a>application/json</p>
     </td>
     </tr>
-    <tr id="row10392952"><td class="cellrowborder" valign="top" width="16.61%" headers="mcps1.2.5.1.1 "><p id="p36522766"><a name="p36522766"></a><a name="p36522766"></a>X-Language</p>
+    <tr id="row26328706"><td class="cellrowborder" valign="top" width="16.610000000000003%" headers="mcps1.2.5.1.1 "><p id="p52250442"><a name="p52250442"></a><a name="p52250442"></a>X-Auth-Token</p>
     </td>
-    <td class="cellrowborder" valign="top" width="31.869999999999997%" headers="mcps1.2.5.1.2 "><p id="p5554106"><a name="p5554106"></a><a name="p5554106"></a>请求语言，支持配置如下值：</p>
+    <td class="cellrowborder" valign="top" width="28.300000000000004%" headers="mcps1.2.5.1.2 "><p id="p4427423"><a name="p4427423"></a><a name="p4427423"></a>用户Token。</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="17.700000000000003%" headers="mcps1.2.5.1.3 "><p id="p6366124"><a name="p6366124"></a><a name="p6366124"></a>是</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="37.39000000000001%" headers="mcps1.2.5.1.4 "><p id="p45894015"><a name="p45894015"></a><a name="p45894015"></a>-</p>
+    </td>
+    </tr>
+    <tr id="row10392952"><td class="cellrowborder" valign="top" width="16.610000000000003%" headers="mcps1.2.5.1.1 "><p id="p36522766"><a name="p36522766"></a><a name="p36522766"></a>X-Language</p>
+    </td>
+    <td class="cellrowborder" valign="top" width="28.300000000000004%" headers="mcps1.2.5.1.2 "><p id="p5554106"><a name="p5554106"></a><a name="p5554106"></a>请求语言，支持配置如下值：</p>
     <a name="ul49986954"></a><a name="ul49986954"></a><ul id="ul49986954"><li>zh-cn：中文</li><li>en-us：英文</li></ul>
     </td>
-    <td class="cellrowborder" valign="top" width="23.31%" headers="mcps1.2.5.1.3 "><p id="p3392477"><a name="p3392477"></a><a name="p3392477"></a>是。</p>
+    <td class="cellrowborder" valign="top" width="17.700000000000003%" headers="mcps1.2.5.1.3 "><p id="p3392477"><a name="p3392477"></a><a name="p3392477"></a>是。</p>
     </td>
-    <td class="cellrowborder" valign="top" width="28.21%" headers="mcps1.2.5.1.4 "><p id="p6355195"><a name="p6355195"></a><a name="p6355195"></a>en-us</p>
+    <td class="cellrowborder" valign="top" width="37.39000000000001%" headers="mcps1.2.5.1.4 "><p id="p6355195"><a name="p6355195"></a><a name="p6355195"></a>en-us</p>
     </td>
     </tr>
     </tbody>
