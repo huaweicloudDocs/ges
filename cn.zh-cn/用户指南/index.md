@@ -48,7 +48,6 @@
     -   [最短路径算法（Shortest Path）](最短路径算法（Shortest-Path）.md)
     -   [全最短路算法（All Shortest Paths）](全最短路算法（All-Shortest-Paths）.md)
     -   [单源最短路算法（SSSP）](单源最短路算法（SSSP）.md)
-    -   [点集最短路（Shortest Path of Vertex Sets）](点集最短路（Shortest-Path-of-Vertex-Sets）.md)
     -   [关联路径算法（n-Paths）](关联路径算法（n-Paths）.md)
     -   [紧密中心度算法（Closeness Centrality）](紧密中心度算法（Closeness-Centrality）.md)
     -   [标签传播算法（Label Propagation）](标签传播算法（Label-Propagation）.md)

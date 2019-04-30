@@ -34,7 +34,7 @@ PageRank算法适用于网页排序、社交网络重点人物挖掘等场景。
 </td>
 <td class="cellrowborder" valign="top" width="9%" headers="mcps1.2.7.1.2 "><p id="p82629131588"><a name="p82629131588"></a><a name="p82629131588"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="18%" headers="mcps1.2.7.1.3 "><p id="p443910016812"><a name="p443910016812"></a><a name="p443910016812"></a>权重系数</p>
+<td class="cellrowborder" valign="top" width="18%" headers="mcps1.2.7.1.3 "><p id="p443910016812"><a name="p443910016812"></a><a name="p443910016812"></a>权重系数(又称阻尼系数)</p>
 </td>
 <td class="cellrowborder" valign="top" width="13%" headers="mcps1.2.7.1.4 "><p id="p17854397519"><a name="p17854397519"></a><a name="p17854397519"></a>Double</p>
 </td>
