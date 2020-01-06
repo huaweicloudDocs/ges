@@ -143,4 +143,78 @@
     }
     ```
 
+-   示例3：授权用户操作图名称前缀为ges\_project的图（ges\_project名字不区分大小写），访问图列表。
+
+    ```
+    {
+        "Version": "1.1",
+        "Statement": [
+            {
+                "Effect": "Allow",
+                "Action": [
+                    "ges:graph:create",
+                    "ges:graph:delete",
+                    "ges:graph:access",
+                    "ges:graph:getDetail"
+                ],
+                "Resource": [
+                    "ges:*:*:graphName:ges_project*"
+                ]
+            },
+            {
+                "Effect": "Allow",
+                "Action": [
+                    "ges:graph:list"
+                ]
+            }
+        ]
+    }
+    ```
+
+-   示例4：授权用户操作部分图资源，查看所有资源。
+
+    该策略分为两部分：
+
+    -   第一部分：授权用户操作资源名称前缀为ges\_project的资源，资源包含图、元数据、备份。
+    -   第二部分：授权用户查询图列表、查询备份列表、查询任务列表、查询元数据列表、校验元数据文件、查看job详情。
+
+    ```
+    {
+        "Version": "1.1",
+        "Statement": [
+            {
+                "Action": [
+                    "ges:backup:delete",
+                    "ges:graph:access",
+                    "ges:metadata:create",
+                    "ges:graph:operate",
+                    "ges:graph:delete",
+                    "ges:metadata:delete",
+                    "ges:graph:create",
+                    "ges:backup:create",
+                    "ges:metadata:getDetail",
+                    "ges:graph:getDetail"
+                ],
+                "Resource": [
+                    "ges:*:*:backupName:ges_project*",
+                    "ges:*:*:graphName:ges_project*",
+                    "ges:*:*:metadataName:ges_project*"
+                ],
+                "Effect": "Allow"
+            },
+            {
+                "Action": [
+                    "ges:graph:list",
+                    "ges:backup:list",
+                    "ges:jobs:list",
+                    "ges:metadata:list",
+                    "ges:metadata:operate",
+                    "ges:jobs:getDetail"
+                ],
+                "Effect": "Allow"
+            }
+        ]
+    }
+    ```
+
 
