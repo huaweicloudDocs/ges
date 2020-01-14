@@ -22,7 +22,7 @@
 ## 前提条件<a name="section1949155485713"></a>
 
 -   “GES Operator”为RBAC策略，若需授权细粒度策略，例如“GES Viewer”，请先在IAM控制台中开通细粒度策略，开通方法请参见：[申请细粒度访问控制公测](https://support.huaweicloud.com/usermanual-iam/iam_01_019.html)。
--   给用户组授权之前，请您了解用户组可以添加的GES系统策略，并结合实际需求进行选择，GES支持的系统策略及策略间的对比，请参见：[GES系统策略](https://support.huaweicloud.com/productdesc-ges/ges_04_0003.html)。若您需要对除GES之外的其它服务授权，IAM支持服务的所有策略，请参见[权限策略](https://support.huaweicloud.com/usermanual-permissions/zh-cn_topic_0063498930.html)。
+-   给用户组授权之前，请您了解用户组可以添加的GES系统策略，并结合实际需求进行选择，GES支持的系统策略及策略间的对比，请参见：[GES系统策略](GES系统策略.md)。若您需要对除GES之外的其它服务授权，IAM支持服务的所有策略，请参见[权限策略](https://support.huaweicloud.com/usermanual-permissions/zh-cn_topic_0063498930.html)。
 
 ## 步骤1：创建用户组并授权<a name="section0541954195712"></a>
 
@@ -65,7 +65,7 @@
             **图 6**  选择策略视图<a name="fig1297512816423"></a>  
             ![](figures/选择策略视图.png "选择策略视图")
 
-        2.  在搜索框中搜索中搜索“DLI”，选择“DLI Service User”为例；在已勾选策略的“项目\[作用范围\]”下拉框中，选择需要给该策略授权的项目（可选择多个项目）。DLI的系统策略说明，请参见：[GES系统策略](GES系统策略.md)。
+        2.  在搜索框中搜索中搜索“GES”，选择“GES Viewer”为例；在已勾选策略的“项目\[作用范围\]”下拉框中，选择需要给该策略授权的项目（可选择多个项目）。GES的系统策略说明，请参见：[GES系统策略](GES系统策略.md)。
         3.  单击“确定”，完成用户组授权。
 
     -   项目视图：您可以为一个项目同时配置多个策略。
@@ -74,7 +74,7 @@
             **图 7**  选择项目视图<a name="fig48812434434"></a>  
             ![](figures/选择项目视图.png "选择项目视图")
 
-        2.  在“选择策略”弹窗中，搜索“DLI”，选择“DLI Service User”为例。DLI的系统策略说明，请参见：[GES系统策略](GES系统策略.md)。
+        2.  在“选择策略”弹窗中，搜索“GES”，选择“GES Viewer”为例。GES的系统策略说明，请参见：[GES系统策略](GES系统策略.md)。
         3.  单击“确定“，完成用户组授权。
 
 
