@@ -126,6 +126,7 @@
             -   [标签传播（Label Propagation）\(1.0.0\)](标签传播（Label-Propagation）(1-0-0).md)
             -   [标签传播（Label Propagation）\(2.1.8\)](标签传播（Label-Propagation）(2-1-8).md)
             -   [Louvain算法\(1.0.0\)](Louvain算法(1-0-0).md)
+            -   [Louvain算法\(2.2.1\)](Louvain算法(2-2-1).md)
             -   [关联预测（Link Prediction）\(1.0.0\)](关联预测（Link-Prediction）(1-0-0).md)
             -   [Node2vec算法\(1.0.5\)](Node2vec算法(1-0-5).md)
             -   [实时推荐（Real-time Recommendation）\(1.0.6\)](实时推荐（Real-time-Recommendation）(1-0-6).md)
