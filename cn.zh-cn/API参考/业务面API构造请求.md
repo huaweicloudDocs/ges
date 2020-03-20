@@ -58,7 +58,7 @@ HTTP请求方法（也称为操作或动词），可告知服务正在请求什�
 </td>
 <td class="cellrowborder" valign="top" width="8.990899089908991%" headers="mcps1.2.5.1.2 "><p id="p207626126535"><a name="p207626126535"></a><a name="p207626126535"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="31.24312431243124%" headers="mcps1.2.5.1.3 "><p id="p85652644714"><a name="p85652644714"></a><a name="p85652644714"></a>用户Token。例如，IAM用户Token也就是调用<a href="https://support.huaweicloud.com/api-iam/zh-cn_topic_0057845583.html" target="_blank" rel="noopener noreferrer">获取用户Token</a>接口的响应值，该接口是唯一不需要认证的接口。</p>
+<td class="cellrowborder" valign="top" width="31.24312431243124%" headers="mcps1.2.5.1.3 "><p id="p85652644714"><a name="p85652644714"></a><a name="p85652644714"></a>用户Token。例如，IAM用户Token也就是调用<a href="https://support.huaweicloud.com/api-iam/iam_30_0001.html" target="_blank" rel="noopener noreferrer">获取用户Token</a>接口的响应值，该接口是唯一不需要认证的接口。</p>
 </td>
 <td class="cellrowborder" valign="top" width="41.35413541354136%" headers="mcps1.2.5.1.4 "><p id="p45894015"><a name="p45894015"></a><a name="p45894015"></a>-</p>
 </td>
@@ -82,10 +82,10 @@ HTTP请求方法（也称为操作或动词），可告知服务正在请求什�
 
 每个接口的请求消息体内容不同，也并不是每个接口都需要有请求消息体（或者说消息体为空），GET、DELETE操作类型的接口就不需要消息体，消息体具体内容需要根据具体接口而定。
 
-例如，对于IAM[获取用户Token](https://support.huaweicloud.com/api-iam/zh-cn_topic_0057845583.html)获取用户Token接口，您可以从接口的请求部分看到所需的请求参数及参数说明。将消息体加入后的请求如下所示，加粗的斜体字段需要根据实际值填写，其中**_username_**为用户名，**_domainname_**为用户所属的账号名称，**_\*\*\*\*\*\*\*\*_**为用户登录密码，**_xxxxxxxxxxxxxxxxxx_**为project的名称，例如cn-north-1，可以从[地区和终端节点](https://developer.huaweicloud.com/endpoint?all)中获取。
+例如，对于IAM[获取用户Token](https://support.huaweicloud.com/api-iam/iam_30_0001.html)获取用户Token接口，您可以从接口的请求部分看到所需的请求参数及参数说明。将消息体加入后的请求如下所示，加粗的斜体字段需要根据实际值填写，其中**_username_**为用户名，**_domainname_**为用户所属的账号名称，**_\*\*\*\*\*\*\*\*_**为用户登录密码，**_xxxxxxxxxxxxxxxxxx_**为project的名称，例如cn-north-1，可以从[地区和终端节点](https://developer.huaweicloud.com/endpoint?all)中获取。
 
 >![](public_sys-resources/icon-note.gif) **说明：**   
->scope参数定义了Token的作用域，下面示例中获取的Token仅能访问project下的资源。您还可以设置Token额作用域为某个账号下所有资源或账号的某个project下的资源，详细定义请参见IAM[获取用户Token](https://support.huaweicloud.com/api-iam/zh-cn_topic_0057845583.html)。  
+>scope参数定义了Token的作用域，下面示例中获取的Token仅能访问project下的资源。您还可以设置Token的作用域为某个账号下所有资源或账号的某个project下的资源，详细定义请参见IAM[获取用户Token](https://support.huaweicloud.com/api-iam/iam_30_0001.html)。  
 
 ```
 POSThttps: //iam.cn-north-1.myhuaweicloud.com/v3/auth/tokensContent-Type: application/json{
@@ -113,5 +113,5 @@ POSThttps: //iam.cn-north-1.myhuaweicloud.com/v3/auth/tokensContent-Type: applic
 }
 ```
 
-到这里为止这个请求需要的内容就具备齐全了，您可以使用[curl](https://curl.haxx.se/)、[Postman](https://www.getpostman.com/)或直接编写代码等方式发送请求调用API。对于IAM[获取用户Token](https://support.huaweicloud.com/api-iam/zh-cn_topic_0057845583.html)接口，返回的响应消息头中“x-subject-token”就是需要获取的用户Token。有了Token之后，您就可以使用Token认证调用其他API。
+到这里为止这个请求需要的内容就具备齐全了，您可以使用[curl](https://curl.haxx.se/)、[Postman](https://www.getpostman.com/)或直接编写代码等方式发送请求调用API。对于IAM[获取用户Token](https://support.huaweicloud.com/api-iam/iam_30_0001.html)接口，返回的响应消息头中“x-subject-token”就是需要获取的用户Token。有了Token之后，您就可以使用Token认证调用其他API。
 
