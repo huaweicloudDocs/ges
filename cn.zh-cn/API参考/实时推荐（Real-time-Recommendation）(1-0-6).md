@@ -11,9 +11,9 @@
 </th>
 <th class="cellrowborder" valign="top" width="9.918367346938775%" id="mcps1.2.7.1.4"><p id="p82715505250"><a name="p82715505250"></a><a name="p82715505250"></a>类型</p>
 </th>
-<th class="cellrowborder" valign="top" width="20.428571428571427%" id="mcps1.2.7.1.5"><p id="p64289158405"><a name="p64289158405"></a><a name="p64289158405"></a>取值范围</p>
+<th class="cellrowborder" valign="top" width="20.6734693877551%" id="mcps1.2.7.1.5"><p id="p64289158405"><a name="p64289158405"></a><a name="p64289158405"></a>取值范围</p>
 </th>
-<th class="cellrowborder" valign="top" width="7.989795918367347%" id="mcps1.2.7.1.6"><p id="p59749194165124"><a name="p59749194165124"></a><a name="p59749194165124"></a>默认值</p>
+<th class="cellrowborder" valign="top" width="7.744897959183674%" id="mcps1.2.7.1.6"><p id="p59749194165124"><a name="p59749194165124"></a><a name="p59749194165124"></a>默认值</p>
 </th>
 </tr>
 </thead>
@@ -25,9 +25,9 @@
 </td>
 <td class="cellrowborder" valign="top" width="9.918367346938775%" headers="mcps1.2.7.1.4 "><p id="p192855017259"><a name="p192855017259"></a><a name="p192855017259"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="20.428571428571427%" headers="mcps1.2.7.1.5 "><p id="p18347182714232"><a name="p18347182714232"></a><a name="p18347182714232"></a>source节点的个数不超过30个。</p>
+<td class="cellrowborder" valign="top" width="20.6734693877551%" headers="mcps1.2.7.1.5 "><p id="p18347182714232"><a name="p18347182714232"></a><a name="p18347182714232"></a>source节点的个数不超过30个。</p>
 </td>
-<td class="cellrowborder" valign="top" width="7.989795918367347%" headers="mcps1.2.7.1.6 "><p id="p7846531165124"><a name="p7846531165124"></a><a name="p7846531165124"></a>-</p>
+<td class="cellrowborder" valign="top" width="7.744897959183674%" headers="mcps1.2.7.1.6 "><p id="p7846531165124"><a name="p7846531165124"></a><a name="p7846531165124"></a>-</p>
 </td>
 </tr>
 <tr id="row3473115114014"><td class="cellrowborder" valign="top" width="8.806122448979592%" headers="mcps1.2.7.1.1 "><p id="p275213333204"><a name="p275213333204"></a><a name="p275213333204"></a>alpha</p>
@@ -38,9 +38,9 @@
 </td>
 <td class="cellrowborder" valign="top" width="9.918367346938775%" headers="mcps1.2.7.1.4 "><p id="p228175072519"><a name="p228175072519"></a><a name="p228175072519"></a>Double</p>
 </td>
-<td class="cellrowborder" valign="top" width="20.428571428571427%" headers="mcps1.2.7.1.5 "><p id="p19950180162417"><a name="p19950180162417"></a><a name="p19950180162417"></a>0~1，不包括0和1。</p>
+<td class="cellrowborder" valign="top" width="20.6734693877551%" headers="mcps1.2.7.1.5 "><p id="p19950180162417"><a name="p19950180162417"></a><a name="p19950180162417"></a>0~1，不包括0和1。</p>
 </td>
-<td class="cellrowborder" valign="top" width="7.989795918367347%" headers="mcps1.2.7.1.6 "><p id="p31589273165124"><a name="p31589273165124"></a><a name="p31589273165124"></a>0.85</p>
+<td class="cellrowborder" valign="top" width="7.744897959183674%" headers="mcps1.2.7.1.6 "><p id="p31589273165124"><a name="p31589273165124"></a><a name="p31589273165124"></a>0.85</p>
 </td>
 </tr>
 <tr id="row10511191515401"><td class="cellrowborder" valign="top" width="8.806122448979592%" headers="mcps1.2.7.1.1 "><p id="p1375213337208"><a name="p1375213337208"></a><a name="p1375213337208"></a>N</p>
@@ -51,9 +51,9 @@
 </td>
 <td class="cellrowborder" valign="top" width="9.918367346938775%" headers="mcps1.2.7.1.4 "><p id="p528250182513"><a name="p528250182513"></a><a name="p528250182513"></a>Int</p>
 </td>
-<td class="cellrowborder" valign="top" width="20.428571428571427%" headers="mcps1.2.7.1.5 "><p id="p186981016142419"><a name="p186981016142419"></a><a name="p186981016142419"></a>1~200000。</p>
+<td class="cellrowborder" valign="top" width="20.6734693877551%" headers="mcps1.2.7.1.5 "><p id="p186981016142419"><a name="p186981016142419"></a><a name="p186981016142419"></a>1~200000。</p>
 </td>
-<td class="cellrowborder" valign="top" width="7.989795918367347%" headers="mcps1.2.7.1.6 "><p id="p8594291165124"><a name="p8594291165124"></a><a name="p8594291165124"></a>10000</p>
+<td class="cellrowborder" valign="top" width="7.744897959183674%" headers="mcps1.2.7.1.6 "><p id="p8594291165124"><a name="p8594291165124"></a><a name="p8594291165124"></a>10000</p>
 </td>
 </tr>
 <tr id="row1754831511408"><td class="cellrowborder" valign="top" width="8.806122448979592%" headers="mcps1.2.7.1.1 "><p id="p97521333192010"><a name="p97521333192010"></a><a name="p97521333192010"></a>nv</p>
@@ -66,9 +66,9 @@
 </td>
 <td class="cellrowborder" valign="top" width="9.918367346938775%" headers="mcps1.2.7.1.4 "><p id="p132805062513"><a name="p132805062513"></a><a name="p132805062513"></a>Int</p>
 </td>
-<td class="cellrowborder" valign="top" width="20.428571428571427%" headers="mcps1.2.7.1.5 "><p id="p11449161112417"><a name="p11449161112417"></a><a name="p11449161112417"></a>1~10。</p>
+<td class="cellrowborder" valign="top" width="20.6734693877551%" headers="mcps1.2.7.1.5 "><p id="p11449161112417"><a name="p11449161112417"></a><a name="p11449161112417"></a>1~10。</p>
 </td>
-<td class="cellrowborder" valign="top" width="7.989795918367347%" headers="mcps1.2.7.1.6 "><p id="p25048953165124"><a name="p25048953165124"></a><a name="p25048953165124"></a>5</p>
+<td class="cellrowborder" valign="top" width="7.744897959183674%" headers="mcps1.2.7.1.6 "><p id="p25048953165124"><a name="p25048953165124"></a><a name="p25048953165124"></a>5</p>
 </td>
 </tr>
 <tr id="row75871815164014"><td class="cellrowborder" valign="top" width="8.806122448979592%" headers="mcps1.2.7.1.1 "><p id="p14752103315207"><a name="p14752103315207"></a><a name="p14752103315207"></a>np</p>
@@ -81,9 +81,9 @@
 </td>
 <td class="cellrowborder" valign="top" width="9.918367346938775%" headers="mcps1.2.7.1.4 "><p id="p102865072517"><a name="p102865072517"></a><a name="p102865072517"></a>Int</p>
 </td>
-<td class="cellrowborder" valign="top" width="20.428571428571427%" headers="mcps1.2.7.1.5 "><p id="p744711192420"><a name="p744711192420"></a><a name="p744711192420"></a>1~2000。</p>
+<td class="cellrowborder" valign="top" width="20.6734693877551%" headers="mcps1.2.7.1.5 "><p id="p744711192420"><a name="p744711192420"></a><a name="p744711192420"></a>1~2000。</p>
 </td>
-<td class="cellrowborder" valign="top" width="7.989795918367347%" headers="mcps1.2.7.1.6 "><p id="p15699349165124"><a name="p15699349165124"></a><a name="p15699349165124"></a>1000</p>
+<td class="cellrowborder" valign="top" width="7.744897959183674%" headers="mcps1.2.7.1.6 "><p id="p15699349165124"><a name="p15699349165124"></a><a name="p15699349165124"></a>1000</p>
 </td>
 </tr>
 <tr id="row16300158401"><td class="cellrowborder" valign="top" width="8.806122448979592%" headers="mcps1.2.7.1.1 "><p id="p17524336203"><a name="p17524336203"></a><a name="p17524336203"></a>label</p>
@@ -96,9 +96,9 @@
 </td>
 <td class="cellrowborder" valign="top" width="9.918367346938775%" headers="mcps1.2.7.1.4 "><p id="p128250162514"><a name="p128250162514"></a><a name="p128250162514"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="20.428571428571427%" headers="mcps1.2.7.1.5 "><p id="p12444161113248"><a name="p12444161113248"></a><a name="p12444161113248"></a>节点label。</p>
+<td class="cellrowborder" valign="top" width="20.6734693877551%" headers="mcps1.2.7.1.5 "><p id="p12444161113248"><a name="p12444161113248"></a><a name="p12444161113248"></a>节点label。</p>
 </td>
-<td class="cellrowborder" valign="top" width="7.989795918367347%" headers="mcps1.2.7.1.6 "><p id="p63687724165124"><a name="p63687724165124"></a><a name="p63687724165124"></a>-</p>
+<td class="cellrowborder" valign="top" width="7.744897959183674%" headers="mcps1.2.7.1.6 "><p id="p63687724165124"><a name="p63687724165124"></a><a name="p63687724165124"></a>-</p>
 </td>
 </tr>
 <tr id="row946422422018"><td class="cellrowborder" valign="top" width="8.806122448979592%" headers="mcps1.2.7.1.1 "><p id="p1752133382015"><a name="p1752133382015"></a><a name="p1752133382015"></a>directed</p>
@@ -109,9 +109,9 @@
 </td>
 <td class="cellrowborder" valign="top" width="9.918367346938775%" headers="mcps1.2.7.1.4 "><p id="p728050152518"><a name="p728050152518"></a><a name="p728050152518"></a>Bool</p>
 </td>
-<td class="cellrowborder" valign="top" width="20.428571428571427%" headers="mcps1.2.7.1.5 "><p id="p1944117118247"><a name="p1944117118247"></a><a name="p1944117118247"></a>true 或false。</p>
+<td class="cellrowborder" valign="top" width="20.6734693877551%" headers="mcps1.2.7.1.5 "><p id="p1944117118247"><a name="p1944117118247"></a><a name="p1944117118247"></a>true 或false。</p>
 </td>
-<td class="cellrowborder" valign="top" width="7.989795918367347%" headers="mcps1.2.7.1.6 "><p id="p58432040165124"><a name="p58432040165124"></a><a name="p58432040165124"></a>true</p>
+<td class="cellrowborder" valign="top" width="7.744897959183674%" headers="mcps1.2.7.1.6 "><p id="p58432040165124"><a name="p58432040165124"></a><a name="p58432040165124"></a>true</p>
 </td>
 </tr>
 </tbody>

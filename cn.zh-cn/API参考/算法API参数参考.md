@@ -32,6 +32,8 @@
 
 -   **[Louvain算法\(1.0.0\)](Louvain算法(1-0-0).md)**  
 
+-   **[Louvain算法\(2.2.1\)](Louvain算法(2-2-1).md)**  
+
 -   **[关联预测（Link Prediction）\(1.0.0\)](关联预测（Link-Prediction）(1-0-0).md)**  
 
 -   **[Node2vec算法\(1.0.5\)](Node2vec算法(1-0-5).md)**  
