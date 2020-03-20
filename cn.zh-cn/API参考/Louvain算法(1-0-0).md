@@ -57,7 +57,21 @@
 </th>
 </tr>
 </thead>
-<tbody><tr id="row1694403144717"><td class="cellrowborder" valign="top" width="12.030000000000001%" headers="mcps1.2.4.1.1 "><p id="p16961163104712"><a name="p16961163104712"></a><a name="p16961163104712"></a>community</p>
+<tbody><tr id="row2451218125120"><td class="cellrowborder" valign="top" width="12.030000000000001%" headers="mcps1.2.4.1.1 "><p id="p980181375217"><a name="p980181375217"></a><a name="p980181375217"></a>modularity</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.340000000000002%" headers="mcps1.2.4.1.2 "><p id="p1180101315529"><a name="p1180101315529"></a><a name="p1180101315529"></a>Double</p>
+</td>
+<td class="cellrowborder" valign="top" width="72.63%" headers="mcps1.2.4.1.3 "><p id="p18802101325218"><a name="p18802101325218"></a><a name="p18802101325218"></a>模块度。</p>
+</td>
+</tr>
+<tr id="row9328963524"><td class="cellrowborder" valign="top" width="12.030000000000001%" headers="mcps1.2.4.1.1 "><p id="p845143115210"><a name="p845143115210"></a><a name="p845143115210"></a>community_num</p>
+</td>
+<td class="cellrowborder" valign="top" width="15.340000000000002%" headers="mcps1.2.4.1.2 "><p id="p245154313528"><a name="p245154313528"></a><a name="p245154313528"></a>Int</p>
+</td>
+<td class="cellrowborder" valign="top" width="72.63%" headers="mcps1.2.4.1.3 "><p id="p1645443145211"><a name="p1645443145211"></a><a name="p1645443145211"></a>社团数量。</p>
+</td>
+</tr>
+<tr id="row1694403144717"><td class="cellrowborder" valign="top" width="12.030000000000001%" headers="mcps1.2.4.1.1 "><p id="p16961163104712"><a name="p16961163104712"></a><a name="p16961163104712"></a>community</p>
 </td>
 <td class="cellrowborder" valign="top" width="15.340000000000002%" headers="mcps1.2.4.1.2 "><p id="p12961193119474"><a name="p12961193119474"></a><a name="p12961193119474"></a>List</p>
 </td>
