@@ -72,7 +72,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="15.47%" headers="mcps1.2.4.1.2 "><p id="p27281056552"><a name="p27281056552"></a><a name="p27281056552"></a>String</p>
 </td>
-<td class="cellrowborder" valign="top" width="55.64%" headers="mcps1.2.4.1.3 "><p id="p1072819562513"><a name="p1072819562513"></a><a name="p1072819562513"></a>源节点ID。</p>
+<td class="cellrowborder" valign="top" width="55.64%" headers="mcps1.2.4.1.3 "><p id="p1072819562513"><a name="p1072819562513"></a><a name="p1072819562513"></a>源节点ID</p>
 </td>
 </tr>
 </tbody>

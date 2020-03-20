@@ -34,7 +34,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="13.861386138613863%" headers="mcps1.2.7.1.2 "><p id="p2843232152811"><a name="p2843232152811"></a><a name="p2843232152811"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="20.801980198019805%" headers="mcps1.2.7.1.3 "><p id="p20843332112810"><a name="p20843332112810"></a><a name="p20843332112810"></a>输入路径的终点ID</p>
+<td class="cellrowborder" valign="top" width="20.801980198019805%" headers="mcps1.2.7.1.3 "><p id="p20843332112810"><a name="p20843332112810"></a><a name="p20843332112810"></a>输入路径的终点ID。</p>
 </td>
 <td class="cellrowborder" valign="top" width="13.722772277227724%" headers="mcps1.2.7.1.4 "><p id="p16843123242820"><a name="p16843123242820"></a><a name="p16843123242820"></a>String</p>
 </td>
@@ -73,7 +73,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="13.861386138613863%" headers="mcps1.2.7.1.2 "><p id="p14211463277"><a name="p14211463277"></a><a name="p14211463277"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="20.801980198019805%" headers="mcps1.2.7.1.3 "><p id="p16421146142718"><a name="p16421146142718"></a><a name="p16421146142718"></a>层数</p>
+<td class="cellrowborder" valign="top" width="20.801980198019805%" headers="mcps1.2.7.1.3 "><p id="p16421146142718"><a name="p16421146142718"></a><a name="p16421146142718"></a>层数。</p>
 </td>
 <td class="cellrowborder" valign="top" width="13.722772277227724%" headers="mcps1.2.7.1.4 "><p id="p1642116622714"><a name="p1642116622714"></a><a name="p1642116622714"></a>Int</p>
 </td>

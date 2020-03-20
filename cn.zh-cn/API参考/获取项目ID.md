@@ -2,7 +2,7 @@
 
 ## 调用API获取项目ID<a name="section1691341861315"></a>
 
-项目ID可以通过调用[查询指定条件下的项目信息](https://support.huaweicloud.com/api-iam/zh-cn_topic_0057845625.html)API获取。
+项目ID可以通过调用[查询指定条件下的项目信息](https://support.huaweicloud.com/api-iam/iam_06_0001.html)API获取。
 
 项目ID可以通过调用API获取。
 
