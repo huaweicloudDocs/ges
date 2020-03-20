@@ -70,21 +70,21 @@ GES部署时通过物理区域划分，为项目级服务。授权时，“作�
 </th>
 </tr>
 </thead>
-<tbody><tr id="zh-cn_topic_0170103498_row067933821"><td class="cellrowborder" valign="top" width="16.16%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0170103498_p126719339214"><a name="zh-cn_topic_0170103498_p126719339214"></a><a name="zh-cn_topic_0170103498_p126719339214"></a>GES Admin</p>
+<tbody><tr id="zh-cn_topic_0170103498_row067933821"><td class="cellrowborder" valign="top" width="16.16%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0170103498_p126719339214"><a name="zh-cn_topic_0170103498_p126719339214"></a><a name="zh-cn_topic_0170103498_p126719339214"></a>GES&nbsp;FullAccess</p>
 </td>
 <td class="cellrowborder" valign="top" width="83.84%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0170103498_p56743318218"><a name="zh-cn_topic_0170103498_p56743318218"></a><a name="zh-cn_topic_0170103498_p56743318218"></a>图引擎服务管理员权限，拥有该权限的用户拥有图引擎服务的全部权限，包括创建、删除、访问、升级等操作。</p>
 <div class="note" id="zh-cn_topic_0170103498_note108516537814"><a name="zh-cn_topic_0170103498_note108516537814"></a><a name="zh-cn_topic_0170103498_note108516537814"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="zh-cn_topic_0170103498_ul173871836893"></a><a name="zh-cn_topic_0170103498_ul173871836893"></a><ul id="zh-cn_topic_0170103498_ul173871836893"><li>如果需要绑定/解绑EIP，则还需要拥有Security Administrator权限用于创建委托。</li><li>如果需要与OBS服务进行交互，例如创建，导入等操作，则还需要拥有OBS服务的权限，具体请参考<a href="#zh-cn_topic_0170103498_table2730121404">表5</a>。</li></ul>
 </div></div>
 </td>
 </tr>
-<tr id="zh-cn_topic_0170103498_row9679330211"><td class="cellrowborder" valign="top" width="16.16%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0170103498_p14674331626"><a name="zh-cn_topic_0170103498_p14674331626"></a><a name="zh-cn_topic_0170103498_p14674331626"></a>GES User</p>
+<tr id="zh-cn_topic_0170103498_row9679330211"><td class="cellrowborder" valign="top" width="16.16%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0170103498_p14674331626"><a name="zh-cn_topic_0170103498_p14674331626"></a><a name="zh-cn_topic_0170103498_p14674331626"></a>GES&nbsp;Development</p>
 </td>
 <td class="cellrowborder" valign="top" width="83.84%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0170103498_p1367153310212"><a name="zh-cn_topic_0170103498_p1367153310212"></a><a name="zh-cn_topic_0170103498_p1367153310212"></a>图引擎服务使用权限，拥有该权限的用户可以执行除了创建图、删除图以外所有操作。</p>
 <div class="note" id="zh-cn_topic_0170103498_note162631031695"><a name="zh-cn_topic_0170103498_note162631031695"></a><a name="zh-cn_topic_0170103498_note162631031695"></a><span class="notetitle"> 说明： </span><div class="notebody"><a name="zh-cn_topic_0170103498_ul3520140102212"></a><a name="zh-cn_topic_0170103498_ul3520140102212"></a><ul id="zh-cn_topic_0170103498_ul3520140102212"><li>如果需要绑定/解绑EIP，则还需要拥有Security Administrator和Server Administrator权限。</li><li>如果需要与OBS服务进行交互，例如创建，导入等操作，则还需要拥有OBS服务的权限，具体请参考<a href="#zh-cn_topic_0170103498_table2730121404">表5</a>。</li></ul>
 </div></div>
 </td>
 </tr>
-<tr id="zh-cn_topic_0170103498_row5671633026"><td class="cellrowborder" valign="top" width="16.16%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0170103498_p8676331527"><a name="zh-cn_topic_0170103498_p8676331527"></a><a name="zh-cn_topic_0170103498_p8676331527"></a>GES Viewer</p>
+<tr id="zh-cn_topic_0170103498_row5671633026"><td class="cellrowborder" valign="top" width="16.16%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0170103498_p8676331527"><a name="zh-cn_topic_0170103498_p8676331527"></a><a name="zh-cn_topic_0170103498_p8676331527"></a>GES&nbsp;ReadOnlyAccess</p>
 </td>
 <td class="cellrowborder" valign="top" width="83.84%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0170103498_p16712339211"><a name="zh-cn_topic_0170103498_p16712339211"></a><a name="zh-cn_topic_0170103498_p16712339211"></a>图引擎服务资源只读权限，拥有该权限的用户只能做一些资源查看类的操作如查看图列表、查看元数据和查看备份等。</p>
 <div class="note" id="zh-cn_topic_0170103498_note550211118917"><a name="zh-cn_topic_0170103498_note550211118917"></a><a name="zh-cn_topic_0170103498_note550211118917"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="zh-cn_topic_0170103498_p1350471114914"><a name="zh-cn_topic_0170103498_p1350471114914"></a><a name="zh-cn_topic_0170103498_p1350471114914"></a>如果需要与OBS服务进行交互，例如查看元数据，则还需要拥有OBS服务的权限，具体请参考<a href="#zh-cn_topic_0170103498_table2730121404">表5</a>。</p>
@@ -99,7 +99,7 @@ GES部署时通过物理区域划分，为项目级服务。授权时，“作�
 <a name="zh-cn_topic_0170103498_table168060107500"></a>
 <table><thead align="left"><tr id="zh-cn_topic_0170103498_row167851710165011"><th class="cellrowborder" valign="top" width="19.7%" id="mcps1.2.6.1.1"><p id="zh-cn_topic_0170103498_p187834107502"><a name="zh-cn_topic_0170103498_p187834107502"></a><a name="zh-cn_topic_0170103498_p187834107502"></a>操作</p>
 </th>
-<th class="cellrowborder" valign="top" width="22.68%" id="mcps1.2.6.1.2"><p id="zh-cn_topic_0170103498_p95088211430"><a name="zh-cn_topic_0170103498_p95088211430"></a><a name="zh-cn_topic_0170103498_p95088211430"></a>GES Administrator</p>
+<th class="cellrowborder" valign="top" width="22.68%" id="mcps1.2.6.1.2"><p id="zh-cn_topic_0170103498_p95088211430"><a name="zh-cn_topic_0170103498_p95088211430"></a><a name="zh-cn_topic_0170103498_p95088211430"></a>GES&nbsp;Administrator</p>
 </th>
 <th class="cellrowborder" valign="top" width="20.150000000000002%" id="mcps1.2.6.1.3"><p id="zh-cn_topic_0170103498_p1018116305435"><a name="zh-cn_topic_0170103498_p1018116305435"></a><a name="zh-cn_topic_0170103498_p1018116305435"></a>GES Manager</p>
 </th>
@@ -359,11 +359,11 @@ GES部署时通过物理区域划分，为项目级服务。授权时，“作�
 <a name="zh-cn_topic_0170103498_table06491545446"></a>
 <table><thead align="left"><tr id="zh-cn_topic_0170103498_row22015461048"><th class="cellrowborder" valign="top" width="23.977602239776026%" id="mcps1.2.6.1.1"><p id="zh-cn_topic_0170103498_p152015461246"><a name="zh-cn_topic_0170103498_p152015461246"></a><a name="zh-cn_topic_0170103498_p152015461246"></a>操作</p>
 </th>
-<th class="cellrowborder" valign="top" width="17.578242175782425%" id="mcps1.2.6.1.2"><p id="zh-cn_topic_0170103498_p1020116461641"><a name="zh-cn_topic_0170103498_p1020116461641"></a><a name="zh-cn_topic_0170103498_p1020116461641"></a>GES Admin</p>
+<th class="cellrowborder" valign="top" width="17.578242175782425%" id="mcps1.2.6.1.2"><p id="zh-cn_topic_0170103498_p1020116461641"><a name="zh-cn_topic_0170103498_p1020116461641"></a><a name="zh-cn_topic_0170103498_p1020116461641"></a>GES&nbsp;FullAccess</p>
 </th>
-<th class="cellrowborder" valign="top" width="19.908009199080094%" id="mcps1.2.6.1.3"><p id="zh-cn_topic_0170103498_p32011646546"><a name="zh-cn_topic_0170103498_p32011646546"></a><a name="zh-cn_topic_0170103498_p32011646546"></a>GES User</p>
+<th class="cellrowborder" valign="top" width="19.908009199080094%" id="mcps1.2.6.1.3"><p id="zh-cn_topic_0170103498_p32011646546"><a name="zh-cn_topic_0170103498_p32011646546"></a><a name="zh-cn_topic_0170103498_p32011646546"></a>GES&nbsp;Development</p>
 </th>
-<th class="cellrowborder" valign="top" width="19.668033196680334%" id="mcps1.2.6.1.4"><p id="zh-cn_topic_0170103498_p220111460418"><a name="zh-cn_topic_0170103498_p220111460418"></a><a name="zh-cn_topic_0170103498_p220111460418"></a>GES Viewer</p>
+<th class="cellrowborder" valign="top" width="19.668033196680334%" id="mcps1.2.6.1.4"><p id="zh-cn_topic_0170103498_p220111460418"><a name="zh-cn_topic_0170103498_p220111460418"></a><a name="zh-cn_topic_0170103498_p220111460418"></a>GES&nbsp;ReadOnlyAccess</p>
 </th>
 <th class="cellrowborder" valign="top" width="18.868113188681132%" id="mcps1.2.6.1.5"><p id="zh-cn_topic_0170103498_p1259892818417"><a name="zh-cn_topic_0170103498_p1259892818417"></a><a name="zh-cn_topic_0170103498_p1259892818417"></a>对应资源</p>
 </th>

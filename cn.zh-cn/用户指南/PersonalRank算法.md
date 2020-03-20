@@ -95,6 +95,10 @@ PersonalRank算法适用于商品推荐、好友推荐和网页推荐等场景�
 </tbody>
 </table>
 
+>![](public_sys-resources/icon-note.gif) **说明：**   
+>-   alpha决定跳转概率系数，也称为阻尼系数，是算法内的计算控制变量。  
+>-   convergence定义每次迭代各个点相较于上次迭代变化的绝对值累加和上限，当小于这个值时认为计算收敛，算法停止。  
+
 ## 注意事项<a name="section3956161017109"></a>
 
 收敛精度（convergence）设置较大值时，迭代会较快停止。

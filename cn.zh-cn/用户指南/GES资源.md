@@ -2,7 +2,7 @@
 
 资源是服务中存在的对象。在GES中，资源如下，您可以在创建自定义策略时，通过指定资源路径来选择特定资源。
 
-**表 1**  DLI的指定资源与对应路径
+**表 1**  GES的指定资源与对应路径
 
 <a name="table17762145616578"></a>
 <table><thead align="left"><tr id="row1691118561571"><th class="cellrowborder" valign="top" width="17.69%" id="mcps1.2.4.1.1"><p id="p9912105615575"><a name="p9912105615575"></a><a name="p9912105615575"></a>指定资源</p>
