@@ -129,6 +129,9 @@
 </tbody>
 </table>
 
+>![](public_sys-resources/icon-note.gif) **说明：**   
+>alpha决定跳转概率系数，也称为阻尼系数，是算法内的计算控制变量。  
+
 ## 注意事项<a name="section3956161017109"></a>
 
 结束条件中，nv和np越小，实时推荐算法（Real-time Recommendation）提前结束越快。
