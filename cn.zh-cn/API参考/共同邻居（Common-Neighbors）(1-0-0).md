@@ -69,7 +69,7 @@
 </tr>
 <tr id="row1644113161548"><td class="cellrowborder" valign="top" width="19.401940194019403%" headers="mcps1.2.4.1.1 "><p id="p54413169419"><a name="p54413169419"></a><a name="p54413169419"></a>common_neighbors</p>
 </td>
-<td class="cellrowborder" valign="top" width="18.701870187018702%" headers="mcps1.2.4.1.2 "><p id="p1244141610417"><a name="p1244141610417"></a><a name="p1244141610417"></a>Int</p>
+<td class="cellrowborder" valign="top" width="18.701870187018702%" headers="mcps1.2.4.1.2 "><p id="p1244141610417"><a name="p1244141610417"></a><a name="p1244141610417"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="61.89618961896189%" headers="mcps1.2.4.1.3 "><p id="p19441171618416"><a name="p19441171618416"></a><a name="p19441171618416"></a>公共邻居节点个数。</p>
 </td>

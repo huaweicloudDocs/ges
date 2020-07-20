@@ -62,7 +62,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="20.801980198019805%" headers="mcps1.2.7.1.3 "><p id="p1942196102713"><a name="p1942196102713"></a><a name="p1942196102713"></a>路径个数。</p>
 </td>
-<td class="cellrowborder" valign="top" width="13.722772277227724%" headers="mcps1.2.7.1.4 "><p id="p44214613279"><a name="p44214613279"></a><a name="p44214613279"></a>Int</p>
+<td class="cellrowborder" valign="top" width="13.722772277227724%" headers="mcps1.2.7.1.4 "><p id="p44214613279"><a name="p44214613279"></a><a name="p44214613279"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="18.940594059405942%" headers="mcps1.2.7.1.5 "><p id="p16421176192718"><a name="p16421176192718"></a><a name="p16421176192718"></a>1~100</p>
 </td>
@@ -75,7 +75,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="20.801980198019805%" headers="mcps1.2.7.1.3 "><p id="p16421146142718"><a name="p16421146142718"></a><a name="p16421146142718"></a>层数。</p>
 </td>
-<td class="cellrowborder" valign="top" width="13.722772277227724%" headers="mcps1.2.7.1.4 "><p id="p1642116622714"><a name="p1642116622714"></a><a name="p1642116622714"></a>Int</p>
+<td class="cellrowborder" valign="top" width="13.722772277227724%" headers="mcps1.2.7.1.4 "><p id="p1642116622714"><a name="p1642116622714"></a><a name="p1642116622714"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="18.940594059405942%" headers="mcps1.2.7.1.5 "><p id="p1421126172715"><a name="p1421126172715"></a><a name="p1421126172715"></a>1~10</p>
 </td>
@@ -108,7 +108,7 @@
 </tr>
 <tr id="row198912301083"><td class="cellrowborder" valign="top" width="22.63%" headers="mcps1.2.4.1.1 "><p id="p18891143016810"><a name="p18891143016810"></a><a name="p18891143016810"></a>paths_number</p>
 </td>
-<td class="cellrowborder" valign="top" width="23.35%" headers="mcps1.2.4.1.2 "><p id="p88910301689"><a name="p88910301689"></a><a name="p88910301689"></a>Int</p>
+<td class="cellrowborder" valign="top" width="23.35%" headers="mcps1.2.4.1.2 "><p id="p88910301689"><a name="p88910301689"></a><a name="p88910301689"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="54.02%" headers="mcps1.2.4.1.3 "><p id="p0891113019814"><a name="p0891113019814"></a><a name="p0891113019814"></a>路径个数</p>
 </td>

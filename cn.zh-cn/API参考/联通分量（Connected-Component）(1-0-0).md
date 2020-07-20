@@ -13,7 +13,7 @@
 </thead>
 <tbody><tr id="row11559174543719"><td class="cellrowborder" valign="top" width="30.016998300169984%" headers="mcps1.2.4.1.1 "><p id="p1155916459378"><a name="p1155916459378"></a><a name="p1155916459378"></a>Max_WCC_size</p>
 </td>
-<td class="cellrowborder" valign="top" width="19.948005199480054%" headers="mcps1.2.4.1.2 "><p id="p555944543714"><a name="p555944543714"></a><a name="p555944543714"></a>Int</p>
+<td class="cellrowborder" valign="top" width="19.948005199480054%" headers="mcps1.2.4.1.2 "><p id="p555944543714"><a name="p555944543714"></a><a name="p555944543714"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="50.03499650034996%" headers="mcps1.2.4.1.3 "><p id="p05591458371"><a name="p05591458371"></a><a name="p05591458371"></a>最大联通分量中节点的个数</p>
 </td>

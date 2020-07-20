@@ -79,9 +79,9 @@
 <a name="table98901741873"></a>
 <table><thead align="left"><tr id="row38911341370"><th class="cellrowborder" valign="top" width="12.337532493501302%" id="mcps1.2.7.1.1"><p id="p389114873"><a name="p389114873"></a><a name="p389114873"></a>参数</p>
 </th>
-<th class="cellrowborder" valign="top" width="9.658068386322737%" id="mcps1.2.7.1.2"><p id="p11891104674"><a name="p11891104674"></a><a name="p11891104674"></a>是否必选</p>
+<th class="cellrowborder" valign="top" width="10.307938412317538%" id="mcps1.2.7.1.2"><p id="p11891104674"><a name="p11891104674"></a><a name="p11891104674"></a>是否必选</p>
 </th>
-<th class="cellrowborder" valign="top" width="28.63427314537093%" id="mcps1.2.7.1.3"><p id="p4891248712"><a name="p4891248712"></a><a name="p4891248712"></a>说明</p>
+<th class="cellrowborder" valign="top" width="27.98440311937613%" id="mcps1.2.7.1.3"><p id="p4891248712"><a name="p4891248712"></a><a name="p4891248712"></a>说明</p>
 </th>
 <th class="cellrowborder" valign="top" width="7.288542291541694%" id="mcps1.2.7.1.4"><p id="p17891541170"><a name="p17891541170"></a><a name="p17891541170"></a>类型</p>
 </th>
@@ -93,9 +93,9 @@
 </thead>
 <tbody><tr id="row158918417712"><td class="cellrowborder" valign="top" width="12.337532493501302%" headers="mcps1.2.7.1.1 "><p id="p12891184873"><a name="p12891184873"></a><a name="p12891184873"></a>filterName</p>
 </td>
-<td class="cellrowborder" valign="top" width="9.658068386322737%" headers="mcps1.2.7.1.2 "><p id="p1189111418716"><a name="p1189111418716"></a><a name="p1189111418716"></a>否</p>
+<td class="cellrowborder" valign="top" width="10.307938412317538%" headers="mcps1.2.7.1.2 "><p id="p1189111418716"><a name="p1189111418716"></a><a name="p1189111418716"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.63427314537093%" headers="mcps1.2.7.1.3 "><p id="p189114973"><a name="p189114973"></a><a name="p189114973"></a>用于进行时间过滤的时间属性名称</p>
+<td class="cellrowborder" valign="top" width="27.98440311937613%" headers="mcps1.2.7.1.3 "><p id="p189114973"><a name="p189114973"></a><a name="p189114973"></a>用于进行时间过滤的时间属性名称</p>
 </td>
 <td class="cellrowborder" valign="top" width="7.288542291541694%" headers="mcps1.2.7.1.4 "><p id="p108913419719"><a name="p108913419719"></a><a name="p108913419719"></a>String</p>
 </td>
@@ -106,9 +106,9 @@
 </tr>
 <tr id="row13891164873"><td class="cellrowborder" valign="top" width="12.337532493501302%" headers="mcps1.2.7.1.1 "><p id="p118911544711"><a name="p118911544711"></a><a name="p118911544711"></a>filterType</p>
 </td>
-<td class="cellrowborder" valign="top" width="9.658068386322737%" headers="mcps1.2.7.1.2 "><p id="p158918419716"><a name="p158918419716"></a><a name="p158918419716"></a>否</p>
+<td class="cellrowborder" valign="top" width="10.307938412317538%" headers="mcps1.2.7.1.2 "><p id="p158918419716"><a name="p158918419716"></a><a name="p158918419716"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.63427314537093%" headers="mcps1.2.7.1.3 "><p id="p08916419716"><a name="p08916419716"></a><a name="p08916419716"></a>在点或边上过滤</p>
+<td class="cellrowborder" valign="top" width="27.98440311937613%" headers="mcps1.2.7.1.3 "><p id="p08916419716"><a name="p08916419716"></a><a name="p08916419716"></a>在点或边上过滤</p>
 </td>
 <td class="cellrowborder" valign="top" width="7.288542291541694%" headers="mcps1.2.7.1.4 "><p id="p18921941575"><a name="p18921941575"></a><a name="p18921941575"></a>String</p>
 </td>
@@ -121,9 +121,9 @@
 </tr>
 <tr id="row10892134475"><td class="cellrowborder" valign="top" width="12.337532493501302%" headers="mcps1.2.7.1.1 "><p id="p108921241276"><a name="p108921241276"></a><a name="p108921241276"></a>startTime</p>
 </td>
-<td class="cellrowborder" valign="top" width="9.658068386322737%" headers="mcps1.2.7.1.2 "><p id="p48921346711"><a name="p48921346711"></a><a name="p48921346711"></a>否</p>
+<td class="cellrowborder" valign="top" width="10.307938412317538%" headers="mcps1.2.7.1.2 "><p id="p48921346711"><a name="p48921346711"></a><a name="p48921346711"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.63427314537093%" headers="mcps1.2.7.1.3 "><p id="p11892645717"><a name="p11892645717"></a><a name="p11892645717"></a>起始时间</p>
+<td class="cellrowborder" valign="top" width="27.98440311937613%" headers="mcps1.2.7.1.3 "><p id="p11892645717"><a name="p11892645717"></a><a name="p11892645717"></a>起始时间</p>
 </td>
 <td class="cellrowborder" valign="top" width="7.288542291541694%" headers="mcps1.2.7.1.4 "><p id="p1889210415712"><a name="p1889210415712"></a><a name="p1889210415712"></a>String</p>
 </td>
@@ -134,9 +134,9 @@
 </tr>
 <tr id="row48921941577"><td class="cellrowborder" valign="top" width="12.337532493501302%" headers="mcps1.2.7.1.1 "><p id="p16824135151412"><a name="p16824135151412"></a><a name="p16824135151412"></a>endTime</p>
 </td>
-<td class="cellrowborder" valign="top" width="9.658068386322737%" headers="mcps1.2.7.1.2 "><p id="p178241153149"><a name="p178241153149"></a><a name="p178241153149"></a>否</p>
+<td class="cellrowborder" valign="top" width="10.307938412317538%" headers="mcps1.2.7.1.2 "><p id="p178241153149"><a name="p178241153149"></a><a name="p178241153149"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="28.63427314537093%" headers="mcps1.2.7.1.3 "><p id="p3824145201419"><a name="p3824145201419"></a><a name="p3824145201419"></a>终止时间</p>
+<td class="cellrowborder" valign="top" width="27.98440311937613%" headers="mcps1.2.7.1.3 "><p id="p3824145201419"><a name="p3824145201419"></a><a name="p3824145201419"></a>终止时间</p>
 </td>
 <td class="cellrowborder" valign="top" width="7.288542291541694%" headers="mcps1.2.7.1.4 "><p id="p198249581417"><a name="p198249581417"></a><a name="p198249581417"></a>String</p>
 </td>
