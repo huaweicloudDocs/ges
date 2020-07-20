@@ -49,7 +49,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="23.000000000000004%" headers="mcps1.2.7.1.3 "><p id="p115043476104"><a name="p115043476104"></a><a name="p115043476104"></a>映射维度。</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.000000000000002%" headers="mcps1.2.7.1.4 "><p id="p173017518249"><a name="p173017518249"></a><a name="p173017518249"></a>Int</p>
+<td class="cellrowborder" valign="top" width="10.000000000000002%" headers="mcps1.2.7.1.4 "><p id="p173017518249"><a name="p173017518249"></a><a name="p173017518249"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="29.000000000000004%" headers="mcps1.2.7.1.5 "><p id="p2108111061114"><a name="p2108111061114"></a><a name="p2108111061114"></a>1~200，包括1和200。</p>
 </td>
@@ -62,7 +62,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="23.000000000000004%" headers="mcps1.2.7.1.3 "><p id="p9505174741010"><a name="p9505174741010"></a><a name="p9505174741010"></a>随机步长。</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.000000000000002%" headers="mcps1.2.7.1.4 "><p id="p1030110542416"><a name="p1030110542416"></a><a name="p1030110542416"></a>Int</p>
+<td class="cellrowborder" valign="top" width="10.000000000000002%" headers="mcps1.2.7.1.4 "><p id="p1030110542416"><a name="p1030110542416"></a><a name="p1030110542416"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="29.000000000000004%" headers="mcps1.2.7.1.5 "><p id="p7542721141120"><a name="p7542721141120"></a><a name="p7542721141120"></a>建议取1~100，包括1和100。</p>
 </td>
@@ -75,7 +75,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="23.000000000000004%" headers="mcps1.2.7.1.3 "><p id="p2505154761018"><a name="p2505154761018"></a><a name="p2505154761018"></a>每个节点的随机步长数。</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.000000000000002%" headers="mcps1.2.7.1.4 "><p id="p630116532418"><a name="p630116532418"></a><a name="p630116532418"></a>Int</p>
+<td class="cellrowborder" valign="top" width="10.000000000000002%" headers="mcps1.2.7.1.4 "><p id="p630116532418"><a name="p630116532418"></a><a name="p630116532418"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="29.000000000000004%" headers="mcps1.2.7.1.5 "><p id="p1234727111110"><a name="p1234727111110"></a><a name="p1234727111110"></a>建议取1~100，包括1和100。</p>
 </td>
@@ -88,7 +88,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="23.000000000000004%" headers="mcps1.2.7.1.3 "><p id="p850519473102"><a name="p850519473102"></a><a name="p850519473102"></a>迭代次数。</p>
 </td>
-<td class="cellrowborder" valign="top" width="10.000000000000002%" headers="mcps1.2.7.1.4 "><p id="p3301165132414"><a name="p3301165132414"></a><a name="p3301165132414"></a>Int</p>
+<td class="cellrowborder" valign="top" width="10.000000000000002%" headers="mcps1.2.7.1.4 "><p id="p3301165132414"><a name="p3301165132414"></a><a name="p3301165132414"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="29.000000000000004%" headers="mcps1.2.7.1.5 "><p id="p1139143313118"><a name="p1139143313118"></a><a name="p1139143313118"></a>1~100，包括1和100。</p>
 </td>

@@ -3,9 +3,9 @@
 **表 1**  parameters参数说明
 
 <a name="table421133013343"></a>
-<table><thead align="left"><tr id="row1922415308344"><th class="cellrowborder" valign="top" width="16%" id="mcps1.2.7.1.1"><p id="p172271305349"><a name="p172271305349"></a><a name="p172271305349"></a>参数</p>
+<table><thead align="left"><tr id="row1922415308344"><th class="cellrowborder" valign="top" width="16.03%" id="mcps1.2.7.1.1"><p id="p172271305349"><a name="p172271305349"></a><a name="p172271305349"></a>参数</p>
 </th>
-<th class="cellrowborder" valign="top" width="11%" id="mcps1.2.7.1.2"><p id="p102281230113414"><a name="p102281230113414"></a><a name="p102281230113414"></a>是否必选</p>
+<th class="cellrowborder" valign="top" width="10.97%" id="mcps1.2.7.1.2"><p id="p102281230113414"><a name="p102281230113414"></a><a name="p102281230113414"></a>是否必选</p>
 </th>
 <th class="cellrowborder" valign="top" width="20%" id="mcps1.2.7.1.3"><p id="p11230143010349"><a name="p11230143010349"></a><a name="p11230143010349"></a>说明</p>
 </th>
@@ -17,9 +17,9 @@
 </th>
 </tr>
 </thead>
-<tbody><tr id="row1923843017347"><td class="cellrowborder" valign="top" width="16%" headers="mcps1.2.7.1.1 "><p id="p13751101797"><a name="p13751101797"></a><a name="p13751101797"></a>source</p>
+<tbody><tr id="row1923843017347"><td class="cellrowborder" valign="top" width="16.03%" headers="mcps1.2.7.1.1 "><p id="p13751101797"><a name="p13751101797"></a><a name="p13751101797"></a>source</p>
 </td>
-<td class="cellrowborder" valign="top" width="11%" headers="mcps1.2.7.1.2 "><p id="p20751701994"><a name="p20751701994"></a><a name="p20751701994"></a>是</p>
+<td class="cellrowborder" valign="top" width="10.97%" headers="mcps1.2.7.1.2 "><p id="p20751701994"><a name="p20751701994"></a><a name="p20751701994"></a>是</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.7.1.3 "><p id="p177515011918"><a name="p177515011918"></a><a name="p177515011918"></a>节点的ID。</p>
 </td>
@@ -30,9 +30,9 @@
 <td class="cellrowborder" valign="top" width="18%" headers="mcps1.2.7.1.6 "><p id="p12857639175619"><a name="p12857639175619"></a><a name="p12857639175619"></a>-</p>
 </td>
 </tr>
-<tr id="row1592512201673"><td class="cellrowborder" valign="top" width="16%" headers="mcps1.2.7.1.1 "><p id="p4752150793"><a name="p4752150793"></a><a name="p4752150793"></a>alpha</p>
+<tr id="row1592512201673"><td class="cellrowborder" valign="top" width="16.03%" headers="mcps1.2.7.1.1 "><p id="p4752150793"><a name="p4752150793"></a><a name="p4752150793"></a>alpha</p>
 </td>
-<td class="cellrowborder" valign="top" width="11%" headers="mcps1.2.7.1.2 "><p id="p127528012920"><a name="p127528012920"></a><a name="p127528012920"></a>否</p>
+<td class="cellrowborder" valign="top" width="10.97%" headers="mcps1.2.7.1.2 "><p id="p127528012920"><a name="p127528012920"></a><a name="p127528012920"></a>否</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.7.1.3 "><p id="p5752301191"><a name="p5752301191"></a><a name="p5752301191"></a>权重系数。</p>
 </td>
@@ -43,9 +43,9 @@
 <td class="cellrowborder" valign="top" width="18%" headers="mcps1.2.7.1.6 "><p id="p34835871175619"><a name="p34835871175619"></a><a name="p34835871175619"></a>0.85</p>
 </td>
 </tr>
-<tr id="row1883311181175"><td class="cellrowborder" valign="top" width="16%" headers="mcps1.2.7.1.1 "><p id="p07521208912"><a name="p07521208912"></a><a name="p07521208912"></a>convergence</p>
+<tr id="row1883311181175"><td class="cellrowborder" valign="top" width="16.03%" headers="mcps1.2.7.1.1 "><p id="p07521208912"><a name="p07521208912"></a><a name="p07521208912"></a>convergence</p>
 </td>
-<td class="cellrowborder" valign="top" width="11%" headers="mcps1.2.7.1.2 "><p id="p137529015913"><a name="p137529015913"></a><a name="p137529015913"></a>否</p>
+<td class="cellrowborder" valign="top" width="10.97%" headers="mcps1.2.7.1.2 "><p id="p137529015913"><a name="p137529015913"></a><a name="p137529015913"></a>否</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.7.1.3 "><p id="p87521501194"><a name="p87521501194"></a><a name="p87521501194"></a>收敛精度。</p>
 </td>
@@ -56,22 +56,22 @@
 <td class="cellrowborder" valign="top" width="18%" headers="mcps1.2.7.1.6 "><p id="p3133287175619"><a name="p3133287175619"></a><a name="p3133287175619"></a>0.00001</p>
 </td>
 </tr>
-<tr id="row136122160711"><td class="cellrowborder" valign="top" width="16%" headers="mcps1.2.7.1.1 "><p id="p20752001591"><a name="p20752001591"></a><a name="p20752001591"></a>max_iterations</p>
+<tr id="row136122160711"><td class="cellrowborder" valign="top" width="16.03%" headers="mcps1.2.7.1.1 "><p id="p20752001591"><a name="p20752001591"></a><a name="p20752001591"></a>max_iterations</p>
 </td>
-<td class="cellrowborder" valign="top" width="11%" headers="mcps1.2.7.1.2 "><p id="p475210694"><a name="p475210694"></a><a name="p475210694"></a>否</p>
+<td class="cellrowborder" valign="top" width="10.97%" headers="mcps1.2.7.1.2 "><p id="p475210694"><a name="p475210694"></a><a name="p475210694"></a>否</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.7.1.3 "><p id="p207531801297"><a name="p207531801297"></a><a name="p207531801297"></a>最大迭代次数。</p>
 </td>
-<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.7.1.4 "><p id="p126077114147"><a name="p126077114147"></a><a name="p126077114147"></a>Int</p>
+<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.7.1.4 "><p id="p126077114147"><a name="p126077114147"></a><a name="p126077114147"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.7.1.5 "><p id="p19133729890"><a name="p19133729890"></a><a name="p19133729890"></a>1~2000。</p>
 </td>
 <td class="cellrowborder" valign="top" width="18%" headers="mcps1.2.7.1.6 "><p id="p52469671175619"><a name="p52469671175619"></a><a name="p52469671175619"></a>1000</p>
 </td>
 </tr>
-<tr id="row147071213274"><td class="cellrowborder" valign="top" width="16%" headers="mcps1.2.7.1.1 "><p id="p030083010342"><a name="p030083010342"></a><a name="p030083010342"></a>directed</p>
+<tr id="row147071213274"><td class="cellrowborder" valign="top" width="16.03%" headers="mcps1.2.7.1.1 "><p id="p030083010342"><a name="p030083010342"></a><a name="p030083010342"></a>directed</p>
 </td>
-<td class="cellrowborder" valign="top" width="11%" headers="mcps1.2.7.1.2 "><p id="p0301193043415"><a name="p0301193043415"></a><a name="p0301193043415"></a>否</p>
+<td class="cellrowborder" valign="top" width="10.97%" headers="mcps1.2.7.1.2 "><p id="p0301193043415"><a name="p0301193043415"></a><a name="p0301193043415"></a>否</p>
 </td>
 <td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.7.1.3 "><p id="p4304183013347"><a name="p4304183013347"></a><a name="p4304183013347"></a>是否考虑边的方向。</p>
 </td>

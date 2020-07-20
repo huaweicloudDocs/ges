@@ -36,7 +36,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="16.247524752475247%" headers="mcps1.2.7.1.3 "><p id="p1689403515385"><a name="p1689403515385"></a><a name="p1689403515385"></a>最大迭代次数。</p>
 </td>
-<td class="cellrowborder" valign="top" width="11.99009900990099%" headers="mcps1.2.7.1.4 "><p id="p14722110202312"><a name="p14722110202312"></a><a name="p14722110202312"></a>Int</p>
+<td class="cellrowborder" valign="top" width="11.99009900990099%" headers="mcps1.2.7.1.4 "><p id="p14722110202312"><a name="p14722110202312"></a><a name="p14722110202312"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="27.61386138613861%" headers="mcps1.2.7.1.5 "><p id="p1149201253314"><a name="p1149201253314"></a><a name="p1149201253314"></a>1~2000。</p>
 </td>
@@ -66,7 +66,7 @@
 </tr>
 <tr id="row9328963524"><td class="cellrowborder" valign="top" width="12.030000000000001%" headers="mcps1.2.4.1.1 "><p id="p845143115210"><a name="p845143115210"></a><a name="p845143115210"></a>community_num</p>
 </td>
-<td class="cellrowborder" valign="top" width="15.340000000000002%" headers="mcps1.2.4.1.2 "><p id="p245154313528"><a name="p245154313528"></a><a name="p245154313528"></a>Int</p>
+<td class="cellrowborder" valign="top" width="15.340000000000002%" headers="mcps1.2.4.1.2 "><p id="p245154313528"><a name="p245154313528"></a><a name="p245154313528"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="72.63%" headers="mcps1.2.4.1.3 "><p id="p1645443145211"><a name="p1645443145211"></a><a name="p1645443145211"></a>社团数量。</p>
 </td>

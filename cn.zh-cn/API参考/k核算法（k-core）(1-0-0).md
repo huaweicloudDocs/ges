@@ -9,9 +9,9 @@
 </th>
 <th class="cellrowborder" valign="top" width="25%" id="mcps1.2.7.1.3"><p id="p13970150143414"><a name="p13970150143414"></a><a name="p13970150143414"></a>说明</p>
 </th>
-<th class="cellrowborder" valign="top" width="7.000000000000001%" id="mcps1.2.7.1.4"><p id="p1193205172815"><a name="p1193205172815"></a><a name="p1193205172815"></a>类型</p>
+<th class="cellrowborder" valign="top" width="10.59%" id="mcps1.2.7.1.4"><p id="p1193205172815"><a name="p1193205172815"></a><a name="p1193205172815"></a>类型</p>
 </th>
-<th class="cellrowborder" valign="top" width="25%" id="mcps1.2.7.1.5"><p id="p797265013410"><a name="p797265013410"></a><a name="p797265013410"></a>取值范围</p>
+<th class="cellrowborder" valign="top" width="21.41%" id="mcps1.2.7.1.5"><p id="p797265013410"><a name="p797265013410"></a><a name="p797265013410"></a>取值范围</p>
 </th>
 <th class="cellrowborder" valign="top" width="18%" id="mcps1.2.7.1.6"><p id="p345617411412"><a name="p345617411412"></a><a name="p345617411412"></a>默认值</p>
 </th>
@@ -24,9 +24,9 @@
 <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.7.1.3 "><p id="p3982950203412"><a name="p3982950203412"></a><a name="p3982950203412"></a>核数。</p>
 <p id="p20671725172810"><a name="p20671725172810"></a><a name="p20671725172810"></a>算法会返回核数大于等于k的节点。</p>
 </td>
-<td class="cellrowborder" valign="top" width="7.000000000000001%" headers="mcps1.2.7.1.4 "><p id="p12932517284"><a name="p12932517284"></a><a name="p12932517284"></a>Int</p>
+<td class="cellrowborder" valign="top" width="10.59%" headers="mcps1.2.7.1.4 "><p id="p12932517284"><a name="p12932517284"></a><a name="p12932517284"></a>Integer</p>
 </td>
-<td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.7.1.5 "><p id="p5439601785"><a name="p5439601785"></a><a name="p5439601785"></a>大于等于0。</p>
+<td class="cellrowborder" valign="top" width="21.41%" headers="mcps1.2.7.1.5 "><p id="p5439601785"><a name="p5439601785"></a><a name="p5439601785"></a>大于等于0。</p>
 </td>
 <td class="cellrowborder" valign="top" width="18%" headers="mcps1.2.7.1.6 "><p id="p94561842042"><a name="p94561842042"></a><a name="p94561842042"></a>-</p>
 </td>
@@ -53,7 +53,7 @@
 <p id="p63161133854"><a name="p63161133854"></a><a name="p63161133854"></a>[{vertexId:corenessValue},...],</p>
 <p id="p83008413714"><a name="p83008413714"></a><a name="p83008413714"></a>其中,</p>
 <p id="p276931513620"><a name="p276931513620"></a><a name="p276931513620"></a>vertexId：string类型</p>
-<p id="p42531732962"><a name="p42531732962"></a><a name="p42531732962"></a>corenessValue：int类型</p>
+<p id="p42531732962"><a name="p42531732962"></a><a name="p42531732962"></a>corenessValue：Integer类型</p>
 </td>
 </tr>
 </tbody>

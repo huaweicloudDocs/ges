@@ -23,7 +23,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="19.55%" headers="mcps1.2.7.1.3 "><p id="p108673415366"><a name="p108673415366"></a><a name="p108673415366"></a>跳数。</p>
 </td>
-<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.7.1.4 "><p id="p131511230151712"><a name="p131511230151712"></a><a name="p131511230151712"></a>Int</p>
+<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.7.1.4 "><p id="p131511230151712"><a name="p131511230151712"></a><a name="p131511230151712"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="32%" headers="mcps1.2.7.1.5 "><p id="p5871114143610"><a name="p5871114143610"></a><a name="p5871114143610"></a>1~10。</p>
 </td>
@@ -89,14 +89,14 @@
 </tr>
 <tr id="row897422619455"><td class="cellrowborder" valign="top" width="22.220000000000002%" headers="mcps1.2.4.1.1 "><p id="p9974226164516"><a name="p9974226164516"></a><a name="p9974226164516"></a>k</p>
 </td>
-<td class="cellrowborder" valign="top" width="18.54%" headers="mcps1.2.4.1.2 "><p id="p3974726114510"><a name="p3974726114510"></a><a name="p3974726114510"></a>Int</p>
+<td class="cellrowborder" valign="top" width="18.54%" headers="mcps1.2.4.1.2 "><p id="p3974726114510"><a name="p3974726114510"></a><a name="p3974726114510"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="59.24%" headers="mcps1.2.4.1.3 "><p id="p1974172613451"><a name="p1974172613451"></a><a name="p1974172613451"></a>跳数</p>
 </td>
 </tr>
 <tr id="row1791310197303"><td class="cellrowborder" valign="top" width="22.220000000000002%" headers="mcps1.2.4.1.1 "><p id="p13913919133010"><a name="p13913919133010"></a><a name="p13913919133010"></a>k_hop_neighbors</p>
 </td>
-<td class="cellrowborder" valign="top" width="18.54%" headers="mcps1.2.4.1.2 "><p id="p791311194300"><a name="p791311194300"></a><a name="p791311194300"></a>Int</p>
+<td class="cellrowborder" valign="top" width="18.54%" headers="mcps1.2.4.1.2 "><p id="p791311194300"><a name="p791311194300"></a><a name="p791311194300"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="59.24%" headers="mcps1.2.4.1.3 "><p id="p79131419173016"><a name="p79131419173016"></a><a name="p79131419173016"></a>k跳内的节点个数（不包含起点）</p>
 </td>

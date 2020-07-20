@@ -50,7 +50,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="18%" headers="mcps1.2.7.1.3 "><p id="p1671779594"><a name="p1671779594"></a><a name="p1671779594"></a>最大迭代次数。</p>
 </td>
-<td class="cellrowborder" valign="top" width="13%" headers="mcps1.2.7.1.4 "><p id="p17785739658"><a name="p17785739658"></a><a name="p17785739658"></a>Int</p>
+<td class="cellrowborder" valign="top" width="13%" headers="mcps1.2.7.1.4 "><p id="p17785739658"><a name="p17785739658"></a><a name="p17785739658"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="24%" headers="mcps1.2.7.1.5 "><p id="p92561811184518"><a name="p92561811184518"></a><a name="p92561811184518"></a>1~2000。</p>
 </td>
