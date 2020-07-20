@@ -49,7 +49,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="39.316326530612244%" headers="mcps1.2.7.1.3 "><p id="p1398054852016"><a name="p1398054852016"></a><a name="p1398054852016"></a>总的游走步数。</p>
 </td>
-<td class="cellrowborder" valign="top" width="9.918367346938775%" headers="mcps1.2.7.1.4 "><p id="p528250182513"><a name="p528250182513"></a><a name="p528250182513"></a>Int</p>
+<td class="cellrowborder" valign="top" width="9.918367346938775%" headers="mcps1.2.7.1.4 "><p id="p528250182513"><a name="p528250182513"></a><a name="p528250182513"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="20.6734693877551%" headers="mcps1.2.7.1.5 "><p id="p186981016142419"><a name="p186981016142419"></a><a name="p186981016142419"></a>1~200000。</p>
 </td>
@@ -64,7 +64,7 @@
 <div class="note" id="note476272392727"><a name="note476272392727"></a><a name="note476272392727"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p4523345092742"><a name="p4523345092742"></a><a name="p4523345092742"></a>对于一个节点，如果其在随机游走过程被访问到，且被访问到的次数达到<span class="parmname" id="parmname4979810192743"><a name="parmname4979810192743"></a><a name="parmname4979810192743"></a>“nv”</span>，则该节点将记入候选推荐的节点。</p>
 </div></div>
 </td>
-<td class="cellrowborder" valign="top" width="9.918367346938775%" headers="mcps1.2.7.1.4 "><p id="p132805062513"><a name="p132805062513"></a><a name="p132805062513"></a>Int</p>
+<td class="cellrowborder" valign="top" width="9.918367346938775%" headers="mcps1.2.7.1.4 "><p id="p132805062513"><a name="p132805062513"></a><a name="p132805062513"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="20.6734693877551%" headers="mcps1.2.7.1.5 "><p id="p11449161112417"><a name="p11449161112417"></a><a name="p11449161112417"></a>1~10。</p>
 </td>
@@ -79,7 +79,7 @@
 <div class="note" id="note3023786192927"><a name="note3023786192927"></a><a name="note3023786192927"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p370529392927"><a name="p370529392927"></a><a name="p370529392927"></a>若某个source节点的候选推荐节点达到<span class="parmname" id="parmname141088329305"><a name="parmname141088329305"></a><a name="parmname141088329305"></a>“np”</span>，对于该source节点的随机游走将提前结束。</p>
 </div></div>
 </td>
-<td class="cellrowborder" valign="top" width="9.918367346938775%" headers="mcps1.2.7.1.4 "><p id="p102865072517"><a name="p102865072517"></a><a name="p102865072517"></a>Int</p>
+<td class="cellrowborder" valign="top" width="9.918367346938775%" headers="mcps1.2.7.1.4 "><p id="p102865072517"><a name="p102865072517"></a><a name="p102865072517"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="20.6734693877551%" headers="mcps1.2.7.1.5 "><p id="p744711192420"><a name="p744711192420"></a><a name="p744711192420"></a>1~2000。</p>
 </td>

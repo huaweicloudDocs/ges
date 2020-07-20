@@ -82,7 +82,7 @@
 </tr>
 <tr id="row1691810920714"><td class="cellrowborder" valign="top" width="15.870000000000001%" headers="mcps1.2.4.1.1 "><p id="p0918209275"><a name="p0918209275"></a><a name="p0918209275"></a>paths_number</p>
 </td>
-<td class="cellrowborder" valign="top" width="20.23%" headers="mcps1.2.4.1.2 "><p id="p79181991976"><a name="p79181991976"></a><a name="p79181991976"></a>Int</p>
+<td class="cellrowborder" valign="top" width="20.23%" headers="mcps1.2.4.1.2 "><p id="p79181991976"><a name="p79181991976"></a><a name="p79181991976"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="63.9%" headers="mcps1.2.4.1.3 "><p id="p891815916712"><a name="p891815916712"></a><a name="p891815916712"></a>路径个数</p>
 </td>

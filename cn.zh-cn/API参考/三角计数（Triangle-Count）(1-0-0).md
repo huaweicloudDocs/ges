@@ -13,7 +13,7 @@
 </thead>
 <tbody><tr id="row11559174543719"><td class="cellrowborder" valign="top" width="30%" headers="mcps1.2.4.1.1 "><p id="p1155916459378"><a name="p1155916459378"></a><a name="p1155916459378"></a>triangle_count</p>
 </td>
-<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p555944543714"><a name="p555944543714"></a><a name="p555944543714"></a>Int</p>
+<td class="cellrowborder" valign="top" width="20%" headers="mcps1.2.4.1.2 "><p id="p555944543714"><a name="p555944543714"></a><a name="p555944543714"></a>Integer</p>
 </td>
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.4.1.3 "><p id="p05591458371"><a name="p05591458371"></a><a name="p05591458371"></a>三角形个数</p>
 </td>
