@@ -7,9 +7,9 @@
 </th>
 <th class="cellrowborder" valign="top" width="10.45%" id="mcps1.2.7.1.2"><p id="p1184317420365"><a name="p1184317420365"></a><a name="p1184317420365"></a>是否必选</p>
 </th>
-<th class="cellrowborder" valign="top" width="19.55%" id="mcps1.2.7.1.3"><p id="p1884714473613"><a name="p1884714473613"></a><a name="p1884714473613"></a>说明</p>
+<th class="cellrowborder" valign="top" width="19.46%" id="mcps1.2.7.1.3"><p id="p1884714473613"><a name="p1884714473613"></a><a name="p1884714473613"></a>说明</p>
 </th>
-<th class="cellrowborder" valign="top" width="10%" id="mcps1.2.7.1.4"><p id="p6151173011175"><a name="p6151173011175"></a><a name="p6151173011175"></a>类型</p>
+<th class="cellrowborder" valign="top" width="10.09%" id="mcps1.2.7.1.4"><p id="p6151173011175"><a name="p6151173011175"></a><a name="p6151173011175"></a>类型</p>
 </th>
 <th class="cellrowborder" valign="top" width="32%" id="mcps1.2.7.1.5"><p id="p1685412415365"><a name="p1685412415365"></a><a name="p1685412415365"></a>取值范围</p>
 </th>
@@ -21,22 +21,35 @@
 </td>
 <td class="cellrowborder" valign="top" width="10.45%" headers="mcps1.2.7.1.2 "><p id="p11864947363"><a name="p11864947363"></a><a name="p11864947363"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="19.55%" headers="mcps1.2.7.1.3 "><p id="p108673415366"><a name="p108673415366"></a><a name="p108673415366"></a>跳数。</p>
+<td class="cellrowborder" valign="top" width="19.46%" headers="mcps1.2.7.1.3 "><p id="p108673415366"><a name="p108673415366"></a><a name="p108673415366"></a>跳数。</p>
 </td>
-<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.7.1.4 "><p id="p131511230151712"><a name="p131511230151712"></a><a name="p131511230151712"></a>Integer</p>
+<td class="cellrowborder" valign="top" width="10.09%" headers="mcps1.2.7.1.4 "><p id="p131511230151712"><a name="p131511230151712"></a><a name="p131511230151712"></a>Integer</p>
 </td>
-<td class="cellrowborder" valign="top" width="32%" headers="mcps1.2.7.1.5 "><p id="p5871114143610"><a name="p5871114143610"></a><a name="p5871114143610"></a>1~10。</p>
+<td class="cellrowborder" valign="top" width="32%" headers="mcps1.2.7.1.5 "><p id="p5871114143610"><a name="p5871114143610"></a><a name="p5871114143610"></a>1~100。</p>
 </td>
 <td class="cellrowborder" valign="top" width="16%" headers="mcps1.2.7.1.6 "><p id="p25348953141819"><a name="p25348953141819"></a><a name="p25348953141819"></a>-</p>
+</td>
+</tr>
+<tr id="row2026412719594"><td class="cellrowborder" valign="top" width="12%" headers="mcps1.2.7.1.1 "><p id="p1726562712596"><a name="p1726562712596"></a><a name="p1726562712596"></a>k_upper</p>
+</td>
+<td class="cellrowborder" valign="top" width="10.45%" headers="mcps1.2.7.1.2 "><p id="p1026619277593"><a name="p1026619277593"></a><a name="p1026619277593"></a>否</p>
+</td>
+<td class="cellrowborder" valign="top" width="19.46%" headers="mcps1.2.7.1.3 "><p id="p82661527115913"><a name="p82661527115913"></a><a name="p82661527115913"></a>修改k的上限。</p>
+</td>
+<td class="cellrowborder" valign="top" width="10.09%" headers="mcps1.2.7.1.4 "><p id="p45421017"><a name="p45421017"></a><a name="p45421017"></a>Integer</p>
+</td>
+<td class="cellrowborder" valign="top" width="32%" headers="mcps1.2.7.1.5 "><p id="p82662279593"><a name="p82662279593"></a><a name="p82662279593"></a>1~10000。</p>
+</td>
+<td class="cellrowborder" valign="top" width="16%" headers="mcps1.2.7.1.6 "><p id="p826672718595"><a name="p826672718595"></a><a name="p826672718595"></a>-</p>
 </td>
 </tr>
 <tr id="row1787664183613"><td class="cellrowborder" valign="top" width="12%" headers="mcps1.2.7.1.1 "><p id="p6879740367"><a name="p6879740367"></a><a name="p6879740367"></a>source</p>
 </td>
 <td class="cellrowborder" valign="top" width="10.45%" headers="mcps1.2.7.1.2 "><p id="p5882184143619"><a name="p5882184143619"></a><a name="p5882184143619"></a>是</p>
 </td>
-<td class="cellrowborder" valign="top" width="19.55%" headers="mcps1.2.7.1.3 "><p id="p11884144133614"><a name="p11884144133614"></a><a name="p11884144133614"></a>节点的ID。</p>
+<td class="cellrowborder" valign="top" width="19.46%" headers="mcps1.2.7.1.3 "><p id="p11884144133614"><a name="p11884144133614"></a><a name="p11884144133614"></a>节点的ID。</p>
 </td>
-<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.7.1.4 "><p id="p17152163017175"><a name="p17152163017175"></a><a name="p17152163017175"></a>String</p>
+<td class="cellrowborder" valign="top" width="10.09%" headers="mcps1.2.7.1.4 "><p id="p17152163017175"><a name="p17152163017175"></a><a name="p17152163017175"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="32%" headers="mcps1.2.7.1.5 "><p id="p143915011811"><a name="p143915011811"></a><a name="p143915011811"></a>-</p>
 </td>
@@ -47,10 +60,10 @@
 </td>
 <td class="cellrowborder" valign="top" width="10.45%" headers="mcps1.2.7.1.2 "><p id="p132526141528"><a name="p132526141528"></a><a name="p132526141528"></a>否</p>
 </td>
-<td class="cellrowborder" valign="top" width="19.55%" headers="mcps1.2.7.1.3 "><p id="p10734685141528"><a name="p10734685141528"></a><a name="p10734685141528"></a>方向。</p>
+<td class="cellrowborder" valign="top" width="19.46%" headers="mcps1.2.7.1.3 "><p id="p10734685141528"><a name="p10734685141528"></a><a name="p10734685141528"></a>方向。</p>
 <a name="ul61647365181433"></a><a name="ul61647365181433"></a><ul id="ul61647365181433"><li>OUT：沿出边跳。</li><li>IN：沿入边跳。</li><li>ALL：双向跳。</li></ul>
 </td>
-<td class="cellrowborder" valign="top" width="10%" headers="mcps1.2.7.1.4 "><p id="p515263051719"><a name="p515263051719"></a><a name="p515263051719"></a>String</p>
+<td class="cellrowborder" valign="top" width="10.09%" headers="mcps1.2.7.1.4 "><p id="p515263051719"><a name="p515263051719"></a><a name="p515263051719"></a>String</p>
 </td>
 <td class="cellrowborder" valign="top" width="32%" headers="mcps1.2.7.1.5 "><p id="p64203189141528"><a name="p64203189141528"></a><a name="p64203189141528"></a>OUT，IN，ALL。</p>
 </td>
