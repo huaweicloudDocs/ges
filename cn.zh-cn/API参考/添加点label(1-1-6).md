@@ -8,7 +8,9 @@
 
 -   URI格式
 
-    POST /ges/v1.0/\{projectId\}/graphs/\{graphName\}/vertices/\{vertexId\}/labels
+    ```
+    POST /ges/v1.0/{projectId}/graphs/{graphName}/vertices/{vertexId}/labels
+    ```
 
 
 -   参数说明

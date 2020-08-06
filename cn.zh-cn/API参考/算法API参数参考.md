@@ -10,15 +10,11 @@
 
 -   **[k跳算法（k-hop）\(1.0.0\)](k跳算法（k-hop）(1-0-0).md)**  
 
--   **[最短路径（Shortest Path）\(1.0.0\)](最短路径（Shortest-Path）(1-0-0).md)**  
-
 -   **[最短路径（Shortest Path）\(2.1.5\)](最短路径（Shortest-Path）(2-1-5).md)**  
 
 -   **[全最短路（All Shortest Paths）\(1.0.12\)](全最短路（All-Shortest-Paths）(1-0-12).md)**  
 
 -   **[单源最短路（SSSP）\(1.0.0\)](单源最短路（SSSP）(1-0-0).md)**  
-
--   **[点集最短路（Shortest Path of Vertex Sets）\(1.0.0\)](点集最短路（Shortest-Path-of-Vertex-Sets）(1-0-0).md)**  
 
 -   **[点集最短路（Shortest Path of Vertex Sets）\(2.1.5\)](点集最短路（Shortest-Path-of-Vertex-Sets）(2-1-5).md)**  
 
@@ -26,11 +22,7 @@
 
 -   **[紧密中心度（Closeness Centrality）\(1.0.0\)](紧密中心度（Closeness-Centrality）(1-0-0).md)**  
 
--   **[标签传播（Label Propagation）\(1.0.0\)](标签传播（Label-Propagation）(1-0-0).md)**  
-
 -   **[标签传播（Label Propagation）\(2.1.8\)](标签传播（Label-Propagation）(2-1-8).md)**  
-
--   **[Louvain算法\(1.0.0\)](Louvain算法(1-0-0).md)**  
 
 -   **[Louvain算法\(2.2.1\)](Louvain算法(2-2-1).md)**  
 
