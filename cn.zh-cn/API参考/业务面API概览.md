@@ -114,6 +114,24 @@ GES业务面API包括点操作、边操作、元数据操作、Gremlin操作、�
 <td class="cellrowborder" valign="top" width="30.3969603039696%" headers="mcps1.2.5.1.4 "><p id="p857242313817"><a name="p857242313817"></a><a name="p857242313817"></a>删除点的标签。</p>
 </td>
 </tr>
+<tr id="row919464512820"><td class="cellrowborder" valign="top" width="10.93890610938906%" headers="mcps1.2.5.1.1 "><p id="p20195144592814"><a name="p20195144592814"></a><a name="p20195144592814"></a>导出过滤后的点</p>
+</td>
+<td class="cellrowborder" valign="top" width="6.869313068693131%" headers="mcps1.2.5.1.2 "><p id="p81951454289"><a name="p81951454289"></a><a name="p81951454289"></a><a href="导出过滤后的点（2-2-7）.md">2.2.7</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="51.7948205179482%" headers="mcps1.2.5.1.3 "><pre class="screen" id="screen16797996175049"><a name="screen16797996175049"></a><a name="screen16797996175049"></a>POST /ges/v1.0/{projectId}/graphs/{graphName}/vertices/action?action_id=export</pre>
+</td>
+<td class="cellrowborder" valign="top" width="30.3969603039696%" headers="mcps1.2.5.1.4 "><p id="p51961945132818"><a name="p51961945132818"></a><a name="p51961945132818"></a>导出满足过滤条件的顶点集合。</p>
+</td>
+</tr>
+<tr id="row4935194882812"><td class="cellrowborder" valign="top" width="10.93890610938906%" headers="mcps1.2.5.1.1 "><p id="p1993617488286"><a name="p1993617488286"></a><a name="p1993617488286"></a>删除过滤后的点</p>
+</td>
+<td class="cellrowborder" valign="top" width="6.869313068693131%" headers="mcps1.2.5.1.2 "><p id="p16936144810282"><a name="p16936144810282"></a><a name="p16936144810282"></a><a href="删除过滤后的点（2-2-7）.md">2.2.7</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="51.7948205179482%" headers="mcps1.2.5.1.3 "><pre class="screen" id="screen94741259173018"><a name="screen94741259173018"></a><a name="screen94741259173018"></a>POST /ges/v1.0/{projectId}/graphs/{graphName}/vertices/action?action_id=delete</pre>
+</td>
+<td class="cellrowborder" valign="top" width="30.3969603039696%" headers="mcps1.2.5.1.4 "><p id="p16936348192818"><a name="p16936348192818"></a><a name="p16936348192818"></a>删除满足过滤条件的顶点集合。</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -211,6 +229,24 @@ GES业务面API包括点操作、边操作、元数据操作、Gremlin操作、�
 <td class="cellrowborder" valign="top" width="29.69%" headers="mcps1.2.5.1.4 "><p id="p1267944917117"><a name="p1267944917117"></a><a name="p1267944917117"></a>批量更新边属性。</p>
 </td>
 </tr>
+<tr id="row106381924173214"><td class="cellrowborder" valign="top" width="11.06%" headers="mcps1.2.5.1.1 "><p id="p166384248321"><a name="p166384248321"></a><a name="p166384248321"></a>导出过滤后的边</p>
+</td>
+<td class="cellrowborder" valign="top" width="6.64%" headers="mcps1.2.5.1.2 "><p id="p156381924203218"><a name="p156381924203218"></a><a name="p156381924203218"></a><a href="导出过滤后的边（2-2-7）.md">2.2.7</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="52.61%" headers="mcps1.2.5.1.3 "><p id="p17639132414324"><a name="p17639132414324"></a><a name="p17639132414324"></a>POST /ges/v1.0/{projectId}/graphs/{graphName}/edges/action?action_id=export</p>
+</td>
+<td class="cellrowborder" valign="top" width="29.69%" headers="mcps1.2.5.1.4 "><p id="p76391243325"><a name="p76391243325"></a><a name="p76391243325"></a>导出满足过滤条件的边集合。</p>
+</td>
+</tr>
+<tr id="row14312228193213"><td class="cellrowborder" valign="top" width="11.06%" headers="mcps1.2.5.1.1 "><p id="p3312102853217"><a name="p3312102853217"></a><a name="p3312102853217"></a>删除过滤后的边</p>
+</td>
+<td class="cellrowborder" valign="top" width="6.64%" headers="mcps1.2.5.1.2 "><p id="p6312828163212"><a name="p6312828163212"></a><a name="p6312828163212"></a><a href="删除过滤后的边（2-2-7）.md">2.2.7</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="52.61%" headers="mcps1.2.5.1.3 "><p id="p20786165293418"><a name="p20786165293418"></a><a name="p20786165293418"></a>POST /ges/v1.0/{projectId}/graphs/{graphName}/edges/action?action_id=delete</p>
+</td>
+<td class="cellrowborder" valign="top" width="29.69%" headers="mcps1.2.5.1.4 "><p id="p1928912304185"><a name="p1928912304185"></a><a name="p1928912304185"></a>删除满足过滤条件的边集合。</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -245,15 +281,6 @@ GES业务面API包括点操作、边操作、元数据操作、Gremlin操作、�
 <td class="cellrowborder" valign="top" width="15.251525152515253%" headers="mcps1.2.5.1.4 "><p id="p13013317372"><a name="p13013317372"></a><a name="p13013317372"></a>添加点label。</p>
 </td>
 </tr>
-<tr id="row1837938103813"><td class="cellrowborder" valign="top" width="13.741374137413743%" headers="mcps1.2.5.1.1 "><p id="p12838113810389"><a name="p12838113810389"></a><a name="p12838113810389"></a>删除点label</p>
-</td>
-<td class="cellrowborder" valign="top" width="6.8706870687068715%" headers="mcps1.2.5.1.2 "><p id="p023817593112"><a name="p023817593112"></a><a name="p023817593112"></a><a href="删除点label(1-1-6).md">1.1.6</a></p>
-</td>
-<td class="cellrowborder" valign="top" width="64.13641364136414%" headers="mcps1.2.5.1.3 "><p id="p1514224012407"><a name="p1514224012407"></a><a name="p1514224012407"></a>DELETE/ges/v1.0/{projectId}/graphs/{graphName}/vertices/{vertexId}/labels/{labelName}</p>
-</td>
-<td class="cellrowborder" valign="top" width="15.251525152515253%" headers="mcps1.2.5.1.4 "><p id="p2838838153819"><a name="p2838838153819"></a><a name="p2838838153819"></a>删除点label。</p>
-</td>
-</tr>
 <tr id="row128136537387"><td class="cellrowborder" valign="top" width="13.741374137413743%" headers="mcps1.2.5.1.1 "><p id="p9813105317387"><a name="p9813105317387"></a><a name="p9813105317387"></a>查询元数据详情</p>
 </td>
 <td class="cellrowborder" valign="top" width="6.8706870687068715%" headers="mcps1.2.5.1.2 "><p id="p11239135143113"><a name="p11239135143113"></a><a name="p11239135143113"></a><a href="查询图元数据详情（1-0-0）.md">1.0.0</a></p>
@@ -266,7 +293,50 @@ GES业务面API包括点操作、边操作、元数据操作、Gremlin操作、�
 </tbody>
 </table>
 
-**表 4**  Gremlin操作API
+**表 4**  索引操作API
+
+<a name="table1118427174912"></a>
+<table><thead align="left"><tr id="row13119152710491"><th class="cellrowborder" valign="top" width="9.86%" id="mcps1.2.5.1.1"><p id="p957784412493"><a name="p957784412493"></a><a name="p957784412493"></a>名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="5.91%" id="mcps1.2.5.1.2"><p id="p14577944114917"><a name="p14577944114917"></a><a name="p14577944114917"></a>版本</p>
+</th>
+<th class="cellrowborder" valign="top" width="62.86000000000001%" id="mcps1.2.5.1.3"><p id="p19577184416490"><a name="p19577184416490"></a><a name="p19577184416490"></a>URL</p>
+</th>
+<th class="cellrowborder" valign="top" width="21.37%" id="mcps1.2.5.1.4"><p id="p65779445495"><a name="p65779445495"></a><a name="p65779445495"></a>功能描述</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row01191627184913"><td class="cellrowborder" valign="top" width="9.86%" headers="mcps1.2.5.1.1 "><p id="p1611962711494"><a name="p1611962711494"></a><a name="p1611962711494"></a>新建索引</p>
+</td>
+<td class="cellrowborder" valign="top" width="5.91%" headers="mcps1.2.5.1.2 "><p id="p11119142754913"><a name="p11119142754913"></a><a name="p11119142754913"></a><a href="zh-cn_topic_0117499507.md">1.1.6</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="62.86000000000001%" headers="mcps1.2.5.1.3 "><p id="p1623885116452"><a name="p1623885116452"></a><a name="p1623885116452"></a>POST /ges/v1.0/{projectId}/graphs/{graphName}/indices</p>
+</td>
+<td class="cellrowborder" valign="top" width="21.37%" headers="mcps1.2.5.1.4 "><p id="p1518573615218"><a name="p1518573615218"></a><a name="p1518573615218"></a>新建索引。</p>
+</td>
+</tr>
+<tr id="row1011912270490"><td class="cellrowborder" valign="top" width="9.86%" headers="mcps1.2.5.1.1 "><p id="p611992714494"><a name="p611992714494"></a><a name="p611992714494"></a>删除索引</p>
+</td>
+<td class="cellrowborder" valign="top" width="5.91%" headers="mcps1.2.5.1.2 "><p id="p083131317919"><a name="p083131317919"></a><a name="p083131317919"></a><a href="删除索引(1-1-6).md">1.1.6</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="62.86000000000001%" headers="mcps1.2.5.1.3 "><p id="p15335195934516"><a name="p15335195934516"></a><a name="p15335195934516"></a>DELETE /ges/v1.0/{projectId}/graphs/{graphName}/indices/{indexName}</p>
+</td>
+<td class="cellrowborder" valign="top" width="21.37%" headers="mcps1.2.5.1.4 "><p id="p818573645219"><a name="p818573645219"></a><a name="p818573645219"></a>删除索引。</p>
+</td>
+</tr>
+<tr id="row497616107501"><td class="cellrowborder" valign="top" width="9.86%" headers="mcps1.2.5.1.1 "><p id="p1097781095010"><a name="p1097781095010"></a><a name="p1097781095010"></a>查询索引</p>
+</td>
+<td class="cellrowborder" valign="top" width="5.91%" headers="mcps1.2.5.1.2 "><p id="p0100513897"><a name="p0100513897"></a><a name="p0100513897"></a><a href="查询索引(1-1-6).md">1.1.6</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="62.86000000000001%" headers="mcps1.2.5.1.3 "><p id="p75082913464"><a name="p75082913464"></a><a name="p75082913464"></a>GET /ges/v1.0/{projectId}/graphs/{graphName}/indices</p>
+</td>
+<td class="cellrowborder" valign="top" width="21.37%" headers="mcps1.2.5.1.4 "><p id="p118513619522"><a name="p118513619522"></a><a name="p118513619522"></a>查询索引。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**表 5**  Gremlin操作API
 
 <a name="table11921448105220"></a>
 <table><thead align="left"><tr id="row59229488522"><th class="cellrowborder" valign="top" width="14.13%" id="mcps1.2.5.1.1"><p id="p4958101410537"><a name="p4958101410537"></a><a name="p4958101410537"></a>名称</p>
@@ -291,7 +361,7 @@ GES业务面API包括点操作、边操作、元数据操作、Gremlin操作、�
 </tbody>
 </table>
 
-**表 5**  算法API
+**表 6**  算法API
 
 <a name="table155439525540"></a>
 <table><thead align="left"><tr id="row165438525544"><th class="cellrowborder" valign="top" width="11.219999999999999%" id="mcps1.2.5.1.1"><p id="p42500515518"><a name="p42500515518"></a><a name="p42500515518"></a>名称</p>
@@ -316,7 +386,7 @@ GES业务面API包括点操作、边操作、元数据操作、Gremlin操作、�
 </tbody>
 </table>
 
-**表 6**  路径API
+**表 7**  路径API
 
 <a name="table735132320325"></a>
 <table><thead align="left"><tr id="row1736132323219"><th class="cellrowborder" valign="top" width="11.219999999999999%" id="mcps1.2.5.1.1"><p id="p123612311321"><a name="p123612311321"></a><a name="p123612311321"></a>名称</p>
@@ -341,7 +411,7 @@ GES业务面API包括点操作、边操作、元数据操作、Gremlin操作、�
 </tbody>
 </table>
 
-**表 7**  图统计API
+**表 8**  图统计API
 
 <a name="table1178265135611"></a>
 <table><thead align="left"><tr id="row6783105135614"><th class="cellrowborder" valign="top" width="14.108589141085892%" id="mcps1.2.5.1.1"><p id="p1830693955714"><a name="p1830693955714"></a><a name="p1830693955714"></a>名称</p>
@@ -375,7 +445,7 @@ GES业务面API包括点操作、边操作、元数据操作、Gremlin操作、�
 </tbody>
 </table>
 
-**表 8**  子图操作API
+**表 9**  子图操作API
 
 <a name="table1585612113416"></a>
 <table><thead align="left"><tr id="row98571021183413"><th class="cellrowborder" valign="top" width="11.95%" id="mcps1.2.5.1.1"><p id="p188571621183413"><a name="p188571621183413"></a><a name="p188571621183413"></a>名称</p>
@@ -400,7 +470,7 @@ GES业务面API包括点操作、边操作、元数据操作、Gremlin操作、�
 </tbody>
 </table>
 
-**表 9**  Job管理相关接口
+**表 10**  Job管理相关接口
 
 <a name="table18909727165717"></a>
 <table><thead align="left"><tr id="row3910192716570"><th class="cellrowborder" valign="top" width="14.510000000000002%" id="mcps1.2.5.1.1"><p id="p15730141155919"><a name="p15730141155919"></a><a name="p15730141155919"></a>名称</p>
@@ -429,6 +499,58 @@ GES业务面API包括点操作、边操作、元数据操作、Gremlin操作、�
 <td class="cellrowborder" valign="top" width="50.93%" headers="mcps1.2.5.1.3 "><p id="p320117497564"><a name="p320117497564"></a><a name="p320117497564"></a>DELETE https://Endpoint/ges/v1.0/{projectId}/graphs/{graphName}/jobs/{jobId}</p>
 </td>
 <td class="cellrowborder" valign="top" width="26.88%" headers="mcps1.2.5.1.4 "><p id="p1543214284116"><a name="p1543214284116"></a><a name="p1543214284116"></a>取消Job。</p>
+</td>
+</tr>
+<tr id="row13543124418392"><td class="cellrowborder" valign="top" width="14.510000000000002%" headers="mcps1.2.5.1.1 "><p id="p25431744113917"><a name="p25431744113917"></a><a name="p25431744113917"></a>导出job返回结果到文件</p>
+</td>
+<td class="cellrowborder" valign="top" width="7.68%" headers="mcps1.2.5.1.2 "><p id="p125431944183914"><a name="p125431944183914"></a><a name="p125431944183914"></a><a href="导出job返回结果到文件(2-2-1).md">2.2.1</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="50.93%" headers="mcps1.2.5.1.3 "><p id="p105431944163911"><a name="p105431944163911"></a><a name="p105431944163911"></a>POST /ges/v1.0/{projectId}/graphs/{graphName}/jobs/{jobId}/action?action_id=export-result</p>
+</td>
+<td class="cellrowborder" valign="top" width="26.88%" headers="mcps1.2.5.1.4 "><p id="p10543144113916"><a name="p10543144113916"></a><a name="p10543144113916"></a>用于将异步任务（jobId）的执行结果（result）导出到文件。</p>
+</td>
+</tr>
+<tr id="row198619414395"><td class="cellrowborder" valign="top" width="14.510000000000002%" headers="mcps1.2.5.1.1 "><p id="p1088124163917"><a name="p1088124163917"></a><a name="p1088124163917"></a>查询job列表</p>
+</td>
+<td class="cellrowborder" valign="top" width="7.68%" headers="mcps1.2.5.1.2 "><p id="p2888411395"><a name="p2888411395"></a><a name="p2888411395"></a><a href="查询job列表（2-2-13）.md">2.2.13</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="50.93%" headers="mcps1.2.5.1.3 "><p id="p13881241163911"><a name="p13881241163911"></a><a name="p13881241163911"></a>GET /ges/v1.0/{projectId}/graphs/{graphName}/jobs/status?limit={limit}&amp;offset={offset}</p>
+</td>
+<td class="cellrowborder" valign="top" width="26.88%" headers="mcps1.2.5.1.4 "><p id="p12609929152211"><a name="p12609929152211"></a><a name="p12609929152211"></a>异步任务jobId返回后，若jobId业务层丢失无法通过接口重新获取，现在提供一个新的接口用于查询engine中保存的所有异步任务，返回每个任务的jobId、job状态、原始请求。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**表 11**  其他业务面API
+
+<a name="table196021581419"></a>
+<table><thead align="left"><tr id="row1160255161414"><th class="cellrowborder" valign="top" width="24.39%" id="mcps1.2.5.1.1"><p id="p161212281413"><a name="p161212281413"></a><a name="p161212281413"></a>名称</p>
+</th>
+<th class="cellrowborder" valign="top" width="12.770000000000001%" id="mcps1.2.5.1.2"><p id="p7612132216144"><a name="p7612132216144"></a><a name="p7612132216144"></a>版本</p>
+</th>
+<th class="cellrowborder" valign="top" width="37.84%" id="mcps1.2.5.1.3"><p id="p18612122221415"><a name="p18612122221415"></a><a name="p18612122221415"></a>URL</p>
+</th>
+<th class="cellrowborder" valign="top" width="25%" id="mcps1.2.5.1.4"><p id="p461214228148"><a name="p461214228148"></a><a name="p461214228148"></a>功能描述</p>
+</th>
+</tr>
+</thead>
+<tbody><tr id="row3603357142"><td class="cellrowborder" valign="top" width="24.39%" headers="mcps1.2.5.1.1 "><p id="p116032561411"><a name="p116032561411"></a><a name="p116032561411"></a>Filtered-query API</p>
+</td>
+<td class="cellrowborder" valign="top" width="12.770000000000001%" headers="mcps1.2.5.1.2 "><p id="p1160312512140"><a name="p1160312512140"></a><a name="p1160312512140"></a><a href="Filtered-query-API.md">2.2.15</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="37.84%" headers="mcps1.2.5.1.3 "><p id="p166034571416"><a name="p166034571416"></a><a name="p166034571416"></a>POST /ges/v1.0/{projectId}/graphs/{graphName}/action?action_id=filtered-query</p>
+</td>
+<td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.4 "><p id="p17603165191417"><a name="p17603165191417"></a><a name="p17603165191417"></a>对k跳过程进行逐层过滤，列出满足过滤条件的第k跳节点或边。</p>
+</td>
+</tr>
+<tr id="row260395121411"><td class="cellrowborder" valign="top" width="24.39%" headers="mcps1.2.5.1.1 "><p id="p16037513144"><a name="p16037513144"></a><a name="p16037513144"></a>通过导入文件更新点边的指定属性</p>
+</td>
+<td class="cellrowborder" valign="top" width="12.770000000000001%" headers="mcps1.2.5.1.2 "><p id="p2603145181415"><a name="p2603145181415"></a><a name="p2603145181415"></a><a href="通过导入文件更新点边的指定属性（2-2-13）.md">2.2.13</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="37.84%" headers="mcps1.2.5.1.3 "><p id="p8603359146"><a name="p8603359146"></a><a name="p8603359146"></a>POST  /v1.0/{projectId}/graphs/{graphName}/action?action_id=import-properties</p>
+</td>
+<td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.4 "><p id="p26037531413"><a name="p26037531413"></a><a name="p26037531413"></a>通过导入文件更新点边的指定属性。</p>
 </td>
 </tr>
 </tbody>

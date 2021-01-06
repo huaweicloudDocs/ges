@@ -76,8 +76,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="63.9%" headers="mcps1.2.4.1.3 "><p id="p1155320514381"><a name="p1155320514381"></a><a name="p1155320514381"></a>source节点和target节点之间所有的最短路径，格式：</p>
 <p id="p18167182012413"><a name="p18167182012413"></a><a name="p18167182012413"></a>[[path1],[path2]]</p>
-<p id="p13522949115819"><a name="p13522949115819"></a><a name="p13522949115819"></a>其中，</p>
-<p id="p9216437572"><a name="p9216437572"></a><a name="p9216437572"></a>路径（path）的格式可参考：<a href="最短路径（Shortest-Path）(1-0-0).md">最短路径（Shortest Path）(1.0.0)</a></p>
+<p id="p9216437572"><a name="p9216437572"></a><a name="p9216437572"></a>其中，路径（path）的格式可参考：<a href="最短路径（Shortest-Path）(1-0-0).md">最短路径（Shortest Path）</a>。</p>
 </td>
 </tr>
 <tr id="row1691810920714"><td class="cellrowborder" valign="top" width="15.870000000000001%" headers="mcps1.2.4.1.1 "><p id="p0918209275"><a name="p0918209275"></a><a name="p0918209275"></a>paths_number</p>

@@ -14,6 +14,8 @@
 
 -   **[全最短路（All Shortest Paths）\(1.0.12\)](全最短路（All-Shortest-Paths）(1-0-12).md)**  
 
+-   **[带一般过滤条件最短路径（Filtered Shortest Path）\(2.2.4\)](带一般过滤条件最短路径（Filtered-Shortest-Path）(2-2-4).md)**  
+
 -   **[单源最短路（SSSP）\(1.0.0\)](单源最短路（SSSP）(1-0-0).md)**  
 
 -   **[点集最短路（Shortest Path of Vertex Sets）\(2.1.5\)](点集最短路（Shortest-Path-of-Vertex-Sets）(2-1-5).md)**  
@@ -41,5 +43,9 @@
 -   **[三角计数（Triangle Count）\(1.0.0\)](三角计数（Triangle-Count）(1-0-0).md)**  
 
 -   **[聚类系数（Cluster Coefficient）\(1.0.0\)](聚类系数（Cluster-Coefficient）(1-0-0).md)**  
+
+-   **[点集共同邻居（Common Neighbors of Vertex Sets）（2.2.13）](点集共同邻居（Common-Neighbors-of-Vertex-Sets）（2-2-13）.md)**  
+
+-   **[点集全最短路（All Shortest Paths of Vertex Sets）（2.2.15）](点集全最短路（All-Shortest-Paths-of-Vertex-Sets）（2-2-15）.md)**  
 
 
