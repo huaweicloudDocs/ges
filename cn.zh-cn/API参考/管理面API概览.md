@@ -43,9 +43,9 @@ GES管理面API包括系统管理，图管理，备份管理，元数据管理�
 </th>
 <th class="cellrowborder" valign="top" width="8.5%" id="mcps1.2.5.1.2"><p id="p1678314017335"><a name="p1678314017335"></a><a name="p1678314017335"></a>版本</p>
 </th>
-<th class="cellrowborder" valign="top" width="40.739999999999995%" id="mcps1.2.5.1.3"><p id="p2857142143413"><a name="p2857142143413"></a><a name="p2857142143413"></a>URL</p>
+<th class="cellrowborder" valign="top" width="40.72%" id="mcps1.2.5.1.3"><p id="p2857142143413"><a name="p2857142143413"></a><a name="p2857142143413"></a>URL</p>
 </th>
-<th class="cellrowborder" valign="top" width="39.7%" id="mcps1.2.5.1.4"><p id="p317710911203"><a name="p317710911203"></a><a name="p317710911203"></a>功能描述</p>
+<th class="cellrowborder" valign="top" width="39.72%" id="mcps1.2.5.1.4"><p id="p317710911203"><a name="p317710911203"></a><a name="p317710911203"></a>功能描述</p>
 </th>
 </tr>
 </thead>
@@ -53,81 +53,81 @@ GES管理面API包括系统管理，图管理，备份管理，元数据管理�
 </td>
 <td class="cellrowborder" valign="top" width="8.5%" headers="mcps1.2.5.1.2 "><p id="p147834015334"><a name="p147834015334"></a><a name="p147834015334"></a><a href="查询图列表(2-1-18).md">2.1.18</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="40.739999999999995%" headers="mcps1.2.5.1.3 "><p id="p139041836161116"><a name="p139041836161116"></a><a name="p139041836161116"></a>GET /v1.0/{projectId}/graphs?offset=<em id="i13904133601115"><a name="i13904133601115"></a><a name="i13904133601115"></a>{offset}</em>&amp;limit=<em id="i10904103661110"><a name="i10904103661110"></a><a name="i10904103661110"></a>{limit}</em></p>
+<td class="cellrowborder" valign="top" width="40.72%" headers="mcps1.2.5.1.3 "><p id="p139041836161116"><a name="p139041836161116"></a><a name="p139041836161116"></a>GET /v1.0/{projectId}/graphs?offset=<em id="i13904133601115"><a name="i13904133601115"></a><a name="i13904133601115"></a>{offset}</em>&amp;limit=<em id="i10904103661110"><a name="i10904103661110"></a><a name="i10904103661110"></a>{limit}</em></p>
 </td>
-<td class="cellrowborder" valign="top" width="39.7%" headers="mcps1.2.5.1.4 "><p id="p744761385510"><a name="p744761385510"></a><a name="p744761385510"></a>查看已经创建的所有图的列表。</p>
+<td class="cellrowborder" valign="top" width="39.72%" headers="mcps1.2.5.1.4 "><p id="p744761385510"><a name="p744761385510"></a><a name="p744761385510"></a>查看已经创建的所有图的列表。</p>
 </td>
 </tr>
 <tr id="row13858521183413"><td class="cellrowborder" valign="top" width="11.06%" headers="mcps1.2.5.1.1 "><p id="p18591621123417"><a name="p18591621123417"></a><a name="p18591621123417"></a>查询图详情</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.5%" headers="mcps1.2.5.1.2 "><p id="p15783130173313"><a name="p15783130173313"></a><a name="p15783130173313"></a><a href="查询图详情(1-0-0).md">1.0.0</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="40.739999999999995%" headers="mcps1.2.5.1.3 "><p id="p1961915192120"><a name="p1961915192120"></a><a name="p1961915192120"></a>GET /v1.0/{projectId}/graphs/{graphId}</p>
+<td class="cellrowborder" valign="top" width="40.72%" headers="mcps1.2.5.1.3 "><p id="p1961915192120"><a name="p1961915192120"></a><a name="p1961915192120"></a>GET /v1.0/{projectId}/graphs/{graphId}</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.7%" headers="mcps1.2.5.1.4 "><p id="p204471913165512"><a name="p204471913165512"></a><a name="p204471913165512"></a>查询某个图的详情，包括图内网、公网访问地址，图版本号，图已经导入的点、边数据集。</p>
+<td class="cellrowborder" valign="top" width="39.72%" headers="mcps1.2.5.1.4 "><p id="p204471913165512"><a name="p204471913165512"></a><a name="p204471913165512"></a>查询某个图的详情，包括图内网、公网访问地址，图版本号，图已经导入的点、边数据集。</p>
 </td>
 </tr>
 <tr id="row1364120371078"><td class="cellrowborder" valign="top" width="11.06%" headers="mcps1.2.5.1.1 "><p id="p1987115611815"><a name="p1987115611815"></a><a name="p1987115611815"></a>创建图</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.5%" headers="mcps1.2.5.1.2 "><p id="p20871856181"><a name="p20871856181"></a><a name="p20871856181"></a><a href="创建图(2-2-2).md">2.2.2</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="40.739999999999995%" headers="mcps1.2.5.1.3 "><p id="p38716561284"><a name="p38716561284"></a><a name="p38716561284"></a>POST /v1.0/{projectId}/graphs</p>
+<td class="cellrowborder" valign="top" width="40.72%" headers="mcps1.2.5.1.3 "><p id="p38716561284"><a name="p38716561284"></a><a name="p38716561284"></a>POST /v1.0/{projectId}/graphs</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.7%" headers="mcps1.2.5.1.4 "><p id="p1087115566816"><a name="p1087115566816"></a><a name="p1087115566816"></a>用户定义好图的元数据和点、边数据集后，下一步就是创建一个图。</p>
+<td class="cellrowborder" valign="top" width="39.72%" headers="mcps1.2.5.1.4 "><p id="p1087115566816"><a name="p1087115566816"></a><a name="p1087115566816"></a>用户定义好图的元数据和点、边数据集后，下一步就是创建一个图。</p>
 </td>
 </tr>
 <tr id="row257315426342"><td class="cellrowborder" valign="top" width="11.06%" headers="mcps1.2.5.1.1 "><p id="p1257304223412"><a name="p1257304223412"></a><a name="p1257304223412"></a>关闭图</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.5%" headers="mcps1.2.5.1.2 "><p id="p1278417083320"><a name="p1278417083320"></a><a name="p1278417083320"></a><a href="关闭图(1-0-0).md">1.0.0</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="40.739999999999995%" headers="mcps1.2.5.1.3 "><p id="p41101158181210"><a name="p41101158181210"></a><a name="p41101158181210"></a>POST/v1.0/{projectId}/graphs/{graphId}/action?action_id=stop</p>
+<td class="cellrowborder" valign="top" width="40.72%" headers="mcps1.2.5.1.3 "><p id="p41101158181210"><a name="p41101158181210"></a><a name="p41101158181210"></a>POST/v1.0/{projectId}/graphs/{graphId}/action?action_id=stop</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.7%" headers="mcps1.2.5.1.4 "><p id="p4357151414316"><a name="p4357151414316"></a><a name="p4357151414316"></a>用户的业务不需要连续性，可以随时关闭图。停止后，图停止计费。</p>
+<td class="cellrowborder" valign="top" width="39.72%" headers="mcps1.2.5.1.4 "><p id="p4357151414316"><a name="p4357151414316"></a><a name="p4357151414316"></a>用户的业务不需要连续性，可以随时关闭图。停止后，图停止计费。</p>
 </td>
 </tr>
 <tr id="row532741611352"><td class="cellrowborder" valign="top" width="11.06%" headers="mcps1.2.5.1.1 "><p id="p7328111693515"><a name="p7328111693515"></a><a name="p7328111693515"></a>启动图</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.5%" headers="mcps1.2.5.1.2 "><p id="p47841000339"><a name="p47841000339"></a><a name="p47841000339"></a><a href="启动图(1-0-0).md">1.0.0</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="40.739999999999995%" headers="mcps1.2.5.1.3 "><p id="p39535239138"><a name="p39535239138"></a><a name="p39535239138"></a>POST /v1.0/{projectId}/graphs/{graphId}/action?action_id=start</p>
+<td class="cellrowborder" valign="top" width="40.72%" headers="mcps1.2.5.1.3 "><p id="p39535239138"><a name="p39535239138"></a><a name="p39535239138"></a>POST /v1.0/{projectId}/graphs/{graphId}/action?action_id=start</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.7%" headers="mcps1.2.5.1.4 "><p id="p3300102063116"><a name="p3300102063116"></a><a name="p3300102063116"></a>用户关闭图后要再次使用图，可以把数据恢复到上次关闭状态或者恢复到某个备份时间点。</p>
+<td class="cellrowborder" valign="top" width="39.72%" headers="mcps1.2.5.1.4 "><p id="p3300102063116"><a name="p3300102063116"></a><a name="p3300102063116"></a>用户关闭图后要再次使用图，可以把数据恢复到上次关闭状态或者恢复到某个备份时间点。</p>
 </td>
 </tr>
 <tr id="row14656711182318"><td class="cellrowborder" valign="top" width="11.06%" headers="mcps1.2.5.1.1 "><p id="p1865741102320"><a name="p1865741102320"></a><a name="p1865741102320"></a>删除图</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.5%" headers="mcps1.2.5.1.2 "><p id="p147845053318"><a name="p147845053318"></a><a name="p147845053318"></a><a href="删除图(1-0-0).md">1.0.0</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="40.739999999999995%" headers="mcps1.2.5.1.3 "><p id="p7914841191312"><a name="p7914841191312"></a><a name="p7914841191312"></a>DELETE /v1.0/{projectId}/graphs/{graphId}</p>
+<td class="cellrowborder" valign="top" width="40.72%" headers="mcps1.2.5.1.3 "><p id="p7914841191312"><a name="p7914841191312"></a><a name="p7914841191312"></a>DELETE /v1.0/{projectId}/graphs/{graphId}</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.7%" headers="mcps1.2.5.1.4 "><p id="p7202591377"><a name="p7202591377"></a><a name="p7202591377"></a>用户不需要时可以删除图，删除后图停止计费。</p>
+<td class="cellrowborder" valign="top" width="39.72%" headers="mcps1.2.5.1.4 "><p id="p7202591377"><a name="p7202591377"></a><a name="p7202591377"></a>用户不需要时可以删除图，删除后图停止计费。</p>
 </td>
 </tr>
 <tr id="row9328181616355"><td class="cellrowborder" valign="top" width="11.06%" headers="mcps1.2.5.1.1 "><p id="p173281716173511"><a name="p173281716173511"></a><a name="p173281716173511"></a>增量导入图</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.5%" headers="mcps1.2.5.1.2 "><p id="p16784708331"><a name="p16784708331"></a><a name="p16784708331"></a><a href="增量导入图(2-1-14).md">2.1.14</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="40.739999999999995%" headers="mcps1.2.5.1.3 "><p id="p75231857191313"><a name="p75231857191313"></a><a name="p75231857191313"></a>POST  /v1.0/{projectId}/graphs/{graphId}/action?action_id=import-graph</p>
+<td class="cellrowborder" valign="top" width="40.72%" headers="mcps1.2.5.1.3 "><p id="p75231857191313"><a name="p75231857191313"></a><a name="p75231857191313"></a>POST  /v1.0/{projectId}/graphs/{graphId}/action?action_id=import-graph</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.7%" headers="mcps1.2.5.1.4 "><p id="p466221311375"><a name="p466221311375"></a><a name="p466221311375"></a>用户需要增量导入图数据。</p>
+<td class="cellrowborder" valign="top" width="39.72%" headers="mcps1.2.5.1.4 "><p id="p466221311375"><a name="p466221311375"></a><a name="p466221311375"></a>用户需要增量导入图数据。</p>
 </td>
 </tr>
 <tr id="row63281716123519"><td class="cellrowborder" valign="top" width="11.06%" headers="mcps1.2.5.1.1 "><p id="p1932941693512"><a name="p1932941693512"></a><a name="p1932941693512"></a>导出图</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.5%" headers="mcps1.2.5.1.2 "><p id="p87845073317"><a name="p87845073317"></a><a name="p87845073317"></a><a href="导出图(1-0-5).md">1.0.5</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="40.739999999999995%" headers="mcps1.2.5.1.3 "><p id="p41821936121410"><a name="p41821936121410"></a><a name="p41821936121410"></a>POST /v1.0/{projectId}/graphs/{graphId}/action?action_id=export-graph</p>
+<td class="cellrowborder" valign="top" width="40.72%" headers="mcps1.2.5.1.3 "><p id="p41821936121410"><a name="p41821936121410"></a><a name="p41821936121410"></a>POST /v1.0/{projectId}/graphs/{graphId}/action?action_id=export-graph</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.7%" headers="mcps1.2.5.1.4 "><p id="p27213964113"><a name="p27213964113"></a><a name="p27213964113"></a>用户需要把图的所有数据导出为文本文件。</p>
+<td class="cellrowborder" valign="top" width="39.72%" headers="mcps1.2.5.1.4 "><p id="p27213964113"><a name="p27213964113"></a><a name="p27213964113"></a>用户需要把图的所有数据导出为文本文件。</p>
 </td>
 </tr>
 <tr id="row6329016103510"><td class="cellrowborder" valign="top" width="11.06%" headers="mcps1.2.5.1.1 "><p id="p33291316153516"><a name="p33291316153516"></a><a name="p33291316153516"></a>清空图</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.5%" headers="mcps1.2.5.1.2 "><p id="p3784160153312"><a name="p3784160153312"></a><a name="p3784160153312"></a><a href="清空图(2-1-2).md">2.1.2</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="40.739999999999995%" headers="mcps1.2.5.1.3 "><p id="p43421051510"><a name="p43421051510"></a><a name="p43421051510"></a>POST /v1.0/{projectId}/graphs/{graphId}/action?action_id=clear-graph</p>
+<td class="cellrowborder" valign="top" width="40.72%" headers="mcps1.2.5.1.3 "><p id="p2396899119"><a name="p2396899119"></a><a name="p2396899119"></a>POST  /v1.0/{projectId}/graphs/{graphId}/action?action_id=clear-graph&amp;clear-metadata={clearMetadata}</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.7%" headers="mcps1.2.5.1.4 "><p id="p1488511346440"><a name="p1488511346440"></a><a name="p1488511346440"></a>用户要把图的所有数据清空，包括点、边数据。</p>
+<td class="cellrowborder" valign="top" width="39.72%" headers="mcps1.2.5.1.4 "><p id="p1488511346440"><a name="p1488511346440"></a><a name="p1488511346440"></a>用户要把图的所有数据清空，包括点、边数据。</p>
 <div class="note" id="note1880854513819"><a name="note1880854513819"></a><a name="note1880854513819"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p98099451689"><a name="p98099451689"></a><a name="p98099451689"></a>当前清空图不清除元数据。</p>
 </div></div>
 </td>
@@ -136,27 +136,27 @@ GES管理面API包括系统管理，图管理，备份管理，元数据管理�
 </td>
 <td class="cellrowborder" valign="top" width="8.5%" headers="mcps1.2.5.1.2 "><p id="p107841700334"><a name="p107841700334"></a><a name="p107841700334"></a><a href="升级图(1-0-5).md">1.0.5</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="40.739999999999995%" headers="mcps1.2.5.1.3 "><p id="p168801769156"><a name="p168801769156"></a><a name="p168801769156"></a>POST  /v1.0/{projectId}/graphs/{graphId}/action?action_id=upgrade</p>
+<td class="cellrowborder" valign="top" width="40.72%" headers="mcps1.2.5.1.3 "><p id="p168801769156"><a name="p168801769156"></a><a name="p168801769156"></a>POST  /v1.0/{projectId}/graphs/{graphId}/action?action_id=upgrade</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.7%" headers="mcps1.2.5.1.4 "><p id="p1922594213468"><a name="p1922594213468"></a><a name="p1922594213468"></a>老版本的图有Bug或者需要增加新功能时，需要把老版本的图升级到新版本。</p>
+<td class="cellrowborder" valign="top" width="39.72%" headers="mcps1.2.5.1.4 "><p id="p1922594213468"><a name="p1922594213468"></a><a name="p1922594213468"></a>老版本的图有Bug或者需要增加新功能时，需要把老版本的图升级到新版本。</p>
 </td>
 </tr>
 <tr id="row179763123363"><td class="cellrowborder" valign="top" width="11.06%" headers="mcps1.2.5.1.1 "><p id="p8977131243612"><a name="p8977131243612"></a><a name="p8977131243612"></a>绑定EIP</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.5%" headers="mcps1.2.5.1.2 "><p id="p07841906333"><a name="p07841906333"></a><a name="p07841906333"></a><a href="绑定EIP(1-0-6).md">1.0.6</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="40.739999999999995%" headers="mcps1.2.5.1.3 "><p id="p12141315131511"><a name="p12141315131511"></a><a name="p12141315131511"></a>POST  /v1.0/{projectId}/graphs/{graphId}/action?action_id=bindEip</p>
+<td class="cellrowborder" valign="top" width="40.72%" headers="mcps1.2.5.1.3 "><p id="p12141315131511"><a name="p12141315131511"></a><a name="p12141315131511"></a>POST  /v1.0/{projectId}/graphs/{graphId}/action?action_id=bindEip</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.7%" headers="mcps1.2.5.1.4 "><p id="p1917819175570"><a name="p1917819175570"></a><a name="p1917819175570"></a>用户需要在公网访问图时，需要绑定一个弹性公网IP。</p>
+<td class="cellrowborder" valign="top" width="39.72%" headers="mcps1.2.5.1.4 "><p id="p1917819175570"><a name="p1917819175570"></a><a name="p1917819175570"></a>用户需要在公网访问图时，需要绑定一个弹性公网IP。</p>
 </td>
 </tr>
 <tr id="row1497713128367"><td class="cellrowborder" valign="top" width="11.06%" headers="mcps1.2.5.1.1 "><p id="p139771212133618"><a name="p139771212133618"></a><a name="p139771212133618"></a>解绑EIP</p>
 </td>
 <td class="cellrowborder" valign="top" width="8.5%" headers="mcps1.2.5.1.2 "><p id="p12785110103317"><a name="p12785110103317"></a><a name="p12785110103317"></a><a href="解绑EIP(1-0-6).md">1.0.6</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="40.739999999999995%" headers="mcps1.2.5.1.3 "><p id="p9433102216151"><a name="p9433102216151"></a><a name="p9433102216151"></a>POST  /v1.0/{projectId}/graphs/{graphId}/action?action_id=unbindEip</p>
+<td class="cellrowborder" valign="top" width="40.72%" headers="mcps1.2.5.1.3 "><p id="p9433102216151"><a name="p9433102216151"></a><a name="p9433102216151"></a>POST  /v1.0/{projectId}/graphs/{graphId}/action?action_id=unbindEip</p>
 </td>
-<td class="cellrowborder" valign="top" width="39.7%" headers="mcps1.2.5.1.4 "><p id="p05661959165017"><a name="p05661959165017"></a><a name="p05661959165017"></a>用户不需要在公网访问图时，可以把该图绑定的弹性公网IP解绑。</p>
+<td class="cellrowborder" valign="top" width="39.72%" headers="mcps1.2.5.1.4 "><p id="p05661959165017"><a name="p05661959165017"></a><a name="p05661959165017"></a>用户不需要在公网访问图时，可以把该图绑定的弹性公网IP解绑。</p>
 </td>
 </tr>
 </tbody>

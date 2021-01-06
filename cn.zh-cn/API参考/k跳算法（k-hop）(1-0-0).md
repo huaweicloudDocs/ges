@@ -30,19 +30,6 @@
 <td class="cellrowborder" valign="top" width="16%" headers="mcps1.2.7.1.6 "><p id="p25348953141819"><a name="p25348953141819"></a><a name="p25348953141819"></a>-</p>
 </td>
 </tr>
-<tr id="row2026412719594"><td class="cellrowborder" valign="top" width="12%" headers="mcps1.2.7.1.1 "><p id="p1726562712596"><a name="p1726562712596"></a><a name="p1726562712596"></a>k_upper</p>
-</td>
-<td class="cellrowborder" valign="top" width="10.45%" headers="mcps1.2.7.1.2 "><p id="p1026619277593"><a name="p1026619277593"></a><a name="p1026619277593"></a>否</p>
-</td>
-<td class="cellrowborder" valign="top" width="19.46%" headers="mcps1.2.7.1.3 "><p id="p82661527115913"><a name="p82661527115913"></a><a name="p82661527115913"></a>修改k的上限。</p>
-</td>
-<td class="cellrowborder" valign="top" width="10.09%" headers="mcps1.2.7.1.4 "><p id="p45421017"><a name="p45421017"></a><a name="p45421017"></a>Integer</p>
-</td>
-<td class="cellrowborder" valign="top" width="32%" headers="mcps1.2.7.1.5 "><p id="p82662279593"><a name="p82662279593"></a><a name="p82662279593"></a>1~10000。</p>
-</td>
-<td class="cellrowborder" valign="top" width="16%" headers="mcps1.2.7.1.6 "><p id="p826672718595"><a name="p826672718595"></a><a name="p826672718595"></a>-</p>
-</td>
-</tr>
 <tr id="row1787664183613"><td class="cellrowborder" valign="top" width="12%" headers="mcps1.2.7.1.1 "><p id="p6879740367"><a name="p6879740367"></a><a name="p6879740367"></a>source</p>
 </td>
 <td class="cellrowborder" valign="top" width="10.45%" headers="mcps1.2.7.1.2 "><p id="p5882184143619"><a name="p5882184143619"></a><a name="p5882184143619"></a>是</p>

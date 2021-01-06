@@ -69,19 +69,6 @@
 <td class="cellrowborder" valign="top" width="18.81188118811881%" headers="mcps1.2.7.1.6 "><p id="p7421136142714"><a name="p7421136142714"></a><a name="p7421136142714"></a>10</p>
 </td>
 </tr>
-<tr id="row962318191744"><td class="cellrowborder" valign="top" width="14.06930693069307%" headers="mcps1.2.7.1.1 "><p id="p3624419047"><a name="p3624419047"></a><a name="p3624419047"></a>upper_check</p>
-</td>
-<td class="cellrowborder" valign="top" width="13.653465346534652%" headers="mcps1.2.7.1.2 "><p id="p196241195416"><a name="p196241195416"></a><a name="p196241195416"></a>否</p>
-</td>
-<td class="cellrowborder" valign="top" width="25.2970297029703%" headers="mcps1.2.7.1.3 "><p id="p19624119441"><a name="p19624119441"></a><a name="p19624119441"></a>放松n的限制，当该参数为false时，n无效，不再校验n范围。</p>
-</td>
-<td class="cellrowborder" valign="top" width="13.108910891089106%" headers="mcps1.2.7.1.4 "><p id="p1862412195417"><a name="p1862412195417"></a><a name="p1862412195417"></a>Integer</p>
-</td>
-<td class="cellrowborder" valign="top" width="15.059405940594061%" headers="mcps1.2.7.1.5 "><p id="p156243192412"><a name="p156243192412"></a><a name="p156243192412"></a>-</p>
-</td>
-<td class="cellrowborder" valign="top" width="18.81188118811881%" headers="mcps1.2.7.1.6 "><p id="p166252192419"><a name="p166252192419"></a><a name="p166252192419"></a>-</p>
-</td>
-</tr>
 <tr id="row042112682720"><td class="cellrowborder" valign="top" width="14.06930693069307%" headers="mcps1.2.7.1.1 "><p id="p042176132710"><a name="p042176132710"></a><a name="p042176132710"></a>k</p>
 </td>
 <td class="cellrowborder" valign="top" width="13.653465346534652%" headers="mcps1.2.7.1.2 "><p id="p14211463277"><a name="p14211463277"></a><a name="p14211463277"></a>否</p>
@@ -115,8 +102,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="54.02%" headers="mcps1.2.4.1.3 "><p id="p126941653599"><a name="p126941653599"></a><a name="p126941653599"></a>source节点和target节点之间的路径，格式：</p>
 <p id="p86944515596"><a name="p86944515596"></a><a name="p86944515596"></a>[[path1],[path2]]</p>
-<p id="p13522949115819"><a name="p13522949115819"></a><a name="p13522949115819"></a>其中，</p>
-<p id="p9216437572"><a name="p9216437572"></a><a name="p9216437572"></a>路径（path）的格式可参考：<a href="最短路径（Shortest-Path）(1-0-0).md">最短路径（Shortest Path）(1.0.0)</a></p>
+<p id="p9216437572"><a name="p9216437572"></a><a name="p9216437572"></a>其中，路径（path）的格式可参考：<a href="最短路径（Shortest-Path）(1-0-0).md">最短路径（Shortest Path）</a>。</p>
 </td>
 </tr>
 <tr id="row198912301083"><td class="cellrowborder" valign="top" width="22.63%" headers="mcps1.2.4.1.1 "><p id="p18891143016810"><a name="p18891143016810"></a><a name="p18891143016810"></a>paths_number</p>

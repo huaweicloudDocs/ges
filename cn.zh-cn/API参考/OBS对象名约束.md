@@ -13,6 +13,11 @@
 <td class="cellrowborder" valign="top" width="74.27%"><p id="p17534195212216"><a name="p17534195212216"></a><a name="p17534195212216"></a>! - _ . * ' ( )</p>
 </td>
 </tr>
+<tr id="row722015275911"><td class="cellrowborder" valign="top" width="25.729999999999997%"><p id="p7221227596"><a name="p7221227596"></a><a name="p7221227596"></a>中文</p>
+</td>
+<td class="cellrowborder" valign="top" width="74.27%"><p id="p132211822592"><a name="p132211822592"></a><a name="p132211822592"></a>\u4e00-\u9fa5</p>
+</td>
+</tr>
 </tbody>
 </table>
 

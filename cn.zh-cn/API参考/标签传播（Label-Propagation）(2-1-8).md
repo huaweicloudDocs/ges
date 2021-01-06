@@ -62,6 +62,9 @@
 </tbody>
 </table>
 
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>关于迭代次数（iterations）和收敛精度（convergence）参数如何调节，请参考[迭代次数和收敛精度的关系](PageRank算法(1-0-0).md#li137501137205318)。
+
 **表 2**  reponse\_data参数说明
 
 <a name="table1094413119474"></a>
