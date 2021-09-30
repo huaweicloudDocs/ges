@@ -51,7 +51,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="13.04950495049505%" headers="mcps1.2.7.1.3 "><p id="p2875176710425"><a name="p2875176710425"></a><a name="p2875176710425"></a>是否考虑边的方向</p>
 </td>
-<td class="cellrowborder" valign="top" width="7.930693069306931%" headers="mcps1.2.7.1.4 "><p id="p25096169392"><a name="p25096169392"></a><a name="p25096169392"></a>Bool</p>
+<td class="cellrowborder" valign="top" width="7.930693069306931%" headers="mcps1.2.7.1.4 "><p id="p25096169392"><a name="p25096169392"></a><a name="p25096169392"></a>Boolean</p>
 </td>
 <td class="cellrowborder" valign="top" width="50.43564356435644%" headers="mcps1.2.7.1.5 "><p id="p4719178410425"><a name="p4719178410425"></a><a name="p4719178410425"></a>true或false</p>
 </td>

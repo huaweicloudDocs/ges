@@ -1,10 +1,5 @@
 # 管理面API构造请求<a name="ges_03_0004"></a>
 
--   [请求URI](#section1849899574)
--   [请求方法](#section1454211155819)
--   [请求消息头](#section11736124616230)
--   [请求消息体](#section14612192315587)
-
 本章节介绍GES管理面REST API请求的组成，并以调用IAM服务的[获取用户Token](https://support.huaweicloud.com/api-iam/iam_30_0001.html)接口说明如何调用API，该API获取用户的Token，Token可以用于调用其他API时进行鉴权。
 
 您还可以通过这个视频教程了解如何构造请求调用API：[https://bbs.huaweicloud.com/videos/102987](https://bbs.huaweicloud.com/videos/102987)  。
@@ -156,7 +151,8 @@ POST https://iam.cn-north-1.myhuaweicloud.com/v3/auth/tokens
 例如，对于IAM[获取用户Token](https://support.huaweicloud.com/api-iam/iam_30_0001.html)接口，由于不需要认证，所以只添加“Content-Type”即可，添加消息头后的请求如下所示。
 
 ```
-POST https://iam.cn-north-1.myhuaweicloud.com/v3/auth/tokens  Content-Type: application/json
+POST https://iam.cn-north-1.myhuaweicloud.com/v3/auth/tokens
+  Content-Type: application/json
 ```
 
 ## 请求消息体<a name="section14612192315587"></a>
@@ -171,7 +167,8 @@ POST https://iam.cn-north-1.myhuaweicloud.com/v3/auth/tokens  Content-Type: appl
 >scope参数定义了Token的作用域，下面示例中获取的Token仅能访问project下的资源。您还可以设置Token的作用域为某个账号下所有资源或账号的某个project下的资源，详细定义请参见IAM[获取用户Token](https://support.huaweicloud.com/api-iam/iam_30_0001.html)。
 
 ```
-POST https: //iam.cn-north-1.myhuaweicloud.com/v3/auth/tokensContent-Type: application/json{
+POST https: //iam.cn-north-1.myhuaweicloud.com/v3/auth/tokens
+Content-Type: application/json{
     "auth": {
         "identity": {
             "methods": [
