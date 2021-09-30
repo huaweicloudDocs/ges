@@ -1,11 +1,5 @@
 # 执行Gremlin查询\(1.0.0\)<a name="ges_03_0029"></a>
 
--   [功能介绍](#section50978968191517)
--   [URI](#section52466462191517)
--   [请求](#section41515012191517)
--   [响应](#section54598423191517)
--   [返回值](#section35138213191517)
-
 ## 功能介绍<a name="section50978968191517"></a>
 
 根据Gremlin语句，返回查询结果。
@@ -15,7 +9,7 @@
 -   URI 格式
 
     ```
-    POST /ges/v1.0/{projectId}/graphs/{graphName}/action?action_id=execute-gremlin-query
+    POST /ges/v1.0/{project_id}/graphs/{graph_name}/action?action_id=execute-gremlin-query
     ```
 
 -   参数说明
@@ -33,7 +27,7 @@
     </th>
     </tr>
     </thead>
-    <tbody><tr id="row60191230191539"><td class="cellrowborder" valign="top" width="16.71%" headers="mcps1.2.5.1.1 "><p id="p58069150191555"><a name="p58069150191555"></a><a name="p58069150191555"></a>projectId</p>
+    <tbody><tr id="row60191230191539"><td class="cellrowborder" valign="top" width="16.71%" headers="mcps1.2.5.1.1 "><p id="p58069150191555"><a name="p58069150191555"></a><a name="p58069150191555"></a>project_id</p>
     </td>
     <td class="cellrowborder" valign="top" width="17.34%" headers="mcps1.2.5.1.2 "><p id="p5980748191555"><a name="p5980748191555"></a><a name="p5980748191555"></a>是</p>
     </td>
@@ -42,7 +36,7 @@
     <td class="cellrowborder" valign="top" width="47.349999999999994%" headers="mcps1.2.5.1.4 "><p id="p51708449194548"><a name="p51708449194548"></a><a name="p51708449194548"></a>项目编号，用于资源隔离。请参考<a href="获取项目ID.md">获取项目ID</a>。</p>
     </td>
     </tr>
-    <tr id="row65057755191539"><td class="cellrowborder" valign="top" width="16.71%" headers="mcps1.2.5.1.1 "><p id="p45128597191555"><a name="p45128597191555"></a><a name="p45128597191555"></a>graphName</p>
+    <tr id="row65057755191539"><td class="cellrowborder" valign="top" width="16.71%" headers="mcps1.2.5.1.1 "><p id="p45128597191555"><a name="p45128597191555"></a><a name="p45128597191555"></a>graph_name</p>
     </td>
     <td class="cellrowborder" valign="top" width="17.34%" headers="mcps1.2.5.1.2 "><p id="p31537730191555"><a name="p31537730191555"></a><a name="p31537730191555"></a>是</p>
     </td>
@@ -60,14 +54,15 @@
 -   请求样例
 
     ```
-    POST http://{SERVER_URL}/ges/v1.0/{projectId}/graphs/{graphName}/action?action_id=execute-gremlin-query
+    POST http://{SERVER_URL}/ges/v1.0/{project_id}/graphs/{graph_name}/action?action_id=execute-gremlin-query
     {       
         "command":"g.V().limit(100)" 
     }
     ```
 
     >![](public_sys-resources/icon-note.gif) **说明：** 
-    >SERVER\_URL：图的访问地址，取值请参考[业务面API使用限制](业务面API使用限制.md)。
+    >-   SERVER\_URL：图的访问地址，取值请参考[业务面API使用限制](业务面API使用限制.md)。
+    >-   请求body体大小不能超过64M。
 
 -   Body参数说明
 
@@ -136,7 +131,7 @@
     </td>
     <td class="cellrowborder" valign="top" width="14.11%" headers="mcps1.2.5.1.2 "><p id="p2704752919181"><a name="p2704752919181"></a><a name="p2704752919181"></a>否</p>
     </td>
-    <td class="cellrowborder" valign="top" width="16.71%" headers="mcps1.2.5.1.3 "><p id="p4336623719181"><a name="p4336623719181"></a><a name="p4336623719181"></a>JSON</p>
+    <td class="cellrowborder" valign="top" width="16.71%" headers="mcps1.2.5.1.3 "><p id="p4336623719181"><a name="p4336623719181"></a><a name="p4336623719181"></a>Json</p>
     </td>
     <td class="cellrowborder" valign="top" width="54.800000000000004%" headers="mcps1.2.5.1.4 "><p id="p2300433819181"><a name="p2300433819181"></a><a name="p2300433819181"></a>查询结果。请求失败时，字段为空。</p>
     </td>

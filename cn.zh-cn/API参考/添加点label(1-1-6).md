@@ -1,11 +1,5 @@
 # 添加点label\(1.1.6\)<a name="ges_03_0099"></a>
 
--   [功能介绍](#section47729112194146)
--   [URI](#section32131610194146)
--   [请求](#section4280014194146)
--   [响应](#section3840388720054)
--   [返回值](#section3657169620521)
-
 ## 功能介绍<a name="section47729112194146"></a>
 
 添加点label。
@@ -15,7 +9,7 @@
 -   URI格式
 
     ```
-    POST /ges/v1.0/{projectId}/graphs/{graphName}/vertices/{vertexId}/labels
+    POST /ges/v1.0/{project_id}/graphs/{graph_name}/vertices/{vertex_id}/labels
     ```
 
 
@@ -34,7 +28,7 @@
     </th>
     </tr>
     </thead>
-    <tbody><tr id="row1546260920297"><td class="cellrowborder" valign="top" width="16.89%" headers="mcps1.2.5.1.1 "><p id="p19512773202917"><a name="p19512773202917"></a><a name="p19512773202917"></a>projectId</p>
+    <tbody><tr id="row1546260920297"><td class="cellrowborder" valign="top" width="16.89%" headers="mcps1.2.5.1.1 "><p id="p19512773202917"><a name="p19512773202917"></a><a name="p19512773202917"></a>project_id</p>
     </td>
     <td class="cellrowborder" valign="top" width="19.139999999999997%" headers="mcps1.2.5.1.2 "><p id="p37030743202917"><a name="p37030743202917"></a><a name="p37030743202917"></a>是</p>
     </td>
@@ -43,7 +37,7 @@
     <td class="cellrowborder" valign="top" width="45.37%" headers="mcps1.2.5.1.4 "><p id="p51708449194548"><a name="p51708449194548"></a><a name="p51708449194548"></a>项目编号，用于资源隔离。请参考<a href="获取项目ID.md">获取项目ID</a>。</p>
     </td>
     </tr>
-    <tr id="row5685517820297"><td class="cellrowborder" valign="top" width="16.89%" headers="mcps1.2.5.1.1 "><p id="p31128191202917"><a name="p31128191202917"></a><a name="p31128191202917"></a>graphName</p>
+    <tr id="row5685517820297"><td class="cellrowborder" valign="top" width="16.89%" headers="mcps1.2.5.1.1 "><p id="p31128191202917"><a name="p31128191202917"></a><a name="p31128191202917"></a>graph_name</p>
     </td>
     <td class="cellrowborder" valign="top" width="19.139999999999997%" headers="mcps1.2.5.1.2 "><p id="p38355577202917"><a name="p38355577202917"></a><a name="p38355577202917"></a>是</p>
     </td>
@@ -52,7 +46,7 @@
     <td class="cellrowborder" valign="top" width="45.37%" headers="mcps1.2.5.1.4 "><p id="p59815007202917"><a name="p59815007202917"></a><a name="p59815007202917"></a>图名称。</p>
     </td>
     </tr>
-    <tr id="row19437144817531"><td class="cellrowborder" valign="top" width="16.89%" headers="mcps1.2.5.1.1 "><p id="p1143714895312"><a name="p1143714895312"></a><a name="p1143714895312"></a>vertexId</p>
+    <tr id="row19437144817531"><td class="cellrowborder" valign="top" width="16.89%" headers="mcps1.2.5.1.1 "><p id="p1143714895312"><a name="p1143714895312"></a><a name="p1143714895312"></a>vertex_id</p>
     </td>
     <td class="cellrowborder" valign="top" width="19.139999999999997%" headers="mcps1.2.5.1.2 "><p id="p3437114816531"><a name="p3437114816531"></a><a name="p3437114816531"></a>是</p>
     </td>
@@ -71,7 +65,7 @@
 
     ```
     POST
-    http://{SERVER_URL}/ges/v1.0/{projectId}/graphs/{graphName}/vertices/{vertexId}/labels
+    http://{SERVER_URL}/ges/v1.0/{project_id}/graphs/{graph_name}/vertices/{vertex_id}/labels
     {
         "label":"user"
     }
@@ -85,23 +79,23 @@
     **表 2**  Body参数说明
 
     <a name="table2233484220116"></a>
-    <table><thead align="left"><tr id="row6459916420116"><th class="cellrowborder" valign="top" width="20.3%" id="mcps1.2.5.1.1"><p id="p6514981020116"><a name="p6514981020116"></a><a name="p6514981020116"></a>参数</p>
+    <table><thead align="left"><tr id="row6459916420116"><th class="cellrowborder" valign="top" width="21.83%" id="mcps1.2.5.1.1"><p id="p6514981020116"><a name="p6514981020116"></a><a name="p6514981020116"></a>参数</p>
     </th>
-    <th class="cellrowborder" valign="top" width="23.119999999999997%" id="mcps1.2.5.1.2"><p id="p4264326420116"><a name="p4264326420116"></a><a name="p4264326420116"></a>是否必选</p>
+    <th class="cellrowborder" valign="top" width="19.56%" id="mcps1.2.5.1.2"><p id="p4264326420116"><a name="p4264326420116"></a><a name="p4264326420116"></a>是否必选</p>
     </th>
-    <th class="cellrowborder" valign="top" width="25%" id="mcps1.2.5.1.3"><p id="p3155239920116"><a name="p3155239920116"></a><a name="p3155239920116"></a>类型</p>
+    <th class="cellrowborder" valign="top" width="15.079999999999998%" id="mcps1.2.5.1.3"><p id="p3155239920116"><a name="p3155239920116"></a><a name="p3155239920116"></a>类型</p>
     </th>
-    <th class="cellrowborder" valign="top" width="31.580000000000002%" id="mcps1.2.5.1.4"><p id="p560755920116"><a name="p560755920116"></a><a name="p560755920116"></a>说明</p>
+    <th class="cellrowborder" valign="top" width="43.53%" id="mcps1.2.5.1.4"><p id="p560755920116"><a name="p560755920116"></a><a name="p560755920116"></a>说明</p>
     </th>
     </tr>
     </thead>
-    <tbody><tr id="row4167099420116"><td class="cellrowborder" valign="top" width="20.3%" headers="mcps1.2.5.1.1 "><p id="p1990735220116"><a name="p1990735220116"></a><a name="p1990735220116"></a>label</p>
+    <tbody><tr id="row4167099420116"><td class="cellrowborder" valign="top" width="21.83%" headers="mcps1.2.5.1.1 "><p id="p1990735220116"><a name="p1990735220116"></a><a name="p1990735220116"></a>label</p>
     </td>
-    <td class="cellrowborder" valign="top" width="23.119999999999997%" headers="mcps1.2.5.1.2 "><p id="p188278620116"><a name="p188278620116"></a><a name="p188278620116"></a>是</p>
+    <td class="cellrowborder" valign="top" width="19.56%" headers="mcps1.2.5.1.2 "><p id="p188278620116"><a name="p188278620116"></a><a name="p188278620116"></a>是</p>
     </td>
-    <td class="cellrowborder" valign="top" width="25%" headers="mcps1.2.5.1.3 "><p id="p1828796020116"><a name="p1828796020116"></a><a name="p1828796020116"></a>String</p>
+    <td class="cellrowborder" valign="top" width="15.079999999999998%" headers="mcps1.2.5.1.3 "><p id="p1828796020116"><a name="p1828796020116"></a><a name="p1828796020116"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="31.580000000000002%" headers="mcps1.2.5.1.4 "><p id="p492982820116"><a name="p492982820116"></a><a name="p492982820116"></a>点的label。</p>
+    <td class="cellrowborder" valign="top" width="43.53%" headers="mcps1.2.5.1.4 "><p id="p492982820116"><a name="p492982820116"></a><a name="p492982820116"></a>点的label。</p>
     </td>
     </tr>
     </tbody>

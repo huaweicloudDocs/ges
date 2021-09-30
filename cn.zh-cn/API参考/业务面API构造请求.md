@@ -1,10 +1,5 @@
 # 业务面API构造请求<a name="ges_03_0121"></a>
 
--   [请求URI](#section1849899574)
--   [请求方法](#section1454211155819)
--   [请求消息头](#section25981138124716)
--   [请求消息体](#section14612192315587)
-
 本节介绍GES业务面REST API请求的组成。
 
 ## 请求URI<a name="section1849899574"></a>
@@ -17,7 +12,7 @@
 
 -   **URI-scheme**：表示用于传输请求的协议，当前所有API均采用**HTTPS**协议。
 -   **SERVER\_URL**：图的访问地址，取值请参考[业务面API使用限制](业务面API使用限制.md)。
--   **resource-path**：资源路径，即API访问路径。从具体API的URI模块获取，例如“ges/v1.0/\{projectId\}/graphs/\{graphName\}/vertices/action?action\_id=query”。
+-   **resource-path**：资源路径，即API访问路径。从具体API的URI模块获取，例如“ges/v1.0/\{project\_id\}/graphs/\{graph\_name\}/vertices/action?action\_id=query”。
 -   **query-string**：查询参数，是可选部分，并不是每个API都有查询参数。查询参数前面需要带一个“？”，形式为“参数名=参数取值”，例如“limit=10”，表示查询不超过10条数据。
 
 ## 请求方法<a name="section1454211155819"></a>
@@ -93,7 +88,8 @@ HTTP请求方法（也称为操作或动词），可告知服务正在请求什�
 >scope参数定义了Token的作用域，下面示例中获取的Token仅能访问project下的资源。您还可以设置Token的作用域为某个账号下所有资源或账号的某个project下的资源，详细定义请参见IAM[获取用户Token](https://support.huaweicloud.com/api-iam/iam_30_0001.html)。
 
 ```
-POST https: //iam.cn-north-1.myhuaweicloud.com/v3/auth/tokensContent-Type: application/json{
+POST https: //iam.cn-north-1.myhuaweicloud.com/v3/auth/tokens
+Content-Type: application/json{
     "auth": {
         "identity": {
             "methods": [

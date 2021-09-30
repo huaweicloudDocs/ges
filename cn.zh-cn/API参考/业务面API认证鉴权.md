@@ -1,7 +1,5 @@
 # 业务面API认证鉴权<a name="ges_03_0112"></a>
 
--   [Token认证](#section1265211312241)
-
 调用GES业务面API只能通过Token认证调用请求。
 
 ## Token认证<a name="section1265211312241"></a>

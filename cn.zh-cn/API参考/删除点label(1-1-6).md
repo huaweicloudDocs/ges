@@ -1,11 +1,5 @@
 # 删除点label\(1.1.6\)<a name="ges_03_0100"></a>
 
--   [功能介绍](#section47729112194146)
--   [URI](#section32131610194146)
--   [请求](#section4280014194146)
--   [响应](#section3840388720054)
--   [返回值](#section3657169620521)
-
 ## 功能介绍<a name="section47729112194146"></a>
 
 删除点label。
@@ -15,7 +9,7 @@
 -   URI格式
 
     ```
-    DELETE /ges/v1.0/{projectId}/graphs/{graphName}/vertices/{vertexId}/labels/{labelName}
+    DELETE /ges/v1.0/{project_id}/graphs/{graph_name}/vertices/{vertex_id}/labels/{label_name}
     ```
 
 
@@ -34,7 +28,7 @@
     </th>
     </tr>
     </thead>
-    <tbody><tr id="row1546260920297"><td class="cellrowborder" valign="top" width="17.07%" headers="mcps1.2.5.1.1 "><p id="p19512773202917"><a name="p19512773202917"></a><a name="p19512773202917"></a>projectId</p>
+    <tbody><tr id="row1546260920297"><td class="cellrowborder" valign="top" width="17.07%" headers="mcps1.2.5.1.1 "><p id="p19512773202917"><a name="p19512773202917"></a><a name="p19512773202917"></a>project_id</p>
     </td>
     <td class="cellrowborder" valign="top" width="18.96%" headers="mcps1.2.5.1.2 "><p id="p37030743202917"><a name="p37030743202917"></a><a name="p37030743202917"></a>是</p>
     </td>
@@ -43,7 +37,7 @@
     <td class="cellrowborder" valign="top" width="45.37%" headers="mcps1.2.5.1.4 "><p id="p51708449194548"><a name="p51708449194548"></a><a name="p51708449194548"></a>项目编号，用于资源隔离。请参考<a href="获取项目ID.md">获取项目ID</a>。</p>
     </td>
     </tr>
-    <tr id="row5685517820297"><td class="cellrowborder" valign="top" width="17.07%" headers="mcps1.2.5.1.1 "><p id="p31128191202917"><a name="p31128191202917"></a><a name="p31128191202917"></a>graphName</p>
+    <tr id="row5685517820297"><td class="cellrowborder" valign="top" width="17.07%" headers="mcps1.2.5.1.1 "><p id="p31128191202917"><a name="p31128191202917"></a><a name="p31128191202917"></a>graph_name</p>
     </td>
     <td class="cellrowborder" valign="top" width="18.96%" headers="mcps1.2.5.1.2 "><p id="p38355577202917"><a name="p38355577202917"></a><a name="p38355577202917"></a>是</p>
     </td>
@@ -52,7 +46,7 @@
     <td class="cellrowborder" valign="top" width="45.37%" headers="mcps1.2.5.1.4 "><p id="p59815007202917"><a name="p59815007202917"></a><a name="p59815007202917"></a>图名称。</p>
     </td>
     </tr>
-    <tr id="row19437144817531"><td class="cellrowborder" valign="top" width="17.07%" headers="mcps1.2.5.1.1 "><p id="p1143714895312"><a name="p1143714895312"></a><a name="p1143714895312"></a>vertexId</p>
+    <tr id="row19437144817531"><td class="cellrowborder" valign="top" width="17.07%" headers="mcps1.2.5.1.1 "><p id="p1143714895312"><a name="p1143714895312"></a><a name="p1143714895312"></a>vertex_id</p>
     </td>
     <td class="cellrowborder" valign="top" width="18.96%" headers="mcps1.2.5.1.2 "><p id="p3437114816531"><a name="p3437114816531"></a><a name="p3437114816531"></a>是</p>
     </td>
@@ -61,13 +55,13 @@
     <td class="cellrowborder" valign="top" width="45.37%" headers="mcps1.2.5.1.4 "><p id="p343734875312"><a name="p343734875312"></a><a name="p343734875312"></a>点名称。</p>
     </td>
     </tr>
-    <tr id="row2361152107"><td class="cellrowborder" valign="top" width="17.07%" headers="mcps1.2.5.1.1 "><p id="p3361815191013"><a name="p3361815191013"></a><a name="p3361815191013"></a>labelName</p>
+    <tr id="row2361152107"><td class="cellrowborder" valign="top" width="17.07%" headers="mcps1.2.5.1.1 "><p id="p3361815191013"><a name="p3361815191013"></a><a name="p3361815191013"></a>label_name</p>
     </td>
     <td class="cellrowborder" valign="top" width="18.96%" headers="mcps1.2.5.1.2 "><p id="p1536615101012"><a name="p1536615101012"></a><a name="p1536615101012"></a>是</p>
     </td>
     <td class="cellrowborder" valign="top" width="18.6%" headers="mcps1.2.5.1.3 "><p id="p14361215121014"><a name="p14361215121014"></a><a name="p14361215121014"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="45.37%" headers="mcps1.2.5.1.4 "><p id="p63661511017"><a name="p63661511017"></a><a name="p63661511017"></a>点label。，</p>
+    <td class="cellrowborder" valign="top" width="45.37%" headers="mcps1.2.5.1.4 "><p id="p63661511017"><a name="p63661511017"></a><a name="p63661511017"></a>点label。</p>
     </td>
     </tr>
     </tbody>
@@ -80,7 +74,7 @@
 
     ```
     DELETE
-    http://{SERVER_URL}/ges/v1.0/{projectId}/graphs/{graphName}/vertices/46/labels/movie
+    http://{SERVER_URL}/ges/v1.0/{project_id}/graphs/{graph_name}/vertices/46/labels/movie
     ```
 
     >![](public_sys-resources/icon-note.gif) **说明：** 
