@@ -6,7 +6,7 @@
 
 ## 适用场景<a name="section3109557795146"></a>
 
-紧密中心度算法（Closeness Centrality）适用于社交网络中关键节点挖掘等场景。
+紧密中心度算法（Closeness Centrality）适用于社交网络中关键节点发掘等场景。
 
 ## 参数说明<a name="section18154105319710"></a>
 

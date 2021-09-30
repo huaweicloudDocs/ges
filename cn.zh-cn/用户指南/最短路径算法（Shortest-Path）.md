@@ -6,7 +6,7 @@
 
 ## 适用场景<a name="section2555716895357"></a>
 
-最短路径算法（Shortest Path）适用于路径规划、网络规划等场景。
+最短路径算法（Shortest Path）适用于路径设计、网络规划等场景。
 
 ## 参数说明<a name="section18154105319710"></a>
 
@@ -88,7 +88,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="19.247524752475247%" headers="mcps1.2.7.1.3 "><p id="p12246838245"><a name="p12246838245"></a><a name="p12246838245"></a>用于进行时间过滤的时间窗</p>
 </td>
-<td class="cellrowborder" valign="top" width="9.306930693069306%" headers="mcps1.2.7.1.4 "><p id="p152466381945"><a name="p152466381945"></a><a name="p152466381945"></a>JSON</p>
+<td class="cellrowborder" valign="top" width="9.306930693069306%" headers="mcps1.2.7.1.4 "><p id="p152466381945"><a name="p152466381945"></a><a name="p152466381945"></a>Json</p>
 </td>
 <td class="cellrowborder" valign="top" width="38.78217821782178%" headers="mcps1.2.7.1.5 "><p id="p1724620383410"><a name="p1724620383410"></a><a name="p1724620383410"></a>具体请参见<a href="#table98901741873">表2</a>。</p>
 <div class="note" id="note426316587192"><a name="note426316587192"></a><a name="note426316587192"></a><span class="notetitle"> 说明： </span><div class="notebody"><p id="p6265135813195"><a name="p6265135813195"></a><a name="p6265135813195"></a>timeWindow目前不支持带weight的最短路，即timeWindow与weight不可同时输入。</p>

@@ -7,7 +7,10 @@ Gremlin是Apache Tinkerpop框架中使用的图遍历语言，使用Gremlin可�
 ## 操作步骤<a name="section1059722175917"></a>
 
 1.  进入图引擎编辑器页面，详细操作请参见[访问图引擎编辑器](访问图引擎编辑器.md)。
-2.  在Gremlin查询区，输入查询语句，按“回车“键执行操作。
+2.  在图数据查询区，单击下拉按钮，切换到Gremlin查询，输入查询语句，按“回车“键执行操作。
+
+    **图 1**  切换到Gremlin查询<a name="fig16225132105419"></a>  
+    ![](figures/切换到Gremlin查询.png "切换到Gremlin查询")
 
     常用的查询语句如下所示。
 
@@ -19,8 +22,8 @@ Gremlin是Apache Tinkerpop框架中使用的图遍历语言，使用Gremlin可�
 
         g.V\('11'\) ：查询id为‘11’的点。
 
-        >![](public_sys-resources/icon-note.gif) **说明：**   
-        >不推荐使用“g.V\(\)“语法，由于点过大时，这种查询方式影响展示效果。  
+        >![](public_sys-resources/icon-note.gif) **说明：** 
+        >不推荐使用“g.V\(\)“语法，由于点过大时，这种查询方式影响展示效果。
 
     -   边查询
 
@@ -47,7 +50,7 @@ Gremlin是Apache Tinkerpop框架中使用的图遍历语言，使用Gremlin可�
 
         -   方式2：
 
-            g.addV\('user'\).property\(id,'600'\).property\('age','18-24'\)：新增点，Label为user，ID为500，age为18-24。
+            g.addV\('user'\).property\(id,'600'\).property\('age','18-24'\)：新增点，Label为user，ID为600，age为18-24。
 
     -   删除点
 
@@ -56,19 +59,21 @@ Gremlin是Apache Tinkerpop框架中使用的图遍历语言，使用Gremlin可�
     -   新增边
         -   方式1：
 
-            a = graph.addVertex\(label,'user',id,'501','age','18-24'\);
+            g.addV\('user'\).property\(id,'501'\).property\('age','18-24'\)
 
-            b = graph.addVertex\(label,'movie',id,'502','title','love'\);
+            g.addV\('movie'\).property\(id,'502'\).property\('title','love'\)
 
-            a.addEdge\('rate',b,'Rating','4'\)：新增边，边的两个点ID分别为501、502。
+            g.addE\('rate'\).property\('Rating', '4'\).from\(g.V\('501'\)\).to\(g.V\('502'\)\)
+
+            分别添加点，然后新增边，边的两个点ID分别为501、502。
 
         -   方式2：
 
-            a = g.addV\('user'\).property\(id,'501'\).property\('age','18-24'\);
+            graph.addVertex\(label,'user',id,'501','age','18-24'\)
 
-            b = g.addV\('movie'\).property\(id,'502'\).property\('title','love'\);
+            graph.addVertex\(label,'movie',id,'502','title','love'\)
 
-            g.addE\('rate'\).property\('Rating', '4'\).from\(a\).to\(b\)：新增边，边的两个点ID分别为501、502。
+            a=g.V\('501'\).next\(\);b=g.V\('502'\).next\(\);\(\(Vertex\)a\).addEdge\('rate',\(Vertex\)b,'Rating', '4'\)
 
     -   删除边
 
@@ -134,9 +139,9 @@ gremlin> graph.features()
 ==>FEATURES
 ```
 
->![](public_sys-resources/icon-note.gif) **说明：**   
->目前暂时不支持以下step命令：  
->-   tryNext\(\)  
->-   explain\(\)  
->-   tree\(\)  
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>目前暂时不支持以下step命令：
+>-   tryNext\(\)
+>-   explain\(\)
+>-   tree\(\)
 

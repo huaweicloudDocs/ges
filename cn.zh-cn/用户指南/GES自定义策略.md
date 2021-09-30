@@ -9,7 +9,7 @@
 
 具体创建步骤请参见：[创建自定义策略](https://support.huaweicloud.com/usermanual-iam/iam_01_0605.html)。本章为您介绍常用的GES自定义策略样例。
 
-## 策略样例<a name="section1493518251395"></a>
+## GES自定义策略样例<a name="section1493518251395"></a>
 
 -   示例1：授权用户拥有查询类权限、操作图权限
 

@@ -74,7 +74,7 @@
 </td>
 <td class="cellrowborder" valign="top" width="23.16831683168317%" headers="mcps1.2.7.1.3 "><p id="p12246838245"><a name="p12246838245"></a><a name="p12246838245"></a>用于进行时间过滤的时间窗</p>
 </td>
-<td class="cellrowborder" valign="top" width="7.148514851485148%" headers="mcps1.2.7.1.4 "><p id="p152466381945"><a name="p152466381945"></a><a name="p152466381945"></a>JSON</p>
+<td class="cellrowborder" valign="top" width="7.148514851485148%" headers="mcps1.2.7.1.4 "><p id="p152466381945"><a name="p152466381945"></a><a name="p152466381945"></a>Json</p>
 </td>
 <td class="cellrowborder" valign="top" width="39.524752475247524%" headers="mcps1.2.7.1.5 "><p id="p1724620383410"><a name="p1724620383410"></a><a name="p1724620383410"></a>具体请参见<a href="#table98901741873">表2</a>。</p>
 </td>
@@ -158,8 +158,8 @@
 </tbody>
 </table>
 
->![](public_sys-resources/icon-note.gif) **说明：**   
->当点的ID中含有逗号时，需在此ID上加上双引号，例如：电影“Paris, je taime”以及“Alice”两个ID作为sources时，写做：""Paris, je taime",Alice"  
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>当点的ID中含有逗号时，需在此ID上加上双引号，例如：电影“Paris, je taime”以及“Alice”两个ID作为sources时，写做："Paris, je taime",Alice"
 
 ## 示例<a name="section21511242104337"></a>
 

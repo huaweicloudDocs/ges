@@ -33,9 +33,9 @@ k跳算法（k-hop）适用于关系发现、影响力预测、好友推荐等�
 </td>
 <td class="cellrowborder" valign="top" width="25.15%" headers="mcps1.2.7.1.3 "><p id="p443910016812"><a name="p443910016812"></a><a name="p443910016812"></a>跳数</p>
 </td>
-<td class="cellrowborder" valign="top" width="12.520000000000001%" headers="mcps1.2.7.1.4 "><p id="p131511230151712"><a name="p131511230151712"></a><a name="p131511230151712"></a>Int</p>
+<td class="cellrowborder" valign="top" width="12.520000000000001%" headers="mcps1.2.7.1.4 "><p id="p131511230151712"><a name="p131511230151712"></a><a name="p131511230151712"></a>Integer</p>
 </td>
-<td class="cellrowborder" valign="top" width="22.33%" headers="mcps1.2.7.1.5 "><p id="p5439601785"><a name="p5439601785"></a><a name="p5439601785"></a>1~10</p>
+<td class="cellrowborder" valign="top" width="22.33%" headers="mcps1.2.7.1.5 "><p id="p5439601785"><a name="p5439601785"></a><a name="p5439601785"></a>1~100</p>
 </td>
 <td class="cellrowborder" valign="top" width="16%" headers="mcps1.2.7.1.6 "><p id="p25348953141819"><a name="p25348953141819"></a><a name="p25348953141819"></a>-</p>
 </td>
